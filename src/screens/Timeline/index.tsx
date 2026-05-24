@@ -1,4 +1,4 @@
-import type { TimelineEvent, Category, Lane } from "../../types";
+import type { TimelineEvent, Category } from "../../types";
 import eventsData from "../../data/events.json";
 import { useState } from "react";
 
@@ -12,8 +12,6 @@ const CATEGORIES: Category[] = [
   "国際機関・諜報・政策ネットワーク",
 ];
 
-const LANES: Lane[] = ["世界史", "日本史", "制度・組織", "影響"];
-
 export function Timeline() {
   const [selectedCategory, setSelectedCategory] = useState<Category | "全て">("全て");
   const [japanOnly, setJapanOnly] = useState(false);
@@ -21,7 +19,7 @@ export function Timeline() {
 
   const filtered = events.filter((e) => {
     if (selectedCategory !== "全て" && e.category !== selectedCategory) return false;
-    if (japanOnly && !e.japanConnection) return false;
+    if (japanOnly && !e.japan_connection) return false;
     return true;
   });
 
@@ -52,12 +50,6 @@ export function Timeline() {
         </div>
       </div>
 
-      <div className="lane-headers">
-        {LANES.map((lane) => (
-          <div key={lane} className="lane-header">{lane}</div>
-        ))}
-      </div>
-
       <div className="timeline-events">
         {filtered.length === 0 && (
           <div className="empty-state">イベントがありません</div>
@@ -68,12 +60,10 @@ export function Timeline() {
             className={`event-card ${selectedEvent?.id === event.id ? "selected" : ""}`}
             onClick={() => setSelectedEvent(event)}
           >
-            <div className="event-year">{event.year}{event.month != null ? `/${event.month}` : ""}</div>
+            <div className="event-year">{event.year}</div>
             <div className="event-meta">
-              <span className="event-lane">{event.lane}</span>
               <span className="event-category">{event.category}</span>
-              {event.isReference && <span className="badge-ref">基準</span>}
-              {event.japanConnection && <span className="badge-jp">日本</span>}
+              {event.japan_connection && <span className="badge-jp">日本</span>}
             </div>
             <div className="event-title">{event.title}</div>
           </div>
@@ -84,17 +74,11 @@ export function Timeline() {
         <div className="event-detail-panel">
           <button className="close-btn" onClick={() => setSelectedEvent(null)}>×</button>
           <h2>{selectedEvent.year}年 {selectedEvent.title}</h2>
-          {selectedEvent.titleEn && <p className="title-en">{selectedEvent.titleEn}</p>}
           <div className="detail-meta">
-            <span>{selectedEvent.lane}</span>
             <span>{selectedEvent.category}</span>
+            <span>{selectedEvent.region}</span>
           </div>
           <p className="summary">{selectedEvent.summary}</p>
-          <div className="tags">
-            {selectedEvent.tags.map((t) => (
-              <span key={t} className="tag">{t}</span>
-            ))}
-          </div>
         </div>
       )}
     </div>
