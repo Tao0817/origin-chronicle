@@ -1,5 +1,41 @@
 [
   {
+    "id": "1944-bretton-woods",
+    "year": 1944,
+    "title": "ブレトンウッズ体制",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "米ドルを基軸通貨とする国際通貨体制の確立。IMF・世界銀行設立。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1971-nixon-shock",
+    "year": 1971,
+    "title": "ニクソン・ショック",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "米ドルの金兌換停止。ブレトンウッズ体制の崩壊。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1973-oil-crisis",
     "year": 1973,
     "title": "第一次石油危機",
@@ -7,6 +43,60 @@
     "region": "world",
     "japan_connection": true,
     "summary": "OPECによる石油禁輸措置。原油価格が約4倍に上昇。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1979-iran-revolution",
+    "year": 1979,
+    "title": "イラン革命",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "パフラヴィー朝打倒。イスラム共和国樹立。第二次石油危機の引き金。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1985-plaza-accord",
+    "year": 1985,
+    "title": "プラザ合意",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "G5によるドル高是正合意。円高・バブル経済の起点。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "2008-lehman-shock",
+    "year": 2008,
+    "title": "リーマンショック",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "米国発の世界金融危機。リーマン・ブラザーズ破綻。",
     "primary_sources": [],
     "discovery_notes": [],
     "analysis": {
