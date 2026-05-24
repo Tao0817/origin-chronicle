@@ -36,6 +36,42 @@
     }
   },
   {
+    "id": "1808-spanish-independence-war",
+    "year": 1808,
+    "title": "スペイン独立戦争（半島戦争）",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ナポレオンのスペイン占領に対し民衆が蜂起。ゲリラ戦の原点となりナポレオン帝国衰退の一因となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1812-war-of-1812",
+    "year": 1812,
+    "title": "米英戦争",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "米国とイギリスが北米・大西洋で対立。戦後の米加国境確定と米国の対英独立意識の確立につながった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1813-freemason-ugle",
     "year": 1813,
     "title": "フリーメイソン統一グランドロッジ（UGLE）設立",
@@ -90,6 +126,24 @@
     }
   },
   {
+    "id": "1826-morgan-affair",
+    "year": 1826,
+    "title": "モーガン批判事件（米国反フリーメイソン運動）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ウィリアム・モーガンがフリーメイソンの秘密を暴こうとして失踪。米国で反フリーメイソン党が結成される政治運動に発展。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1832-socialism-concept",
     "year": 1832,
     "title": "「社会主義」概念の誕生（ルルー）",
@@ -126,6 +180,42 @@
     }
   },
   {
+    "id": "1844-peel-banking-act",
+    "year": 1844,
+    "title": "ピール銀行条例（イングランド銀行の独占的発券権確立）",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "英国首相ロバートピールが制定した法律によりイングランド銀行が紙幣発行を独占。中央銀行制度の理論的基盤となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1846-mexican-american-war",
+    "year": 1846,
+    "title": "米墨戦争",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "米国がカリフォルニア・テキサス等を獲得。グアダルーペ・イダルゴ条約で現在の米墨国境が確定した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1848-communist-manifesto",
     "year": 1848,
     "title": "共産党宣言（マルクス・エンゲルス）",
@@ -151,6 +241,24 @@
     "region": "world",
     "japan_connection": false,
     "summary": "オスマン帝国・英仏とロシアの衝突。パリ条約でロシアの南下を阻止し近代的外交秩序を確立。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1859-oil-well-drake",
+    "year": 1859,
+    "title": "ドレーク油田・商業的石油採掘の始まり",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "エドウィン・ドレークがペンシルベニア州で機械掘りによる商業石油採掘に成功。近代石油産業の起点となった。",
     "primary_sources": [],
     "discovery_notes": [],
     "analysis": {
@@ -216,6 +324,132 @@
     }
   },
   {
+    "id": "1866-austro-prussian-war",
+    "year": 1866,
+    "title": "普墺戦争（プロイセン・オーストリア戦争）",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "プロイセンの勝利によりドイツ統一の主導権が確定。オーストリアはドイツ連邦から排除された。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1868-meiji-restoration",
+    "year": 1868,
+    "title": "明治維新（日本の近代化と帝国主義化の始まり）",
+    "category": "帝国・植民地・資源",
+    "region": "japan",
+    "japan_connection": true,
+    "summary": "江戸幕府が崩壊し天皇中心の明治政府が成立。欧米列強に倣う急速な近代化と帝国主義的拡張路線が開始された。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1869-first-vatican-council",
+    "year": 1869,
+    "title": "第一バチカン公会議・教皇無謬性宣言",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "カトリック教会が教皇は信仰・倫理問題で誤りを犯さないとする教義（教皇無謬性）を正式に定義した公会議。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1869-suez-canal",
+    "year": 1869,
+    "title": "スエズ運河開通",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "地中海と紅海を結ぶスエズ運河が開通。欧州とアジアの航路を大幅に短縮し日本を含むアジア貿易に大きな影響を与えた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1870-franco-prussian-war",
+    "year": 1870,
+    "title": "普仏戦争",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "プロイセン主導の北ドイツ連邦がフランスを撃破。ヴェルサイユ宮殿でドイツ帝国の成立が宣言された。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1870-standard-oil",
+    "year": 1870,
+    "title": "スタンダード石油会社設立（ロックフェラー）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ジョン・D・ロックフェラーがオハイオ州でスタンダード石油を設立。米国石油精製能力の9割以上を支配する独占体制を構築した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1871-german-empire",
+    "year": 1871,
+    "title": "ドイツ帝国成立（ヴィルヘルム1世即位）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "普仏戦争勝利後ヴェルサイユ宮殿でドイツ帝国が宣言。統一ドイツが欧州最強の工業国として帝国主義的拡張を開始した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1871-paris-commune",
     "year": 1871,
     "title": "パリ・コミューン",
@@ -270,6 +504,96 @@
     }
   },
   {
+    "id": "1882-bank-of-japan",
+    "year": 1882,
+    "title": "日本銀行設立",
+    "category": "金融・通貨・制度",
+    "region": "japan",
+    "japan_connection": true,
+    "summary": "ベルギー国立銀行をモデルに日本銀行が設立。近代的中央銀行制度が導入され政府紙幣から日銀券への移行が進んだ。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1882-egypt-occupation",
+    "year": 1882,
+    "title": "イギリスのエジプト軍事占領",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ナショナリスト運動を制圧しエジプトを事実上の英国保護国化。スエズ運河の管理権と中東への影響力を確保した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1884-berlin-conference",
+    "year": 1884,
+    "title": "ベルリン会議（アフリカ分割ルールの制定）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "欧州列強がアフリカの植民地分割のルールをビスマルクの仲介で取り決め。アフリカの地図が恣意的に引き直された。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1885-congo-free-state",
+    "year": 1885,
+    "title": "コンゴ自由国成立（ベルギー国王レオポルド2世）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ベルギー国王レオポルド2世がコンゴを私有地として支配。ゴム採取のための奴隷的労働・大量虐殺が後に国際的非難を受けた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1889-meiji-constitution",
+    "year": 1889,
+    "title": "大日本帝国憲法発布",
+    "category": "帝国・植民地・資源",
+    "region": "japan",
+    "japan_connection": true,
+    "summary": "プロイセン憲法を範にした欽定憲法が発布。天皇主権・内閣・帝国議会の骨格が定まり帝国日本の法的基盤が確立された。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1889-second-international",
     "year": 1889,
     "title": "第二インターナショナル結成",
@@ -306,6 +630,24 @@
     }
   },
   {
+    "id": "1899-boer-war",
+    "year": 1899,
+    "title": "第二次ボーア戦争",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "英国が南アフリカのボーア人共和国を武力併合。強制収容所使用などで国際的批判を受け大英帝国の威信が低下した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1904-russo-japanese-war",
     "year": 1904,
     "title": "日露戦争",
@@ -313,6 +655,42 @@
     "region": "japan",
     "japan_connection": true,
     "summary": "満州・朝鮮の覇権をめぐる日露の衝突。日本の勝利はアジア民族主義の高揚を促し世界史的転換点となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1911-standard-oil-breakup",
+    "year": 1911,
+    "title": "スタンダード石油の反トラスト法分割",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "米最高裁が反トラスト法（シャーマン法）によりスタンダード石油を34社に強制分割。エクソン・モービル等の源流となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1913-federal-reserve",
+    "year": 1913,
+    "title": "米国連邦準備制度（FRB）設立",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "ウィルソン大統領が連邦準備法に署名。12の連邦準備銀行からなる中央銀行制度が設立され現在の国際金融体制の核心を形成した。",
     "primary_sources": [],
     "discovery_notes": [],
     "analysis": {
@@ -396,6 +774,24 @@
     }
   },
   {
+    "id": "1921-cfr-founded",
+    "year": 1921,
+    "title": "外交問題評議会（CFR）設立",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "パリ講和会議に参加した米英の国際主義者が設立。フォーリン・アフェアーズ誌を発刊し米国外交政策の知的中枢となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1922-ireland-independence",
     "year": 1922,
     "title": "アイルランド自由国独立",
@@ -432,6 +828,24 @@
     }
   },
   {
+    "id": "1923-german-hyperinflation",
+    "year": 1923,
+    "title": "ドイツ・ハイパーインフレーション終息（レンテンマルク導入）",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "賠償金問題・ルール占領を背景に天文学的インフレが発生。レンテンマルク導入で終息。ナチス台頭の経済的背景となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1927-showa-financial-crisis",
     "year": 1927,
     "title": "昭和金融恐慌",
@@ -439,6 +853,24 @@
     "region": "japan",
     "japan_connection": true,
     "summary": "片岡蔵相の失言をきっかけに銀行取付が連鎖。日本の金融システムが再編され財閥の金融支配力が強化された。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1929-lateran-treaty",
+    "year": 1929,
+    "title": "ラテラン条約・バチカン市国設立",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "イタリアのムッソリーニ政権とローマ教皇庁が締結。バチカン市国の独立と教皇のイタリア王国承認が合意された。",
     "primary_sources": [],
     "discovery_notes": [],
     "analysis": {
@@ -522,6 +954,24 @@
     }
   },
   {
+    "id": "1933-nazi-masonic-ban",
+    "year": 1933,
+    "title": "ナチスによるフリーメイソン・左翼結社の弾圧",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ナチス政権がフリーメイソンロッジを閉鎖し「反国家的秘密結社」として組織を解散。構成員は逮捕・強制収容所送りとなった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1933-new-deal",
     "year": 1933,
     "title": "ニューディール政策（米国）",
@@ -529,6 +979,24 @@
     "region": "world",
     "japan_connection": false,
     "summary": "世界恐慌に対するルーズベルト政権の大規模財政・金融改革。政府の経済介入を正当化するケインズ主義の実践的起点。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1935-italo-ethiopian-war",
+    "year": 1935,
+    "title": "第二次エチオピア戦争（イタリアのエチオピア侵略）",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ムッソリーニ政権がエチオピアを侵略・占領。国際連盟の制裁が機能せず集団安全保障体制の無力さを露呈した。",
     "primary_sources": [],
     "discovery_notes": [],
     "analysis": {
@@ -612,6 +1080,24 @@
     }
   },
   {
+    "id": "1947-cia-founded",
+    "year": 1947,
+    "title": "CIA（中央情報局）設立",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "国家安全保障法により戦時OSS（戦略情報局）を改組しCIAを設立。日本でも占領政策に関与し後に自民党設立支援とも指摘される。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1947-india-pakistan",
     "year": 1947,
     "title": "インド・パキスタン独立",
@@ -630,6 +1116,42 @@
     }
   },
   {
+    "id": "1947-marshall-plan",
+    "year": 1947,
+    "title": "マーシャル・プラン発表（欧州復興計画）",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "国務長官マーシャルが欧州復興支援計画を発表。ソ連・東欧は拒否しNATOと対立する西側経済ブロック形成の基盤となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1947-truman-doctrine",
+    "year": 1947,
+    "title": "トルーマン・ドクトリン発表",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "ギリシャ・トルコへの援助要請を受けトルーマンが共産主義封じ込め方針を宣言。米国の冷戦戦略の出発点となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1947-un-palestine",
     "year": 1947,
     "title": "パレスチナ分割決議（国連）",
@@ -637,6 +1159,42 @@
     "region": "world",
     "japan_connection": false,
     "summary": "国連総会決議181号がパレスチナをアラブ・ユダヤの2国家に分割する案を採択。現在まで続く中東紛争の根源となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1948-arab-israeli-war",
+    "year": 1948,
+    "title": "第一次中東戦争（イスラエル独立戦争）",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "イスラエル建国宣言直後にアラブ諸国が侵攻。イスラエルが勝利しパレスチナ難民問題が発生した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1948-berlin-blockade",
+    "year": 1948,
+    "title": "ベルリン封鎖",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ソ連が西ベルリンへの陸上交通を封鎖。西側は空輸作戦（エアリフト）で対抗し冷戦の最初の危機となった。",
     "primary_sources": [],
     "discovery_notes": [],
     "analysis": {
@@ -684,6 +1242,60 @@
     }
   },
   {
+    "id": "1948-wcc",
+    "year": 1948,
+    "title": "世界教会協議会（WCC）設立",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "プロテスタント・正教会を中心とした国際的エキュメニカル組織がアムステルダムで設立。世界的なキリスト教連合の制度化。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1949-nato",
+    "year": 1949,
+    "title": "NATO（北大西洋条約機構）設立",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "米英仏など12カ国がワシントンD.C.で集団防衛条約に署名。「一国への攻撃は全加盟国への攻撃」の集団安全保障体制が成立。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1949-soviet-atomic-test",
+    "year": 1949,
+    "title": "ソ連の原爆実験成功",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "ソ連がカザフスタンで初の核実験に成功。米国の核独占が終わり核軍拡競争が本格化。スパイ網によるマンハッタン計画情報漏洩も判明。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1950-korean-war",
     "year": 1950,
     "title": "朝鮮戦争",
@@ -702,6 +1314,24 @@
     }
   },
   {
+    "id": "1951-san-francisco-treaty",
+    "year": 1951,
+    "title": "サンフランシスコ平和条約・日米安保条約締結",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "japan",
+    "japan_connection": true,
+    "summary": "日本の戦後主権回復を認める対日講和条約と日米安全保障条約が同日調印。ソ連・中国は署名せず片面講和の構造が生じた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1951-unhcr",
     "year": 1951,
     "title": "UNHCR発足・難民条約採択",
@@ -709,6 +1339,96 @@
     "region": "world",
     "japan_connection": false,
     "summary": "国連難民高等弁務官事務所が設立され難民条約が締結。冷戦期の政治難民を主対象に出発し現在の国際難民保護の根幹。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1953-cia-iran",
+    "year": 1953,
+    "title": "CIA・アジャックス作戦（イラン・モサッデク政権転覆）",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "石油国有化を進めるモサッデク首相をCIAとMI6が共同クーデターで失脚させた。イラン民主主義の挫折と反米感情の起点となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1954-bilderberg",
+    "year": 1954,
+    "title": "ビルダーバーグ会議設立（第1回）",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "オランダで欧米の政財界・学術エリートによる非公開の年次会議が初開催。NATO連帯と西側の政策調整を目的とした非公式ネットワーク。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1954-cia-guatemala",
+    "year": 1954,
+    "title": "CIA・PBSUCCESS作戦（グアテマラ政権転覆）",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "土地改革を進めるグアテマラのアルベンス政権をCIAが軍事クーデターで転覆。ユナイテッド・フルーツ社の権益保護が背景にあった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1955-japan-ldp-cia",
+    "year": 1955,
+    "title": "保守合同・自由民主党結成（CIA関与説）",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "japan",
+    "japan_connection": true,
+    "summary": "自由党と日本民主党が合流し自民党が結成。CIA資金による社会党対抗・親米保守政権の永続化工作との関与が後に指摘された。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1956-hungarian-revolution",
+    "year": 1956,
+    "title": "ハンガリー動乱",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "スターリン批判後のハンガリーで民主化蜂起。ソ連軍が武力鎮圧し冷戦のソ連覇権を改めて示した。",
     "primary_sources": [],
     "discovery_notes": [],
     "analysis": {
@@ -792,6 +1512,42 @@
     }
   },
   {
+    "id": "1960-anpo-struggle",
+    "year": 1960,
+    "title": "日米安保条約改定・安保闘争",
+    "category": "軍事・戦争",
+    "region": "japan",
+    "japan_connection": true,
+    "summary": "岸信介政権による安保条約強行採決に対し大規模反対運動が展開。日米同盟の構造と民主主義の緊張が露わになった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1960-opec-founded",
+    "year": 1960,
+    "title": "OPEC（石油輸出国機構）設立",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "イラク・イラン・サウジアラビア・クウェート・ベネズエラがバグダードで設立。資源ナショナリズムに基づく石油価格の国際管理を目指した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1960-vietnam-war",
     "year": 1960,
     "title": "ベトナム戦争",
@@ -828,6 +1584,42 @@
     }
   },
   {
+    "id": "1961-bay-of-pigs",
+    "year": 1961,
+    "title": "ピッグス湾事件（CIA対キューバ侵攻失敗）",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "CIAが訓練したキューバ亡命者がカストロ政権転覆を試みるも完全失敗。ケネディ政権の権威失墜とキューバ危機の遠因となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1961-berlin-wall",
+    "year": 1961,
+    "title": "ベルリンの壁建設",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "東ドイツが東西ベルリンを分断する壁を建設。冷戦の象徴となり1989年の崩壊まで28年間存続した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1962-algeria-independence",
     "year": 1962,
     "title": "アルジェリア独立（植民地戦争終結）",
@@ -835,6 +1627,42 @@
     "region": "world",
     "japan_connection": false,
     "summary": "フランスからの独立を求める8年間の戦争が終結。エヴィアン協定により独立達成。民族解放戦線（FLN）が政権を握った。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1962-cuban-missile-crisis",
+    "year": 1962,
+    "title": "キューバ危機",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "ソ連のキューバへの核ミサイル配備を巡り米ソが核戦争寸前まで対峙。13日間の交渉で危機を回避した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1962-second-vatican-council",
+    "year": 1962,
+    "title": "第二バチカン公会議",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ヨハネス23世が召集したカトリック改革会議。ラテン語ミサの廃止・宗教間対話の促進など現代カトリックの基盤を形成。",
     "primary_sources": [],
     "discovery_notes": [],
     "analysis": {
@@ -864,6 +1692,24 @@
     }
   },
   {
+    "id": "1965-cia-indonesia",
+    "year": 1965,
+    "title": "CIA関与・インドネシア9月30日事件（スカルノ失脚）",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "共産党（PKI）絡みのクーデター未遂事件を口実にスハルト将軍が権力掌握。CIA支援との疑惑があり大規模な共産主義者虐殺が続いた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1968-npt",
     "year": 1968,
     "title": "核不拡散条約（NPT）採択",
@@ -882,6 +1728,24 @@
     }
   },
   {
+    "id": "1968-prague-spring",
+    "year": 1968,
+    "title": "プラハの春",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "チェコスロバキアの民主化改革運動をソ連軍が武力鎮圧。ブレジネフ・ドクトリン（社会主義圏の内政干渉権）が確立された。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1971-nixon-shock",
     "year": 1971,
     "title": "ニクソン・ショック",
@@ -889,6 +1753,60 @@
     "region": "world",
     "japan_connection": true,
     "summary": "米ドルの金兌換停止。ブレトンウッズ体制の崩壊。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1971-smithsonian-agreement",
+    "year": 1971,
+    "title": "スミソニアン協定（変動相場制への第一歩）",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "ニクソン・ショック後のG10によるドル切り下げ・各国通貨切り上げの多国間調整合意。ブレトンウッズ体制の最後の調整だった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1972-okinawa-reversion",
+    "year": 1972,
+    "title": "沖縄返還（施政権返還）",
+    "category": "軍事・戦争",
+    "region": "japan",
+    "japan_connection": true,
+    "summary": "1972年5月15日、米国施政下にあった沖縄が日本に返還。核抜き・本土並みの条件を巡る外交交渉の帰結。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1973-cia-chile",
+    "year": 1973,
+    "title": "CIA支援・チリクーデター（アジェンデ政権転覆）",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "民主的に選出された社会主義のアジェンデ政権をピノチェト将軍率いる軍がCIA支援のもと打倒。9月11日に大統領官邸が攻撃された。",
     "primary_sources": [],
     "discovery_notes": [],
     "analysis": {
@@ -936,6 +1854,24 @@
     }
   },
   {
+    "id": "1976-kingston-agreement",
+    "year": 1976,
+    "title": "キングストン合意（変動相場制のIMF正式承認）",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "IMF理事会がジャマイカで変動相場制を公式承認。金の廃貨・SDRの準備資産化が決定しブレトンウッズ後の体制が確立した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1979-iran-revolution",
     "year": 1979,
     "title": "イラン革命",
@@ -943,6 +1879,24 @@
     "region": "world",
     "japan_connection": true,
     "summary": "パフラヴィー朝打倒。イスラム共和国樹立。第二次石油危機の引き金。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1979-soviet-afghanistan",
+    "year": 1979,
+    "title": "ソ連のアフガニスタン侵攻",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "ソ連がアフガニスタンの親ソ政権を支援するため軍事介入。CIAがムジャーヒディーンを支援し10年後の撤退・ソ連崩壊へ連鎖。",
     "primary_sources": [],
     "discovery_notes": [],
     "analysis": {
@@ -972,6 +1926,24 @@
     }
   },
   {
+    "id": "1981-p2-lodge",
+    "year": 1981,
+    "title": "イタリア・ロッジP2事件発覚",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "イタリアの非公認フリーメイソンロッジ「P2」の会員名簿が発覚。政財界・軍・メディアにまたがる権力ネットワークの実態が露呈。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1985-plaza-accord",
     "year": 1985,
     "title": "プラザ合意",
@@ -990,6 +1962,42 @@
     }
   },
   {
+    "id": "1986-oil-price-crash",
+    "year": 1986,
+    "title": "石油価格大暴落（サウジアラビア減産放棄）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "サウジアラビアが市場シェア奪還のため減産放棄。原油価格が1バレル10ドル台に暴落し産油国経済とソ連の財政を直撃した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1989-berlin-wall-fall",
+    "year": 1989,
+    "title": "ベルリンの壁崩壊",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "1989年11月9日、東ドイツ政府の入国制限緩和発表後に市民が壁を突破。冷戦終結の象徴的事件となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1990-gulf-war",
     "year": 1990,
     "title": "湾岸戦争",
@@ -997,6 +2005,24 @@
     "region": "world",
     "japan_connection": true,
     "summary": "イラクのクウェート侵攻に対し多国籍軍が反撃。日本は130億ドルを拠出したが人的貢献なしと国際的批判を受けた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1991-soviet-collapse",
+    "year": 1991,
+    "title": "ソ連崩壊",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "ゴルバチョフのペレストロイカ・グラスノスチを経て15の共和国が独立しソ連が解体。冷戦の終結と一極支配体制の開始。",
     "primary_sources": [],
     "discovery_notes": [],
     "analysis": {
@@ -1069,6 +2095,24 @@
     "region": "world",
     "japan_connection": false,
     "summary": "1997年7月1日に英国が香港を中国に返還。「一国二制度」が適用されたが、その実質は2020年以降急速に形骸化した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "1998-ecb",
+    "year": 1998,
+    "title": "欧州中央銀行（ECB）設立",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ユーロ導入（1999年）を前にECBがフランクフルトに設立。ユーロ圏11カ国の金融政策を統括する超国家的中央銀行として発足。",
     "primary_sources": [],
     "discovery_notes": [],
     "analysis": {
@@ -1195,6 +2239,60 @@
     "region": "world",
     "japan_connection": false,
     "summary": "ギリシャの財政赤字隠蔽発覚を契機に南欧諸国に連鎖した債務危機。ユーロという単一通貨の設計上の欠陥が露呈した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "2010-shale-revolution",
+    "year": 2010,
+    "title": "シェール革命の本格化（北米）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "水平掘削・水圧破砕技術の進化で米国のシェールオイル・ガス生産が急拡大。米国がエネルギー輸出国へ転換し中東依存構造を変えた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "2016-opec-plus",
+    "year": 2016,
+    "title": "OPEC+設立（ロシア等との協調減産）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "OPECにロシアを含む非加盟産油国が加わりOPEC+として協調減産を開始。国際石油価格の新たな管理枠組みが誕生した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "2020-covid-oil-crash",
+    "year": 2020,
+    "title": "コロナ禍・原油価格史上初のマイナス",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "新型コロナウイルスによる需要急落と貯蔵満杯でWTI原油価格が史上初のマイナスを記録（2020年4月）。",
     "primary_sources": [],
     "discovery_notes": [],
     "analysis": {
