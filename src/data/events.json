@@ -1,5 +1,1103 @@
 [
   {
+    "id": "mesopotamia-religion-ubaid",
+    "year": -5500,
+    "title": "ウバイド期の母神信仰（メソポタミア宗教の原型）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ウバイド文化期（前5500〜前3700年）に母神ニンフルサグへの信仰が定着し、メソポタミア宗教の土台が築かれた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "sumer-religion-start",
+    "year": -4500,
+    "title": "シュメール文明の開始と神格体系の形成",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "メソポタミア南部でシュメール文明が始まり（前4500〜前4000年）、アン・エンリル・エンキなど天地の神格体系が形成された。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "mesopotamia-cuneiform-religion",
+    "year": -3500,
+    "title": "楔形文字の発明とメソポタミア宗教の記録化",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "文字の発明によりメソポタミア宗教思想の最初の記録が現れ、神話・神官制度・儀礼が文書化され始めた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "egypt-horus-unification",
+    "year": -3150,
+    "title": "エジプト統一とホルス神信仰の確立",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ナルメル王がエジプトを統一し、王をホルス神の化身とする絶対王権の神学が確立された。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "ebla-canaan-religion",
+    "year": -3000,
+    "title": "エブラ文書によるカナン宗教の最古記録",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "シリアのエブラで発見された粘土板に、エル・バアル・ダゴンなど主要神への供物リストが記録された最古のカナン宗教史料が含まれる。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "sumer-religion-texts",
+    "year": -2900,
+    "title": "シュメール宗教の最古の文書記録",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "楔形文字による最初の歴史的宗教記録が登場し、神官・神殿経済・儀礼体系が文書化され始めた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "egypt-pyramid-texts",
+    "year": -2400,
+    "title": "ピラミッド・テキストの登場とオシリス信仰の確立",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "第5王朝時代にピラミッド内壁に呪文が初めて刻まれ、オシリス信仰が確立して冥界の神格が体系化された。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "akkad-sumerian-fusion",
+    "year": -2335,
+    "title": "アッカド帝国の成立とシュメール・セム宗教の融合",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "サルゴン・オブ・アッカドがメソポタミアを統一し、シュメール宗教とアッカド（セム語系）宗教の融合が進んだ。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "sumer-babylon-absorption",
+    "year": -2000,
+    "title": "バビロニアによるシュメール征服と宗教の再編",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "バビロニア（アモリ人）がシュメールを征服し、シュメール神格体系はバビロニア宗教に吸収・再編された。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "marduk-supreme-god",
+    "year": -1800,
+    "title": "マルドゥクの最高神化（バビロニア）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ハンムラビ王がバビロニアを支配するなかでバビロンの守護神マルドゥクを諸神の頂点に位置づけた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "egypt-amen-ra",
+    "year": -1550,
+    "title": "アメン・ラー信仰の隆盛（第18王朝）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ヒクソス放逐後、テーベの神アメンと太陽神ラーが一体化され、全神の支配者アメン・ラーとして崇拝された。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "eleusis-mystery-origin",
+    "year": -1500,
+    "title": "エレウシスの密儀の開始（ミュケナイ期）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ミュケナイ文明期（前15世紀頃）からエレウシスでデーメーテールとペルセフォネーに関する密儀が実践されていたと推定される。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "ugarit-texts",
+    "year": -1275,
+    "title": "ウガリット文書の作成（カナン神話の根幹資料）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "シリアのラス・シャムラ（古代ウガリット）で300以上のテキストが作成され、カナン神話・儀礼の最重要資料となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "zoroaster-founding",
+    "year": -1200,
+    "title": "ゾロアスター教の創始（ザラスシュトラ）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "予言者ザラスシュトラがアフラ・マズダーを唯一の善神とし、善悪二元論に基づく宗教を創始した。成立年代は前1200〜前7世紀と諸説ある。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "ugarit-collapse",
+    "year": -1200,
+    "title": "ウガリット都市の滅亡とカナン宗教文書の終焉",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "古都市ウガリットが滅亡し、カナン宗教文献の主要時代が終焉した。以後の宗教情報は断片的となる。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "homer-epics",
+    "year": -800,
+    "title": "ホメーロスの叙事詩創作（ギリシア神話の文字化）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ホメーロスが『イーリアス』と『オデュッセイア』を創作し、ギリシア神話の英雄伝説が文学として体系化された。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "hesiod-theogony",
+    "year": -750,
+    "title": "ヘーシオドスによるギリシア神話の体系化",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ヘーシオドスが『神統記』を著し、オリュンポスの神々の系譜と宇宙生成論を体系的に記述した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "miletos-philosophy",
+    "year": -600,
+    "title": "ミレトス学派による自然哲学の開始",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "タレスが水を万物の根源と説き、神話に頼らない合理的世界解釈の出発点となった。アナクシマンドロス・アナクシメネスも続いた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "orphism-origin",
+    "year": -600,
+    "title": "オルフェウス教の成立",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "前6世紀頃から後5世紀まで活動したオルフェウス教は、魂の輪廻と浄化・ディオニュソス神話に基づく秘教的宗教運動として古代ギリシアに広まった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "achaemenid-zoroaster",
+    "year": -550,
+    "title": "アケメネス朝の成立とゾロアスター教の国家宗教化",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "キュロス2世がアケメネス朝を建国し、ゾロアスター教がペルシア国家宗教として広まった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "eleusis-athens",
+    "year": -550,
+    "title": "エレウシスのアテナイへの併合とペイシストラトスによる発展",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "前6世紀半ばにエレウシスがアテナイの支配下に入り、ペイシストラトス時代に新建築物が建設され密儀が飛躍的に発展した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "darius-avesta",
+    "year": -522,
+    "title": "ダレイオス1世のアフラ・マズダー碑文とゾロアスター王権神学",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ダレイオス1世がベヒストゥン碑文などにアフラ・マズダーへの神権授受を刻み、ゾロアスター教の王権神学を公式化した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "rome-religion-republic",
+    "year": -509,
+    "title": "共和制ローマの国家宗教制度確立",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "共和制ローマにおいて神殿建設・祭司制度・国家宗教が体系的に整備され、宗教と政治が一体化した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "olbia-orphic-bone",
+    "year": -500,
+    "title": "オルビア出土の骨製タブレット（最古のオルフェウス教資料）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "現在のウクライナ・オルビアで発見された骨製タブレットにオルフェウス教の銘文が刻まれ、前5世紀の宗教活動を示す最古の考古学的証拠となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "pythagoras-community",
+    "year": -500,
+    "title": "ピタゴラス教団の設立（クロトン）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ピタゴラスが南イタリアのクロトンで宗教結社を組織し、数の神聖性・魂の輪廻・菜食主義を掲げた哲学的宗教共同体を形成した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "pythagoras-political-fall",
+    "year": -459,
+    "title": "ピタゴラス教団の政治的崩壊",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "クロトンでの政治的対立により教団が組織的に壊滅した。多くの構成員が殺害または追放されたとされる。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "orphic-gold-tablets",
+    "year": -400,
+    "title": "オルフェウス教黄金板の作成",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "トゥリオイ・ヒッポニウム・テッサリア・クレタ島の墳墓から黄金板が出土し、死後の魂の行き先を示す教義的テキストが作成されていた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "archytas-pythagorean",
+    "year": -400,
+    "title": "アルキュタスの活動（教団壊滅後の継承者）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "タラスのアルキュタスが壊滅後のイタリアでほぼ唯一のピタゴラス派として活躍し、数論と音楽理論を発展させた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "socrates-execution",
+    "year": -399,
+    "title": "ソクラテスの裁判と処刑",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "不敬罪・青年堕落の罪でアテナイ法廷に訴えられたソクラテスが処刑された。哲学と政治権力の緊張が歴史に刻まれた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "plato-academy",
+    "year": -387,
+    "title": "プラトンによるアカデメイア創設",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ソクラテスの弟子プラトンがアテナイ近郊にアカデメイアを創設し、イデア論を中心とした体系的哲学教育を開始した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "aristotle-academy",
+    "year": -367,
+    "title": "アリストテレスのアカデメイア入学",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "17歳のアリストテレスがプラトンのアカデメイアに入学し、後に独自の哲学体系（リュケイオン）へ発展させる基礎を築いた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "zeno-stoa",
+    "year": -301,
+    "title": "ストア哲学の創設（キティオンのゼノン）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "キュロスのゼノンがアテナイの「ストア・ポイキレ（彩色柱廊）」で哲学を説き、ストア学派が成立した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "chrysippos-stoic-logic",
+    "year": -230,
+    "title": "クリュシッポスによるストア論理学の体系化",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "第三代学頭クリュシッポスがストア哲学を体系化し、特に論理学の分野で大きな貢献をした。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "rome-isis-cult",
+    "year": -205,
+    "title": "イシス崇拝のローマへの導入",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "エジプト起源のイシス崇拝がローマに持ち込まれ、神秘宗教が地中海世界を横断して伝播する先例となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "rome-bacchanalia",
+    "year": -186,
+    "title": "元老院によるバッカナリア制限令",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "元老院がディオニュソス崇拝の神秘儀礼を危険視して制限法令を発布した。国家による秘密結社取り締まりの先例。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "neo-pythagorean",
+    "year": -100,
+    "title": "新ピタゴラス派の興隆（ローマ帝国期）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "前1世紀以降、ローマ帝国領域でピタゴラス思想の復興運動（新ピタゴラス派）が起こり、後の新プラトン主義形成に影響を与えた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "augustus-eleusis",
+    "year": -20,
+    "title": "アウグストゥスのエレウシス密儀参加",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ローマ初代皇帝アウグストゥスがエレウシスを訪れ、密儀の権威がローマ支配下でも維持されていた証左となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "epictetus-stoic",
+    "year": 55,
+    "title": "エピクテトスの活動（奴隷出身のストア哲学者）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "奴隷出身のエピクテトスがストア哲学を実践し、自由意志・内面的自律を説いた『語録』が後世に大きな影響を与えた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "seneca-stoic",
+    "year": 65,
+    "title": "セネカの著作とローマ後期ストア哲学の普及",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ルキウス・アンナエウス・セネカが膨大な書簡と論考を残し、ローマにおけるストア哲学の普及に大きく貢献した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "apollodoros-bibliotheke",
+    "year": 100,
+    "title": "アポロドーロスの『ビブリオテーケー』編纂",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "アポロドーロスが最も体系的なギリシア神話集成を著し、後世の神話研究の基礎文献となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "gnosticism-peak",
+    "year": 100,
+    "title": "グノーシス主義の全盛期（ウァレンティヌス派）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1〜3世紀に地中海東部でグノーシス主義が発展し、ウァレンティヌスがプレーローマ（充満）論など精緻な宇宙論体系を構築した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "mithras-rome-establish",
+    "year": 150,
+    "title": "ローマ帝国内でのミトラス教の確立",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ローマ帝国内で現在知られる形のミトラス教が確立し、軍人・商人の間で急速に普及した秘密宗教となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "marcus-aurelius-stoic",
+    "year": 161,
+    "title": "マルクス・アウレリウス皇帝の『自省録』と実践哲学",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ストア哲学の信奉者であるローマ皇帝マルクス・アウレリウスが『自省録』を著し、哲人皇帝の実践哲学として後世に伝わった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "commodus-mithras",
+    "year": 180,
+    "title": "コンモドゥス帝のミトラス教儀式参加",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ローマ皇帝コンモドゥスが皇帝として初めてミトラス教の儀式に公式参加し、宮廷での地位が高まった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "irenaeus-gnostic-heresy",
+    "year": 185,
+    "title": "エイレナイオスによるグノーシス主義の異端認定",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "リヨン司教エイレナイオスが著作でグノーシス主義を体系的に批判・異端認定し、「グノーシス主義」という用語の語源となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "corpus-hermeticum",
+    "year": 200,
+    "title": "『コルプス・ヘルメティクム』の執筆（錬金術・神智学の聖典）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "エジプトで宗教哲学的著作群『コルプス・ヘルメティクム』が執筆された。ヘルメス・トリスメギストスに帰属され、錬金術・占星術・神智学の聖典となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "mani-religion",
+    "year": 216,
+    "title": "マニ教の成立（グノーシス的二元論の拡大）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ペルシアのマニがグノーシス主義的二元論を取り入れたマニ教を創始し、中央アジアから中国まで広まった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "sassanid-zoroaster",
+    "year": 226,
+    "title": "サーサーン朝建国とゾロアスター教の国教再確立",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "アルダシール1世がサーサーン朝を建国し、ゾロアスター教を再び国家宗教として確立した。聖典『アヴェスター』の編纂も進んだ。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "plotinus-neoplatonism",
+    "year": 250,
+    "title": "プロティノスによる新プラトン主義の創始",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "プロティノスが「一者から知性・魂・物質が流出する」体系（流出説）を展開し、新プラトン主義を創始した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "aurelian-sol-invictus",
+    "year": 270,
+    "title": "アウレリアヌス帝によるソル・インウィクトゥス崇拝の推進",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "アウレリアヌス帝が不敗の太陽神ソル・インウィクトゥスを中心に帝国宗教の統一を図り、ミトラス教と競合・融合した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "julian-mithras-revival",
+    "year": 362,
+    "title": "ユリアヌス帝によるミトラス教復興の試み",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "異教復興を目指したユリアヌス帝がミトラス教の復活を試みたが、在位が短く定着しなかった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "egypt-religion-decline",
+    "year": 380,
+    "title": "キリスト教の台頭による古代エジプト宗教の衰退",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "テオドシウス1世のキリスト教国教化政策により、古代エジプト多神教が公的に廃止されていった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "rome-christianity-state",
+    "year": 380,
+    "title": "キリスト教のローマ帝国国教化",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "テオドシウス1世がキリスト教を帝国公式宗教として採用し、古代ローマ多神教が公的に廃されていった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "eleusis-closed",
+    "year": 392,
+    "title": "テオドシウス1世によるエレウシス密儀の禁止・閉鎖",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "テオドシウス1世の法令により異教聖域が閉鎖され、約1500年続いたエレウシスの密儀が公式に終焉した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "zoroaster-avesta-codified",
+    "year": 531,
+    "title": "ホスロー1世による『アヴェスター』の書籍化",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "サーサーン朝ホスロー1世の治世に聖典『アヴェスター』の書籍化と教義の確立が進み、ゾロアスター教が正典化された。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "zoroaster-sassanid-fall",
+    "year": 651,
+    "title": "サーサーン朝滅亡とゾロアスター教の少数派化",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "イスラム軍がサーサーン朝を滅ぼし、ゾロアスター教徒はイランで少数派となった。一部はインドへ移住しパールシーを形成した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "parsee-india",
+    "year": 900,
+    "title": "パールシーのインド移住（グジャラート定住）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "イスラム支配下のイランを逃れたゾロアスター教徒がインド西海岸グジャラートに定住し、パールシー共同体を形成した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "pseudo-dionysius-latin",
+    "year": 900,
+    "title": "偽ディオニュシオス著作のラテン語訳と中世神学への影響",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "偽ディオニュシオス・アレオパギテースの著作がラテン語訳され、新プラトン主義思想がキリスト教中世神学に組み込まれた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "ficino-neoplatonism",
+    "year": 1460,
+    "title": "フィチーノによる新プラトン主義のルネサンス復興",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "メディチ家の庇護下でマルシリオ・フィチーノがプロティノスをラテン語訳し、フィレンツェのプラトン・アカデミーで新プラトン主義が復興された。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "hermetica-ficino",
+    "year": 1460,
+    "title": "『コルプス・ヘルメティクム』の西欧再導入とルネサンスへの影響",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "メディチ家の命でイタリアに持ち込まれ、フィチーノがラテン語訳することでルネサンス思想に大きな影響を与えた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "casaubon-hermetica",
+    "year": 1614,
+    "title": "カザウボンによるヘルメティカの年代批判",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "アイザック・カザウボンが言語分析によりヘルメティカが2〜3世紀の著作であると論証し、ヘルメス主義の古代的権威が動揺した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1803-napoleonic-wars",
     "year": 1803,
     "title": "ナポレオン戦争",
@@ -468,6 +1566,24 @@
     }
   },
   {
+    "id": "tylor-animism",
+    "year": 1871,
+    "title": "タイラーによるアニミズム概念の学術的確立",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "エドワード・バーネット・タイラーが著書『原始文化』（1871年）で「霊的存在への信仰」としてアニミズムを定義し、宗教人類学の基礎概念として定着させた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
     "id": "1873-long-depression",
     "year": 1873,
     "title": "大不況（長期デフレ）",
@@ -475,6 +1591,24 @@
     "region": "world",
     "japan_connection": false,
     "summary": "ウィーン株式市場崩壊を起点にした国際的長期不況（1873〜1896年）。金本位制・保護主義論争を促し帝国主義的拡張の背景となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "schliemann-troy",
+    "year": 1874,
+    "title": "シュリーマンによるトロイア・ミュケーナイ遺跡発掘",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ハインリヒ・シュリーマンがトロイア遺跡とミュケーナイを発掘し、ギリシア神話の歴史的背景が実証的に研究された。",
     "primary_sources": [],
     "discovery_notes": [],
     "analysis": {
@@ -1069,6 +2203,24 @@
     "region": "world",
     "japan_connection": true,
     "summary": "サンフランシスコ会議で51カ国が国連憲章に署名し発足。安保理常任理事国制度が戦後国際秩序の骨格を規定。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "nag-hammadi",
+    "year": 1945,
+    "title": "ナグ・ハマディ写本群の発見",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "エジプトのナグ・ハマディで52冊のグノーシス文書が発見され、近代グノーシス主義研究が劇的に進展した。",
     "primary_sources": [],
     "discovery_notes": [],
     "analysis": {
@@ -1987,6 +3139,24 @@
     "region": "world",
     "japan_connection": true,
     "summary": "1989年11月9日、東ドイツ政府の入国制限緩和発表後に市民が壁を突破。冷戦終結の象徴的事件となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "umehara-animism-japan",
+    "year": 1989,
+    "title": "梅原猛による日本のアニミズム論",
+    "category": "思想・宗教・結社",
+    "region": "japan",
+    "japan_connection": true,
+    "summary": "哲学者・梅原猛が日本の神道と仏教がアニミズムの原理に従うと指摘し、日本思想とアニミズムを結びつける議論を提起した。",
     "primary_sources": [],
     "discovery_notes": [],
     "analysis": {
