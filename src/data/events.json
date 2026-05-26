@@ -2977,7 +2977,28 @@
     "region": "world",
     "japan_connection": true,
     "summary": "OPECによる石油禁輸措置。原油価格が約4倍に上昇。",
-    "primary_sources": [],
+    "primary_sources": [
+      {
+        "title": "第71回国会 石油問題に関する特別委員会 会議録",
+        "url": "https://kokkai.ndl.go.jp/",
+        "publisher": "国会会議録検索システム",
+        "source_type": "議事録",
+        "created_year": 1973,
+        "published_year": "不明",
+        "related_timeline": "帝国・植民地・資源",
+        "related_event": "第一次石油危機"
+      },
+      {
+        "title": "エネルギー白書 1974年版",
+        "url": "https://www.enecho.meti.go.jp/about/whitepaper/",
+        "publisher": "資源エネルギー庁",
+        "source_type": "白書",
+        "created_year": 1974,
+        "published_year": 1974,
+        "related_timeline": "帝国・植民地・資源",
+        "related_event": "第一次石油危機"
+      }
+    ],
     "discovery_notes": [],
     "analysis": {
       "facts": [],
@@ -3481,6 +3502,1950 @@
     "region": "world",
     "japan_connection": true,
     "summary": "2022年2月24日にロシアがウクライナ全土への大規模侵攻を開始。欧米と日本が対ロシア経済制裁を発動。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-persian-wars",
+    "year": -499,
+    "title": "ペルシア戦争",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "紀元前499年〜前449年、アケメネス朝ペルシアとギリシア諸都市が争った戦争。マラトン・サラミス・プラタイアの戦いを経てギリシアが勝利し、アテナイの黄金時代を招いた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-battle-of-marathon",
+    "year": -490,
+    "title": "マラトンの戦い",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "紀元前490年、アテナイ軍がマラトン平原でペルシア遠征軍を撃退した戦闘。ペルシア軍の陸上進攻を断念させ、ギリシア文明を守った決定的勝利。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-battle-of-salamis",
+    "year": -480,
+    "title": "サラミスの海戦",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "紀元前480年、テミストクレス率いるギリシア連合艦隊がクセルクセス1世のペルシア大艦隊を撃破。ペルシアの西進を決定的に阻止した海戦。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-peloponnesian-war",
+    "year": -431,
+    "title": "ペロポネソス戦争",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "紀元前431年〜前404年、アテナイ主導のデロス同盟とスパルタ主導のペロポネソス同盟が27年間争った戦争。アテナイの敗北でギリシア世界が衰退し、マケドニア台頭の素地となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-alexander-conquests",
+    "year": -334,
+    "title": "アレクサンドロス大王の東方遠征",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "紀元前334年〜前323年、マケドニア王アレクサンドロス3世がペルシア・エジプト・中央アジア・インドに至る大遠征を実施。ヘレニズム文化圏を形成し古代世界を一変させた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-battle-of-gaugamela",
+    "year": -331,
+    "title": "ガウガメラの戦い",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "紀元前331年、アレクサンドロス大王がダレイオス3世率いるペルシア大軍を撃破した決戦。アケメネス朝ペルシアの滅亡を決定づけ、オリエントがマケドニアの支配下に入った。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-first-punic-war",
+    "year": -264,
+    "title": "第一次ポエニ戦争",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "紀元前264年〜前241年、共和政ローマとカルタゴがシチリア島の覇権をめぐって争った戦争。ローマが海軍力を整備してカルタゴを破り、最初の属州を獲得した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-second-punic-war",
+    "year": -219,
+    "title": "第二次ポエニ戦争（ハンニバル戦争）",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "紀元前219年〜前201年、カルタゴの名将ハンニバルがアルプスを越えイタリアに侵攻。カンナエの戦いでローマ軍を壊滅させたが、最終的にザマの戦いでスキピオに敗れた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-third-punic-war",
+    "year": -149,
+    "title": "第三次ポエニ戦争・カルタゴ滅亡",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "紀元前149年〜前146年、ローマがカルタゴを完全に包囲・破壊し滅亡させた戦争。ローマの西地中海覇権が確立し、地中海世界はローマの支配下に置かれた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-first-crusade",
+    "year": 1096,
+    "title": "第一回十字軍",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1096年〜1099年、教皇ウルバヌス2世の呼びかけで始まった聖地奪還遠征。1099年にエルサレムを征服し、エルサレム王国など4つの十字軍国家を樹立した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-third-crusade",
+    "year": 1189,
+    "title": "第三回十字軍",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1189年〜1192年、サラディンのエルサレム奪還に対抗してリチャード1世らが遠征。アッコンを奪還したがエルサレム奪還は失敗し、イスラム・キリスト教の長期対立が続いた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-fourth-crusade-constantinople",
+    "year": 1202,
+    "title": "第四回十字軍・コンスタンティノープル征服",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1202年〜1204年の十字軍がエジプト遠征から転じてコンスタンティノープルを占領・略奪。ラテン帝国を建国し、東ローマ帝国を分裂させた歴史的転換点。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-mongol-conquests",
+    "year": 1206,
+    "title": "モンゴル帝国の征服活動",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1206年チンギス・カン即位から始まった史上最大の征服活動。西夏・金・ホラズム・ロシア・中東・南宋を次々と制圧し、ユーラシア大陸の約17%を支配する帝国を建設。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-mongol-invasion-baghdad",
+    "year": 1258,
+    "title": "バグダード陥落・アッバース朝滅亡",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1258年、フレグ率いるモンゴル軍がバグダードを包囲・占領し、アッバース朝カリフを処刑。500年続いたイスラム世界の中心が崩壊し、中東の政治地図を一変させた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-mongol-invasion-japan",
+    "year": 1274,
+    "title": "元寇（文永・弘安の役）",
+    "category": "軍事・戦争",
+    "region": "japan",
+    "japan_connection": true,
+    "summary": "1274年の文永の役・1281年の弘安の役、元・高麗連合軍による2度の日本侵攻。台風（神風）と鎌倉武士の抵抗で撃退。神国思想の強化と鎌倉幕府の財政危機をもたらした。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-hundred-years-war",
+    "year": 1337,
+    "title": "百年戦争",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1337年〜1453年、イングランドとフランスが王位継承・領土をめぐり争った116年間の戦争。ジャンヌ・ダルクの活躍でフランスが勝利し、両国の国民意識形成に大きく貢献した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-japan-sengoku",
+    "year": 1467,
+    "title": "日本戦国時代（応仁の乱〜天下統一）",
+    "category": "軍事・戦争",
+    "region": "japan",
+    "japan_connection": true,
+    "summary": "1467年の応仁の乱に始まり1590年の豊臣秀吉天下統一まで続いた日本の戦国時代。室町幕府の権威失墜と戦国大名の台頭、鉄砲伝来、関ヶ原の戦い（1600年）へと続く動乱期。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-thirty-years-war",
+    "year": 1618,
+    "title": "三十年戦争",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1618年〜1648年、プラハ窓外放出事件に始まったヨーロッパ全域を巻き込む宗教・政治戦争。ウェストファリア条約で終結し、主権国家体制と近代国際秩序の基礎を確立した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-seven-years-war",
+    "year": 1756,
+    "title": "七年戦争",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1756年〜1763年、ヨーロッパ・北米・インド・アフリカで展開された事実上の世界大戦。イギリスがフランスを制してカナダ・インドを獲得し、近代植民地帝国の礎を築いた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-american-independence",
+    "year": 1775,
+    "title": "アメリカ独立戦争",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1775年〜1783年、北米13植民地がイギリスから独立を果たした戦争。1776年独立宣言、1781年ヨークタウン陥落で実質終結。近代民主主義国家建設の先例となりフランス革命に影響した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-french-revolutionary-wars",
+    "year": 1792,
+    "title": "フランス革命戦争",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1792年〜1802年、革命フランスと対仏大同盟諸国の戦争。ヴァルミーの戦い・イタリア戦役でナポレオンが台頭。徴兵制の導入で近代的国民軍が誕生し、ナポレオン戦争へと発展した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "war-boshin-war",
+    "year": 1868,
+    "title": "戊辰戦争",
+    "category": "軍事・戦争",
+    "region": "japan",
+    "japan_connection": true,
+    "summary": "1868年〜1869年、明治新政府軍と旧幕府軍・奥羽越列藩同盟が戦った内戦。鳥羽伏見の戦いから箱館戦争まで。新政府の勝利で明治維新が完成し、近代日本国家の基礎が確立された。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-barter-mesopotamia",
+    "year": -3000,
+    "title": "メソポタミアの物々交換と穀物・銀による価値測定",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "古代メソポタミアでは大麦と銀（シェケル）が価値の尺度として使用された。神殿が穀物の保管・再分配を担い、原始的な信用・貸付制度が生まれた。後の銀行制度の原型となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-shekel-sumer",
+    "year": -2900,
+    "title": "シュメールのシェケル貨幣単位の確立",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "シュメールで重量単位「シェケル」が貨幣単位として確立された。銀のシェケルは約8.33グラムで、穀物・金属・労働の価値を表すのに用いられ、世界最古の貨幣単位のひとつとされる。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-silver-ring-babylonia",
+    "year": -2300,
+    "title": "バビロニアの銀リング（ハル）流通",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "バビロニアでアッカド帝国からバビロン第1王朝にかけて銀リング「ハル」が流通した。重さを量って使用する秤量貨幣の原型で、商取引・租税・賃金支払いに広く用いられた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-hammurabi-law",
+    "year": -1754,
+    "title": "ハンムラビ法典の金融規定",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "バビロニアのハンムラビ王が制定した法典に、貸付・利率・担保・預金に関する規定が盛り込まれた。銀の貸付利息は年20%、穀物は33%と定められ、世界最古の金融法制のひとつとされる。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-lydia-coin",
+    "year": -650,
+    "title": "リュディア王国によるエレクトロン貨鋳造（世界最古のコイン）",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "小アジアのリュディア王国（現トルコ）で、金と銀の天然合金エレクトロンを用いたコインが鋳造された。均一な重量・刻印により信頼性が高まり、コイン型貨幣の起源とされる。ギリシャ・ペルシャに伝播した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-greek-trapeza",
+    "year": -500,
+    "title": "古代ギリシャの両替商（トラペジタイ）の登場",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "古代ギリシャの都市国家で「テーブル」を意味するトラペザから派生した両替商（トラペジタイ）が活動した。預金・貸付・両替を行い、地中海貿易を支える原始的銀行機能を担った。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-roman-tax-system",
+    "year": -200,
+    "title": "ローマ帝国の属州租税制度（プブリカーニ）",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ローマは属州から徴税を請け負う民間請負業者「プブリカーニ」制度を整備した。徴税請負制は帝国財政の基盤となったが、搾取的運用が社会問題となり、後に直接徴税制へ移行した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-tang-kaiyuan-coin",
+    "year": 621,
+    "title": "唐の開元通宝発行",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "唐の高祖が「開元通宝」を発行。重量を「通宝」の文字で統一し、銭不足を解消した。この銅銭は東アジア全域に波及し、日本の和同開珎など各国の貨幣制度に影響を与えた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-song-jiaozi-paper",
+    "year": 1000,
+    "title": "北宋の交子（世界初の紙幣）発行",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "北宋時代の中国四川省で「交子」が発行された。商人が銅銭の代わりに用いた手形が起源で、政府が発行管理する世界初の公的紙幣へ発展した。その後「会子」などへ引き継がれ、紙幣の歴史が始まった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-mongol-chao",
+    "year": 1260,
+    "title": "モンゴル帝国の交鈔（法定紙幣）流通",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "フビライ・ハーンが「交鈔」を法定通貨として帝国全土に普及させた。金・銀との兌換保証と強制通用力を持ち、広域帝国での経済統合を促進した。マルコ・ポーロの記録で西洋にも伝えられた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-medici-bank",
+    "year": 1397,
+    "title": "メディチ銀行の設立（フィレンツェ）",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ジョヴァンニ・ディ・ビッチ・デ・メディチがフィレンツェにメディチ銀行を設立。為替手形・信用状・複式簿記を駆使し、ローマ教皇庁の財務も担った。ルネサンス文化の経済的基盤を提供した欧州最大の銀行。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-ming-baochao",
+    "year": 1375,
+    "title": "明の大明宝鈔発行と通貨インフレ",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "明の洪武帝が「大明宝鈔」を発行。銅不足への対策だったが、過剰発行により価値が急落しインフレが発生した。紙幣の信用維持には発行量管理が重要という歴史的教訓を残した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-amsterdam-bank",
+    "year": 1609,
+    "title": "アムステルダム銀行設立（近代銀行制度の原型）",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "オランダが設立したアムステルダム銀行（ウィッセルバンク）は統一通貨「バンクグルデン」で決済を担い、近代的準備銀行の原型となった。国際貿易の中心アムステルダムの金融覇権を支え、欧州銀行制度の模範となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-stockholm-banknote",
+    "year": 1661,
+    "title": "ストックホルム銀行によるヨーロッパ初の銀行券発行",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "スウェーデンのストックホルム銀行（パルムストルフ銀行）がヨーロッパ初の銀行券（紙幣）を発行した。過剰発行で1668年に破綻したが、この経験がスウェーデン国立銀行（リクスバンク）設立につながった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-riksbank-founded",
+    "year": 1668,
+    "title": "スウェーデン国立銀行（リクスバンク）設立――世界最古の中央銀行",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "スウェーデン議会がリクスバンクを設立。世界最古の中央銀行とされ、議会の管理下に置かれた公的銀行として発券・決済機能を担った。以後の中央銀行設立の先例となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-bank-of-england-founded",
+    "year": 1694,
+    "title": "イングランド銀行設立",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ウィリアム・パターソンとチャールズ・モンタギューの主導で設立された。資本金120万ポンドを政府に貸し付ける対価として発券権を得た。近代中央銀行制度の確立に大きく貢献し、後のFRBやECBの手本となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-john-law-mississippi",
+    "year": 1720,
+    "title": "ジョン・ローのミシシッピ会社バブル崩壊（フランス）",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "スコットランド人ジョン・ローがフランスで紙幣発行と株式投機を組み合わせたミシシッピ会社を設立。株価が急騰後に暴落し、フランス初の金融バブル崩壊となった。紙幣・信用経済のリスクを世界に示した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-uk-gold-standard-1816",
+    "year": 1816,
+    "title": "イギリスが金本位制を法制化（貨幣法）",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "イギリスが貨幣法（金本位制法）を制定し、ソブリン金貨を基準とした金本位制を世界で初めて法的に確立した。1817年にソブリン金貨発行開始。英国の覇権を背景に金本位制が国際標準へ拡大した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-latin-monetary-union",
+    "year": 1866,
+    "title": "ラテン通貨同盟の成立",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "フランス・イタリア・ベルギー・スイス（後にギリシャも参加）が同一規格の金銀貨幣を共用するラテン通貨同盟を結成。世界初の多国間通貨同盟で、後のユーロ圏構想の先例となった。1927年に解消。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-scandinavian-monetary-union",
+    "year": 1873,
+    "title": "スカンディナヴィア通貨同盟の成立",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "スウェーデン・デンマーク（翌年ノルウェーも参加）が共通通貨「クローナ/クローネ」を採用した通貨同盟を結成。金本位制に基づく最初の成功した多国間通貨同盟で、第一次世界大戦まで機能した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-japan-gold-standard-1897",
+    "year": 1897,
+    "title": "日本の金本位制確立（日清戦争賠償金活用）",
+    "category": "金融・通貨・制度",
+    "region": "japan",
+    "japan_connection": true,
+    "summary": "日本が日清戦争の賠償金3億6000万円（金）を準備金として金本位制を正式に確立した。貨幣法を制定し円の金平価を定めた。これにより日本は国際金融市場への統合が進み、近代資本主義体制に本格参入した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-panic-1907-usa",
+    "year": 1907,
+    "title": "アメリカ金融恐慌（1907年パニック）",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ニッカーボッカー信託会社の取り付け騒ぎを発端にアメリカで金融恐慌が発生。J・P・モルガンの私的介入で危機は鎮静化したが、中央銀行の必要性が広く認識され、1913年のFRB設立への直接的契機となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-genoa-conference-1922",
+    "year": 1922,
+    "title": "ジェノヴァ会議（金為替本位制への移行合意）",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "第一次世界大戦後の国際金融秩序再建を目指してジェノヴァで開催された国際会議。金の代わりにドル・ポンドを準備資産とする「金為替本位制」への移行が合意された。戦間期の通貨体制の方向性を定めた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-soviet-chervonets",
+    "year": 1922,
+    "title": "ソ連のチェルヴォーネツ発行（新経済政策期）",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ソビエト連邦がレーニンの新経済政策（NEP）の下、金との兌換保証付き新通貨「チェルヴォーネツ」を発行した。旧来のルーブル紙幣と並行流通させることでハイパーインフレを収束させた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-us-gold-prohibition-1933",
+    "year": 1933,
+    "title": "ルーズベルトの金保有禁止令（大統領令6102号）",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ルーズベルト大統領が大統領令6102号を発令し、米国民の金貨・金地金・金証書の保有を原則禁止した。金を政府に売却させることで金準備を集中・管理し、ドル切り下げ（金価格引き上げ）を可能にした。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-imf-founded",
+    "year": 1945,
+    "title": "国際通貨基金（IMF）正式設立",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1944年のブレトンウッズ会議の決定を受け、1945年12月に29カ国によりIMFが正式設立された。為替の安定・国際決済の促進・加盟国への短期融資を目的とし、1947年3月から実際の業務を開始した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-world-bank-founded",
+    "year": 1945,
+    "title": "世界銀行（IBRD）設立",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "国際復興開発銀行（IBRD）として設立され、1946年6月に業務開始。初代総裁ユージン・メイヤーの下、戦後西欧復興への融資を開始。後にIFC・IDA・ICSIDなどが加わり世界銀行グループを形成した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-boe-nationalization",
+    "year": 1946,
+    "title": "イングランド銀行の国有化",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "イギリス労働党アトリー政権がイングランド銀行を国有化した。株式の100%を財務省が保有し、公共的な金融政策の実施機関となった。1997年の金融政策委員会設置まで政府との一体運営が続いた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-imf-sdr-1969",
+    "year": 1969,
+    "title": "IMFの特別引出権（SDR）創設",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "IMFが新たな国際準備資産として「特別引出権（SDR）」を創設した。金やドルに依存しない補完的準備資産で、加盟国の外貨準備を補強する機能を持つ。ドル危機への対応策でありブレトンウッズ体制の延命を図った。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-japan-float-1973",
+    "year": 1973,
+    "title": "日本の変動相場制への完全移行",
+    "category": "金融・通貨・制度",
+    "region": "japan",
+    "japan_connection": true,
+    "summary": "1971年のニクソン・ショック後、1973年に日本は変動相場制へ完全移行した。円相場が市場で決まるようになり、輸出主導経済に大きな影響を与えた。同年のオイルショックと重なり日本経済は激動の時代を迎えた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-boe-independence-1997",
+    "year": 1997,
+    "title": "イングランド銀行の金融政策独立性回復",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ブレア政権下でイングランド銀行に金融政策委員会（MPC）が設置され、金利決定権が財務省から独立した。中央銀行の政策独立性を制度化した重要な転換点で、各国中央銀行の独立性強化モデルとなった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-imf-quota-reform-2010",
+    "year": 2010,
+    "title": "IMFクォータ改革（新興国の発言権拡大）",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "2010年にIMFのクォータ（出資比率）倍増と理事全員選任制への移行が決議された。中国・インドなど新興国の発言権が拡大され、2016年1月に正式発効した。戦後秩序の転換を象徴する国際金融ガバナンスの改革。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "fin-bitcoin-launch",
+    "year": 2009,
+    "title": "ビットコイン（Bitcoin）誕生",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "ナカモト・サトシの論文を基に2009年1月にビットコインのジェネシスブロックが生成された。中央銀行・政府に依存しない分散型デジタル通貨の最初の実例であり、暗号資産・ブロックチェーン技術の起点となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-phoenicia-colonies",
+    "year": -1100,
+    "title": "フェニキア人の植民市ネットワーク形成",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "前11〜前8世紀にフェニキア人が地中海各地にカルタゴ・ガデス（カディス）など多数の植民市を建設した。交易と資源獲得を目的とした最初期の組織的植民地ネットワークであり、後のヨーロッパ帝国主義の原型となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-rome-province-system",
+    "year": -241,
+    "title": "ローマ帝国の属州制度確立（シチリア属州）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "前241年、第一次ポエニ戦争後にローマがシチリアを初の属州とした。征服地を直接統治する「属州制度」はローマ帝国拡大の基盤となり、資源収奪・税収確保・軍事支配を一体化した古代帝国主義の完成形として歴史上初めて体系化された。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-venice-maritime-empire",
+    "year": 1204,
+    "title": "ヴェネツィア海洋帝国の確立（第四回十字軍）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1204年の第四回十字軍でヴェネツィアがコンスタンティノープル占領を主導し、クレタ島・エーゲ海諸島など広域に支配権を確立した。商業的利益を最優先とする海洋帝国の典型で、後の近代植民地主義の先駆となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-portugal-ceuta",
+    "year": 1415,
+    "title": "ポルトガルのセウタ攻略・海外進出の開始",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1415年、ポルトガルが北アフリカのセウタを攻略し本格的な海外進出を開始した。エンリケ航海王子のもとアフリカ西岸探検が推進され、大航海時代・植民地拡大の端緒となった歴史的転換点である。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-bartolomeu-dias",
+    "year": 1488,
+    "title": "バルトロメウ・ディアスの喜望峰到達",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1488年、ポルトガルのバルトロメウ・ディアスがアフリカ南端の喜望峰に到達した。インド洋へのルートが開かれ、ポルトガルによるアジア交易路独占の礎となった大航海時代の画期的事件。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-columbus-america",
+    "year": 1492,
+    "title": "コロンブスのアメリカ大陸到達",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1492年10月12日、スペイン王室の支援を受けたコロンブスがバハマ諸島に到達した。ヨーロッパとアメリカ大陸の本格的接触が始まり、スペイン帝国によるラテンアメリカ植民地化と先住民の征服・搾取が始まった歴史的転換点。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-tordesillas-treaty",
+    "year": 1494,
+    "title": "トルデシリャス条約締結（世界の分割）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1494年、ポルトガルとスペインがローマ教皇の仲介のもと世界を二分割する条約を締結した。新大陸・アフリカ・アジアの植民地支配を両国で独占する枠組みを設け、近代帝国主義的世界秩序の最初の「国際的ルール」となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-vasco-da-gama",
+    "year": 1498,
+    "title": "ヴァスコ・ダ・ガマのインド航路開拓",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1498年、ポルトガルのヴァスコ・ダ・ガマがカリカット（インド）に到達し、ヨーロッパ初のインド直航路を開拓した。香辛料貿易を独占したポルトガルは莫大な利益を得、アラブ・ヴェネツィアの中継貿易を崩壊させた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-magellan-circumnavigation",
+    "year": 1522,
+    "title": "マゼランの世界周航完成",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1519年出発のマゼラン艦隊がエルカーノの指揮で1522年に帰港し、人類初の世界周航を達成した。地球球体説を実証し、スペインのフィリピン領有と太平洋進出の根拠を固め、スペイン帝国の世界支配拡大に貢献した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-east-india-company-british",
+    "year": 1600,
+    "title": "イギリス東インド会社設立",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1600年、エリザベス1世の勅許でイギリス東インド会社が設立された。アジア交易の独占権を持つ特許会社として機能し、後にインド全土の統治機構となった。国家と企業が一体化した植民地支配の典型で1874年に解散。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-voc-dutch-east-india",
+    "year": 1602,
+    "title": "オランダ東インド会社（VOC）設立",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "1602年、オランダが世界初の株式会社・東インド会社（VOC）を設立した。アジア交易を独占し香辛料貿易で莫大な利益を得、バタビア（ジャカルタ）を拠点にインドネシアを支配した。日本との交易も担い長崎出島に商館を置いた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-opium-war",
+    "year": 1840,
+    "title": "アヘン戦争（中国の半植民地化の始まり）",
+    "category": "帝国・植民地・資源",
+    "region": "asia",
+    "japan_connection": true,
+    "summary": "1840〜42年、イギリスがアヘン貿易を守るため清に開戦し圧勝した。南京条約で香港割譲・五港開放・不平等条約体制が確立し、清の朝貢体制が崩壊した。日本にも衝撃を与え幕末の改革機運に影響した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-india-great-rebellion",
+    "year": 1857,
+    "title": "インド大反乱（セポイの乱）と東インド会社解散",
+    "category": "帝国・植民地・資源",
+    "region": "asia",
+    "japan_connection": false,
+    "summary": "1857年、東インド会社傭兵（シパーヒー）の宗教的反発を契機に全インド的反乱が勃発した。鎮圧後、東インド会社は解散しインドはイギリス王室の直接統治下に置かれた。近代インドにおける初の民族的抵抗として位置づけられる。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-berlin-west-africa-conference",
+    "year": 1878,
+    "title": "スタンリーのコンゴ探検とアフリカ分割前夜",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1878年、ヘンリー・モートン・スタンリーがコンゴ川流域を探検し貿易協定を締結した。ベルギー王レオポルド2世がコンゴ支配の野望を持ち列強を巻き込む動きが加速、1884年ベルリン会議によるアフリカ分割の直接的伏線となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-suez-canal-british-control",
+    "year": 1875,
+    "title": "イギリスのスエズ運河株取得とエジプト支配",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1875年、イギリスがエジプト政府保有のスエズ運河会社株を買収し実質的支配権を獲得した。1882年には軍事占領でエジプトを保護国化し、アフリカ縦断政策の要衝を確保した。近代帝国主義における資源・物流路支配の典型例。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-fashoda-incident",
+    "year": 1898,
+    "title": "ファショダ事件（英仏アフリカ支配の衝突と妥協）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1898年、スーダンのファショダでイギリス軍とフランス軍が対峙し戦争寸前となった。フランスが譲歩して衝突を回避し、1904年英仏協商に至った。アフリカ縦断政策（英）と横断政策（仏）の最終的対決であり、列強の協調体制移行の転換点。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-boer-war",
+    "year": 1899,
+    "title": "ボーア戦争（南アフリカの金・ダイヤモンド支配）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1899〜1902年、イギリスが南アフリカのオランダ系ボーア人国家と開戦し勝利した。金・ダイヤモンド資源を豊富に持つ南アフリカの完全支配が目的であり、強制収容所使用で国際批判を浴びた。資源をめぐる近代帝国主義戦争の典型。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-adwa-ethiopia",
+    "year": 1896,
+    "title": "アドワの戦い・エチオピアのイタリア撃退",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1896年、エチオピア帝国がアドワでイタリア軍を撃退し独立を守った。アフリカで欧州植民地軍に勝利した稀有な事例として、アフリカ民族主義の象徴となった。リベリアとともにエチオピアは植民地化を免れた唯一のアフリカ国家となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-panama-canal",
+    "year": 1914,
+    "title": "パナマ運河開通（アメリカの帝国主義的インフラ支配）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1914年、アメリカが建設したパナマ運河が開通した。太平洋・大西洋を直結するこの運河はアメリカが管理権を握り、世界貿易と軍事戦略の要衝となった。パナマ独立支援も含むアメリカ帝国主義のカリブ政策の集大成。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-league-mandates",
+    "year": 1919,
+    "title": "国際連盟の委任統治制度（旧植民地の再編）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "1919年のヴェルサイユ体制で敗戦国の植民地が国際連盟の「委任統治領」として英仏日などに再配分された。植民地支配を「文明化の使命」として正当化しつつ再編した制度であり、帝国主義の形式変容を示す。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-mexico-oil-nationalization",
+    "year": 1938,
+    "title": "メキシコの石油国有化（資源ナショナリズムの先駆）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1938年、メキシコのカルデナス大統領が外国石油会社の資産を国有化しPEMEXを設立した。資源ナショナリズムの先駆的事例として第三世界に大きな影響を与え、後のベネズエラ・イランなど各国の石油国有化運動の模範となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-indonesia-independence",
+    "year": 1949,
+    "title": "インドネシア独立承認（オランダからの独立）",
+    "category": "帝国・植民地・資源",
+    "region": "asia",
+    "japan_connection": false,
+    "summary": "1945年にスカルノが独立宣言したインドネシアを、オランダが1949年に正式承認した。オランダはVOC以来350年の植民地支配を終えた。アジア最大の群島国家の誕生は脱植民地化の先例となり、非同盟運動の中核を担うこととなった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-iran-oil-nationalization",
+    "year": 1951,
+    "title": "イランの石油国有化（モサッデク首相）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1951年、イランのモサッデク首相がアングロ・イラニアン石油会社（AIOC）を国有化した。英米の経済制裁と1953年のCIAによるクーデターで政権は転覆されたが、石油資源の主権回復を求める第三世界の動きを象徴する事件となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-un-permanent-sovereignty",
+    "year": 1962,
+    "title": "国連「天然資源に対する恒久主権」決議",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1962年、国連が「天然資源に対する恒久主権の権利」宣言を採択した。資源保有国が外国企業との条件を自主設定し利益配分を決める権利を国際的に認め、第三世界の資源ナショナリズムに法的正当性を与えた画期的決議。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-opec-tehran-tripoli",
+    "year": 1971,
+    "title": "テヘラン・トリポリ協定（OPEC産油国の価格決定権奪取）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1971年のテヘラン協定・トリポリ協定でOPECが石油メジャーと協議のうえ原油価格決定権を初めて確立した。翌1972年のリヤド協定では開発権益の産油国への移転にも合意し、資源ナショナリズムの制度化が完成した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-gulf-states-independence",
+    "year": 1971,
+    "title": "ペルシャ湾岸諸国の独立（バーレーン・カタール・UAE等）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1971年、イギリスの「スエズ以東撤退」政策によりバーレーン・カタール・オマーン・アラブ首長国連邦が相次いで独立した。石油資源の豊富なこれらの国家の独立は、中東の石油地政学を大きく変え、その後の湾岸政治に決定的影響を与えた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-second-oil-crisis",
+    "year": 1979,
+    "title": "第二次石油危機（イラン革命による石油生産中断）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "1979年のイラン革命によりイランの石油生産が停止し、OPECも段階的値上げを実施した。原油価格は約3倍に高騰し世界同時不況を引き起こした。日本は第一次危機の省エネ対策が功を奏し比較的軽度の影響に抑えた。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-zimbabwe-independence",
+    "year": 1980,
+    "title": "ジンバブエ独立（アフリカ最後のイギリス植民地）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1980年、ローデシアがジンバブエとして独立しムガベが初代首相となった。アフリカにおける白人少数支配体制が終焉し、サブサハラ・アフリカの脱植民地化がほぼ完成した。アフリカで最後まで残ったイギリス植民地の独立。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-namibia-independence",
+    "year": 1990,
+    "title": "ナミビア独立（南アフリカ支配の終焉）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1990年、ナミビアが南アフリカの違法占領から独立した。国連安保理決議と長年の独立運動の末に実現し、南アフリカのアパルトヘイト体制崩壊への道筋をつけた。アフリカ大陸で最後の植民地的支配からの解放となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-macau-handover",
+    "year": 1999,
+    "title": "マカオ返還（ポルトガル→中国）",
+    "category": "帝国・植民地・資源",
+    "region": "asia",
+    "japan_connection": false,
+    "summary": "1999年、マカオがポルトガルから中国に返還された。1557年以来約450年続いたポルトガルの統治が終わり、列強が清国から条約で獲得した沿岸租借地の最後の返還となった。香港返還(1997)と合わせ欧州の中国植民地支配が完全に終結した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "emp-opec-2008-price-spike",
+    "year": 2008,
+    "title": "原油価格の史上最高値（1バレル147ドル）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "2008年6月、原油価格が史上最高値の1バレル147ドルを記録した。新興国需要増とシェール革命前の供給制約が重なった。その後サブプライム危機の連鎖的不況で急落したが、資源価格が世界経済を左右する時代の象徴的事件となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-wilson-fourteen-points",
+    "year": 1918,
+    "title": "ウィルソン14か条の平和原則発表",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1918年1月、ウィルソン米大統領が国際連盟創設を含む「14か条」を発表した。民族自決・公開外交・軍備縮小・国際機関設立を柱とし、第一次大戦後の国際秩序構想の出発点となった。米上院の批准否決でアメリカ自身は連盟に参加しなかった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-league-of-nations-founded",
+    "year": 1920,
+    "title": "国際連盟の正式発足",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "1920年1月10日、ヴェルサイユ条約発効により国際連盟が正式発足した。42か国が原加盟国で本部はジュネーヴに設置。日本は常任理事国に加わった。アメリカは上院の批准否決で不参加となり、組織の実効性を根本から制約した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-cfr-foreign-affairs",
+    "year": 1922,
+    "title": "CFR機関誌『フォーリン・アフェアーズ』創刊",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1922年9月、外交問題評議会（CFR）が学術誌『フォーリン・アフェアーズ』を創刊した。米国および各国指導者の外交ビジョンが発表される場となり、対ソ封じ込め論文（X論文）など米国外交政策の知的基盤を提供し続けている。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-league-germany-joins",
+    "year": 1926,
+    "title": "ドイツの国際連盟加盟（常任理事国）",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1926年9月、ヴァイマル共和政ドイツが国際連盟に加盟し5番目の常任理事国となった。ロカルノ条約後の欧州和解の象徴であったが、1933年のナチス政権樹立とともにドイツは脱退した。連盟の集団安全保障体制の試練となった事件。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-manchuria-japan-withdrawal",
+    "year": 1933,
+    "title": "日本の国際連盟脱退（満州事変・リットン報告書）",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "1931年の満州事変後、国際連盟はリットン調査団を派遣し1932年に日本の侵略を認定した。1933年2月の特別総会が採択（賛成42・反対1＝日本）に対し日本が退場・脱退を表明した。連盟の集団安全保障体制の実質的崩壊を象徴する事件。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-league-ussr-joins-expelled",
+    "year": 1934,
+    "title": "ソ連の国際連盟加盟と後の除名（フィンランド侵攻）",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1934年9月、ソ連が常任理事国として国際連盟に加盟した。しかし1939年12月のフィンランド侵攻（冬戦争）を受けて規約違反として除名された。大国の参加・除名が連盟の権威を揺るがし、集団安全保障の限界を露呈した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-league-ethiopia-invasion",
+    "year": 1935,
+    "title": "イタリアのエチオピア侵攻と国際連盟の機能不全",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1935〜36年、ムッソリーニのイタリアがエチオピアに侵攻した。国際連盟は経済制裁を実施したが石油禁輸を避け実効性を欠いた。ハイレ・セラシエ皇帝の訴えも実を結ばず、連盟の集団安全保障体制の完全な破綻が明らかになった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-oss-founded",
+    "year": 1942,
+    "title": "アメリカ戦略情報局（OSS）設立",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1942年、真珠湾攻撃後の情報評価失敗を教訓にアメリカが戦略情報局（OSS）を設立した。バラバラだった各機関の情報活動を統合し大統領への一元的情報提供体制を構築した。1947年のCIA設立の直接の前身となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-mi6-founded",
+    "year": 1909,
+    "title": "MI6（英秘密情報部SIS）の設立",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1909年10月1日、アスキス首相の勧告で英国の秘密業務局が設立され、後にMI6（SIS）となった。対外諜報を担う国家機関の近代的嚆矢であり、第一次大戦・第二次大戦・冷戦を通じて英国の外交・安全保障の中枢を担った。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-cheka-nkvd-kgb-lineage",
+    "year": 1917,
+    "title": "チェーカー設立（KGBの前身・ソ連秘密警察の始まり）",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1917年12月20日、ボリシェヴィキが反革命取締のためチェーカーを設立した。初代議長はジェルジンスキー。GPU→NKVD→KGB（1954年）と改組を重ね、ソ連崩壊まで独裁体制の支柱として機能した国家暴力装置の起点。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-kgb-founded",
+    "year": 1954,
+    "title": "KGB（国家保安委員会）設立",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1954年3月13日、スターリン死後にベリヤが処刑された後、MGBがKGBに改組された。冷戦期に東欧支配・反体制派弾圧・対外工作（U-2撃墜・プラハの春介入等）を担った。1991年ソ連崩壊でFSB・SVRに分割継承された。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-u2-incident",
+    "year": 1960,
+    "title": "U-2撃墜事件（KGB対CIA偵察機）",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1960年5月1日、KGBの高度計細工工作によりアメリカのU-2偵察機がソ連上空で撃墜され、パイロットのパワーズが拘束された。アイゼンハワー政権の嘘が暴露され米ソ首脳会談が崩壊し、冷戦の諜報戦が外交に直結することを示した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-church-committee",
+    "year": 1975,
+    "title": "チャーチ委員会（CIA秘密工作の議会調査）",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1975年、米上院のチャーチ委員会がCIAの政権転覆・暗殺計画・MKウルトラ等の違法活動を初めて公式に調査した。フォード大統領の暗殺禁止令発出につながり、諜報機関への文民監視体制強化の契機となった冷戦史の重要な転換点。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-trilateral-commission",
+    "year": 1973,
+    "title": "三極委員会設立（日米欧エリート政策ネットワーク）",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "1973年10月、デイビッド・ロックフェラーとズビグネフ・ブレジンスキーが日米欧三極委員会を設立した。宮沢喜一・大来佐武郎ら日本の有力者も参加し、超国家的政策協議ネットワークを形成した。ビルダーバーグ会議から日本が排除されたことが設立の動機。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-davos-forum-founded",
+    "year": 1971,
+    "title": "世界経済フォーラム（ダボス会議）の創設",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1971年、クラウス・シュワブがジュネーヴ大学教授として「ヨーロッパ経営者シンポジウム」を創設し、後のダボス会議（世界経済フォーラム）となった。1987年に現名称に改称し、政治・経済エリートが国際政策を議論するグローバルな場となった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-davos-political-expansion",
+    "year": 1973,
+    "title": "ダボス会議に政治指導者を初招待（経済から政策へ）",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1973〜74年、ブレトン・ウッズ体制崩壊と中東戦争を受けてダボス会議のテーマが経営から経済・社会問題へ拡大し、初めて政治指導者が招待された。以降、政財界・学術・メディアのエリートが一堂に会する超国家的政策フォーラムへと変質した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-lockheed-scandal",
+    "year": 1976,
+    "title": "ロッキード事件（国際的贈賄スキャンダルと田中角栄逮捕）",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "1976年2月、米ロッキード社による国際的贈賄スキャンダルが発覚し田中角栄元首相が逮捕された。米上院チャーチ委員会が暴露し、日本・オランダ・イタリアに波及した。米国では1977年の海外腐敗行為防止法制定につながった戦後最大の政治疑獄。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-un-colonialism-declaration",
+    "year": 1960,
+    "title": "国連「植民地独立付与宣言」採択",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1960年12月14日、国連総会が「植民地及びその人民への独立付与に関する宣言」を採択した。すべての植民地支配を違法と認定し脱植民地化を国連の原則として確立した歴史的決議であり、アフリカの年に続く独立運動を国際的に後押しした。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-kyoto-protocol",
+    "year": 1997,
+    "title": "京都議定書採択（気候変動の初の数値目標）",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "1997年12月11日、京都で気候変動枠組条約に基づく京都議定書が採択された。先進国に温室効果ガス1990年比5%以上削減の数値目標を設定した初の国際条約であり、排出量取引などの京都メカニズムを導入し2005年に発効した。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-paris-agreement",
+    "year": 2015,
+    "title": "パリ協定採択（全参加国による気候変動枠組み）",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "2015年12月12日、196か国参加のもとパリ協定が採択された。産業革命前比2度未満・1.5度目標を設定し、先進国・途上国双方が削減目標（NDC）を作成・提出する史上初の枠組みとなった。京都議定書以来18年ぶりの気候変動国際合意。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-sdgs-adopted",
+    "year": 2015,
+    "title": "持続可能な開発目標（SDGs）採択",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": true,
+    "summary": "2015年9月、国連サミットで2030年を期限とするSDGs（持続可能な開発目標）が採択された。17の目標・169のターゲットからなり、MDGs後継として貧困・気候・不平等など多面的課題に対処する国際的枠組みとなった。",
+    "primary_sources": [],
+    "discovery_notes": [],
+    "analysis": {
+      "facts": [],
+      "analysis": [],
+      "speculation": [],
+      "unconfirmed": [],
+      "counter_evidence": []
+    }
+  },
+  {
+    "id": "intl-great-reset",
+    "year": 2020,
+    "title": "世界経済フォーラム「グレートリセット」構想発表",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "2020年5月、世界経済フォーラムがコロナ禍を契機に「グレートリセット」プロジェクトを発表した。持続可能な市場資本主義への移行を提唱し、国家・企業・市民社会の協調によるポストコロナの経済社会再設計を目指すとした。",
     "primary_sources": [],
     "discovery_notes": [],
     "analysis": {

@@ -1,6 +1,8 @@
 import { useState, useMemo } from "react";
+import { useNavigate } from "react-router-dom";
 import type { TimelineEvent, Category } from "../../types";
 import eventsData from "../../data/events.json";
+import { useAppContext } from "../../context/AppContext";
 
 const allEvents = [...(eventsData as TimelineEvent[])].sort((a, b) => a.year - b.year);
 
@@ -31,6 +33,8 @@ export function Timeline() {
   const [activeCat, setActiveCat] = useState<Category | "全て">("全て");
   const [japanOnly, setJapanOnly] = useState(false);
   const [selected, setSelected]   = useState<TimelineEvent | null>(null);
+  const { setSelectedEvent } = useAppContext();
+  const navigate = useNavigate();
 
   const filtered = useMemo(() => {
     return allEvents.filter((e) => {
@@ -41,7 +45,9 @@ export function Timeline() {
   }, [activeCat, japanOnly]);
 
   function handleCardClick(event: TimelineEvent) {
-    setSelected((prev) => (prev?.id === event.id ? null : event));
+    const next = selected?.id === event.id ? null : event;
+    setSelected(next);
+    setSelectedEvent(next);
   }
 
   return (
@@ -120,6 +126,7 @@ export function Timeline() {
                 </div>
               </div>
             </div>
+
           ))}
         </div>
 
@@ -164,11 +171,16 @@ export function Timeline() {
               <p className="detail-summary">{selected.summary}</p>
 
               <div className="detail-section-label">一次資料</div>
-              <p className="detail-empty-note">
-                {selected.primary_sources.length === 0
-                  ? "未登録"
-                  : `${selected.primary_sources.length}件`}
-              </p>
+              {selected.primary_sources.length === 0 ? (
+                <p className="detail-empty-note">未登録</p>
+              ) : (
+                <button
+                  className="detail-ps-link"
+                  onClick={() => navigate("/primary-sources")}
+                >
+                  {selected.primary_sources.length}件 — 一次資料を見る →
+                </button>
+              )}
 
               <div className="detail-section-label">発見メモ</div>
               <p className="detail-empty-note">

@@ -15,6 +15,17 @@ export interface EventAnalysis {
   counter_evidence: string[];
 }
 
+export interface PrimarySource {
+  title: string;
+  url: string;
+  publisher: string;
+  source_type: string;
+  created_year: number | null;
+  published_year: number | string | null;
+  related_timeline: string;
+  related_event: string;
+}
+
 export interface TimelineEvent {
   id: string;
   year: number;
@@ -23,7 +34,7 @@ export interface TimelineEvent {
   region: Region;
   japan_connection: boolean;
   summary: string;
-  primary_sources: string[];
+  primary_sources: PrimarySource[];
   discovery_notes: string[];
   analysis: EventAnalysis;
 }

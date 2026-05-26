@@ -5,6 +5,7 @@ import { ExternalSearch } from "./screens/ExternalSearch";
 import { ResourceInbox } from "./screens/ResourceInbox";
 import { DiscoveryNotes } from "./screens/DiscoveryNotes";
 import { Analysis } from "./screens/Analysis";
+import { AppContextProvider } from "./context/AppContext";
 import "./App.css";
 
 const NAV_ITEMS = [
@@ -18,6 +19,7 @@ const NAV_ITEMS = [
 
 export default function App() {
   return (
+    <AppContextProvider>
     <BrowserRouter>
       <div className="app">
         <header className="app-header">
@@ -47,5 +49,6 @@ export default function App() {
         </main>
       </div>
     </BrowserRouter>
+    </AppContextProvider>
   );
 }
