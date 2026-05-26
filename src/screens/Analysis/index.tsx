@@ -24,10 +24,29 @@ interface StoredAnalysis {
 
 const STORAGE_KEY = "an_analyses";
 
+const SEED_DATA: StoredAnalysis[] = [
+  {
+    id: "1",
+    related_event: "第一次石油危機",
+    facts: "1973年10月、OPECが石油禁輸措置を発動。原油価格が約4倍に上昇。",
+    analysis: "石油価格上昇が日本の物価・産業に直撃した。",
+    speculation: "OPECの決定には米国の中東政策への対抗が含まれていた可能性がある。",
+    consideration: "",
+    unconfirmed: "日本政府の事前情報収集の有無",
+    counter_evidence: "",
+    next_source: "FRUS 1973-1976 Volume XXXVI",
+    is_origin_candidate: true,
+  },
+];
+
 function loadAnalyses(): StoredAnalysis[] {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    return raw ? (JSON.parse(raw) as StoredAnalysis[]) : [];
+    if (raw) {
+      return JSON.parse(raw) as StoredAnalysis[];
+    }
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(SEED_DATA));
+    return SEED_DATA;
   } catch {
     return [];
   }

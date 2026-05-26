@@ -17,10 +17,25 @@ interface StoredNote {
 
 const STORAGE_KEY = "dn_notes";
 
+const SEED_DATA: StoredNote[] = [
+  {
+    id: "1",
+    kind: "組織",
+    content: "OPEC",
+    related_event: "第一次石油危機",
+    related_source: "",
+    memo: "",
+  },
+];
+
 function loadNotes(): StoredNote[] {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    return raw ? (JSON.parse(raw) as StoredNote[]) : [];
+    if (raw) {
+      return JSON.parse(raw) as StoredNote[];
+    }
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(SEED_DATA));
+    return SEED_DATA;
   } catch {
     return [];
   }
