@@ -6,11 +6,11 @@ interface StoredResource {
   title: string;
   url: string;
   publisher: string;
-  source_type: string;
-  created_year: string;
-  published_year: string;
-  related_timeline: string;
-  related_event: string;
+  type: string;
+  createdYear: string;
+  publishedYear: string;
+  relatedTimeline: string;
+  relatedEvent: string;
 }
 
 const STORAGE_KEY = "ri_resources";
@@ -52,11 +52,11 @@ function emptyForm(): Omit<StoredResource, "id"> {
     title: "",
     url: "",
     publisher: "",
-    source_type: "",
-    created_year: "",
-    published_year: "",
-    related_timeline: "",
-    related_event: "",
+    type: "",
+    createdYear: "",
+    publishedYear: "",
+    relatedTimeline: "",
+    relatedEvent: "",
   };
 }
 
@@ -67,14 +67,14 @@ function ResourceCard({
   item: StoredResource;
   onDelete: (id: string) => void;
 }) {
-  const color = typeColor(item.source_type);
+  const color = typeColor(item.type);
   return (
     <div
       className="ps-card ri-card"
       style={{ "--ps-color": color } as CSSProperties}
     >
       <div className="ps-card-top">
-        {item.source_type && (
+        {item.type && (
           <span
             className="ps-type-badge"
             style={{
@@ -83,7 +83,7 @@ function ResourceCard({
               background: color + "18",
             }}
           >
-            {item.source_type}
+            {item.type}
           </span>
         )}
         <div className="ri-card-actions">
@@ -116,19 +116,19 @@ function ResourceCard({
         </div>
         <div className="ps-meta-row">
           <span className="ps-meta-label">作成年</span>
-          <span className="ps-meta-value">{item.created_year || "不明"}</span>
+          <span className="ps-meta-value">{item.createdYear || "不明"}</span>
         </div>
         <div className="ps-meta-row">
           <span className="ps-meta-label">公開年</span>
-          <span className="ps-meta-value">{item.published_year || "不明"}</span>
+          <span className="ps-meta-value">{item.publishedYear || "不明"}</span>
         </div>
         <div className="ps-meta-row">
           <span className="ps-meta-label">関連年表</span>
-          <span className="ps-meta-value">{item.related_timeline || "—"}</span>
+          <span className="ps-meta-value">{item.relatedTimeline || "—"}</span>
         </div>
         <div className="ps-meta-row">
           <span className="ps-meta-label">関連イベント</span>
-          <span className="ps-meta-value">{item.related_event || "—"}</span>
+          <span className="ps-meta-value">{item.relatedEvent || "—"}</span>
         </div>
       </div>
     </div>
@@ -206,7 +206,7 @@ export function ResourceInbox() {
                   name="title"
                   value={form.title}
                   onChange={handleChange}
-                  placeholder="例: 明治維新の研究"
+                  placeholder="第71回国会 石油問題に関する特別委員会 会議録"
                 />
               </div>
               <div className="ri-form-full es-form-group">
@@ -216,7 +216,7 @@ export function ResourceInbox() {
                   name="url"
                   value={form.url}
                   onChange={handleChange}
-                  placeholder="https://..."
+                  placeholder="https://kokkai.ndl.go.jp/"
                 />
               </div>
               <div className="es-form-group">
@@ -226,57 +226,57 @@ export function ResourceInbox() {
                   name="publisher"
                   value={form.publisher}
                   onChange={handleChange}
-                  placeholder="例: 国立国会図書館"
+                  placeholder="国会会議録検索システム"
                 />
               </div>
               <div className="es-form-group">
                 <label className="es-form-label">資料種別</label>
                 <input
                   className="es-form-input"
-                  name="source_type"
-                  value={form.source_type}
+                  name="type"
+                  value={form.type}
                   onChange={handleChange}
-                  placeholder="例: 論文 / 書籍 / 映像"
+                  placeholder="議事録"
                 />
               </div>
               <div className="es-form-group">
                 <label className="es-form-label">作成年</label>
                 <input
                   className="es-form-input"
-                  name="created_year"
-                  value={form.created_year}
+                  name="createdYear"
+                  value={form.createdYear}
                   onChange={handleChange}
-                  placeholder="例: 1945"
+                  placeholder="1973"
                 />
               </div>
               <div className="es-form-group">
                 <label className="es-form-label">公開年</label>
                 <input
                   className="es-form-input"
-                  name="published_year"
-                  value={form.published_year}
+                  name="publishedYear"
+                  value={form.publishedYear}
                   onChange={handleChange}
-                  placeholder="例: 1946"
+                  placeholder="1974"
                 />
               </div>
               <div className="es-form-group">
                 <label className="es-form-label">関連年表（カテゴリー）</label>
                 <input
                   className="es-form-input"
-                  name="related_timeline"
-                  value={form.related_timeline}
+                  name="relatedTimeline"
+                  value={form.relatedTimeline}
                   onChange={handleChange}
-                  placeholder="例: 近代史 / 第二次世界大戦"
+                  placeholder="帝国・植民地・資源"
                 />
               </div>
               <div className="es-form-group">
                 <label className="es-form-label">関連イベント</label>
                 <input
                   className="es-form-input"
-                  name="related_event"
-                  value={form.related_event}
+                  name="relatedEvent"
+                  value={form.relatedEvent}
                   onChange={handleChange}
-                  placeholder="例: 終戦, サンフランシスコ講和条約"
+                  placeholder="第一次石油危機"
                 />
               </div>
             </div>
