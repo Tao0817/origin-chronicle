@@ -171,16 +171,17 @@ export function Timeline() {
               <p className="detail-summary">{selected.summary}</p>
 
               <div className="detail-section-label">一次資料</div>
-              {selected.primary_sources.length === 0 ? (
-                <p className="detail-empty-note">未登録</p>
-              ) : (
-                <button
-                  className="detail-ps-link"
-                  onClick={() => navigate("/primary-sources")}
-                >
-                  {selected.primary_sources.length}件 — 一次資料を見る →
-                </button>
-              )}
+              <p className="detail-empty-note">
+                {selected.primary_sources.length === 0
+                  ? "未登録"
+                  : `${selected.primary_sources.length}件`}
+              </p>
+              <button
+                className="detail-ps-link"
+                onClick={() => navigate("/primary-sources")}
+              >
+                一次資料を見る →
+              </button>
 
               <div className="detail-section-label">発見メモ</div>
               <p className="detail-empty-note">

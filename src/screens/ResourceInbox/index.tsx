@@ -16,6 +16,24 @@ interface StoredResource {
 
 const STORAGE_KEY = "resource_inbox";
 
+const SOURCE_TYPE_OPTIONS = [
+  "議事録",
+  "白書",
+  "外交文書",
+  "統計",
+  "条約文",
+  "報告書",
+  "その他",
+] as const;
+
+const TIMELINE_OPTIONS = [
+  "軍事・戦争",
+  "思想・宗教・結社",
+  "帝国・植民地・資源",
+  "金融・通貨・制度",
+  "国際機関・諜報・政策ネットワーク",
+] as const;
+
 const SEED_DATA: StoredResource[] = [
   {
     id: "1",
@@ -134,7 +152,7 @@ function ResourceCard({
 }
 
 export function ResourceInbox() {
-  const { saveData, loadData } = useAppContext();
+  const { saveData, loadData, selectedEvent } = useAppContext();
   const [items, setItems] = useState<StoredResource[]>([]);
   const [showForm, setShowForm] = useState(false);
   const [form, setForm] = useState(emptyForm());
@@ -151,7 +169,17 @@ export function ResourceInbox() {
     })();
   }, [loadData, saveData]);
 
-  function handleChange(e: ChangeEvent<HTMLInputElement>) {
+  function handleOpenForm() {
+    const initialForm = emptyForm();
+    if (selectedEvent) {
+      initialForm.relatedEvent = selectedEvent.title;
+      initialForm.relatedTimeline = selectedEvent.category;
+    }
+    setForm(initialForm);
+    setShowForm(true);
+  }
+
+  function handleChange(e: ChangeEvent<HTMLInputElement | HTMLSelectElement>) {
     const { name, value } = e.target;
     setForm((prev) => ({ ...prev, [name]: value } as typeof prev));
   }
@@ -183,7 +211,7 @@ export function ResourceInbox() {
       <div className="ri-toolbar">
         <span className="ri-toolbar-title">資料インボックス</span>
         {!showForm && (
-          <button className="ri-add-btn" onClick={() => setShowForm(true)}>
+          <button className="ri-add-btn" onClick={handleOpenForm}>
             ＋ 資料を追加
           </button>
         )}
@@ -238,13 +266,17 @@ export function ResourceInbox() {
               </div>
               <div className="es-form-group">
                 <label className="es-form-label">資料種別</label>
-                <input
-                  className="es-form-input"
+                <select
+                  className="es-form-select"
                   name="type"
                   value={form.type}
                   onChange={handleChange}
-                  placeholder="議事録"
-                />
+                >
+                  <option value="">— 選択してください —</option>
+                  {SOURCE_TYPE_OPTIONS.map((t) => (
+                    <option key={t} value={t}>{t}</option>
+                  ))}
+                </select>
               </div>
               <div className="es-form-group">
                 <label className="es-form-label">作成年</label>
@@ -268,13 +300,17 @@ export function ResourceInbox() {
               </div>
               <div className="es-form-group">
                 <label className="es-form-label">関連年表（カテゴリー）</label>
-                <input
-                  className="es-form-input"
+                <select
+                  className="es-form-select"
                   name="relatedTimeline"
                   value={form.relatedTimeline}
                   onChange={handleChange}
-                  placeholder="帝国・植民地・資源"
-                />
+                >
+                  <option value="">— 選択してください —</option>
+                  {TIMELINE_OPTIONS.map((t) => (
+                    <option key={t} value={t}>{t}</option>
+                  ))}
+                </select>
               </div>
               <div className="es-form-group">
                 <label className="es-form-label">関連イベント</label>
