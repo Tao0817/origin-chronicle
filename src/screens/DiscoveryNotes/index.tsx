@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import type { ChangeEvent, CSSProperties } from "react";
+import { useAppContext } from "../../context/AppContext";
 
 const KIND_OPTIONS = [
   "人物", "組織", "語句", "政策", "統計項目", "別事件", "疑問点", "未確認事項",
@@ -15,7 +16,7 @@ interface StoredNote {
   memo: string;
 }
 
-const STORAGE_KEY = "dn_notes";
+const STORAGE_KEY = "discovery_notes";
 
 const SEED_DATA: StoredNote[] = [
   {
@@ -27,25 +28,6 @@ const SEED_DATA: StoredNote[] = [
     memo: "",
   },
 ];
-
-function loadNotes(): StoredNote[] {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (raw) {
-      return JSON.parse(raw) as StoredNote[];
-    }
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(SEED_DATA));
-    return SEED_DATA;
-  } catch {
-    return [];
-  }
-}
-
-function saveNotes(items: StoredNote[]): void {
-  try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
-  } catch {}
-}
 
 const KIND_COLOR: Record<NoteKind, string> = {
   人物:     "#5b7fff",
@@ -124,13 +106,22 @@ function NoteCard({
 }
 
 export function DiscoveryNotes() {
+  const { saveData, loadData } = useAppContext();
   const [items, setItems] = useState<StoredNote[]>([]);
   const [showForm, setShowForm] = useState(false);
   const [form, setForm] = useState(emptyForm());
 
   useEffect(() => {
-    setItems(loadNotes());
-  }, []);
+    (async () => {
+      const stored = await loadData<StoredNote[]>(STORAGE_KEY);
+      if (stored) {
+        setItems(stored);
+      } else {
+        setItems(SEED_DATA);
+        await saveData(STORAGE_KEY, SEED_DATA);
+      }
+    })();
+  }, [loadData, saveData]);
 
   function handleChange(
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>,
@@ -139,20 +130,20 @@ export function DiscoveryNotes() {
     setForm((prev) => ({ ...prev, [name]: value }));
   }
 
-  function handleSave() {
+  async function handleSave() {
     if (!form.content.trim()) return;
     const newItem: StoredNote = { ...form, id: crypto.randomUUID() };
     const updated = [newItem, ...items];
     setItems(updated);
-    saveNotes(updated);
+    await saveData(STORAGE_KEY, updated);
     setForm(emptyForm());
     setShowForm(false);
   }
 
-  function handleDelete(id: string) {
+  async function handleDelete(id: string) {
     const updated = items.filter((item) => item.id !== id);
     setItems(updated);
-    saveNotes(updated);
+    await saveData(STORAGE_KEY, updated);
   }
 
   function handleCancel() {

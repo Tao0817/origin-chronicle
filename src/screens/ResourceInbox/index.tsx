@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import type { ChangeEvent, CSSProperties } from "react";
+import { useAppContext } from "../../context/AppContext";
 
 interface StoredResource {
   id: string;
@@ -13,24 +14,21 @@ interface StoredResource {
   relatedEvent: string;
 }
 
-const STORAGE_KEY = "ri_resources";
+const STORAGE_KEY = "resource_inbox";
 
-function loadResources(): StoredResource[] {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    return raw ? (JSON.parse(raw) as StoredResource[]) : [];
-  } catch {
-    return [];
-  }
-}
-
-function saveResources(items: StoredResource[]): void {
-  try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
-  } catch {
-    // storage quota exceeded or private browsing restriction
-  }
-}
+const SEED_DATA: StoredResource[] = [
+  {
+    id: "1",
+    title: "第71回国会 石油問題に関する特別委員会 会議録",
+    url: "https://kokkai.ndl.go.jp/",
+    publisher: "国会会議録検索システム",
+    type: "議事録",
+    createdYear: "1973",
+    publishedYear: "不明",
+    relatedTimeline: "帝国・植民地・資源",
+    relatedEvent: "第一次石油危機",
+  },
+];
 
 const SOURCE_TYPE_COLOR: Record<string, string> = {
   議事録: "#5b7fff",
@@ -136,33 +134,42 @@ function ResourceCard({
 }
 
 export function ResourceInbox() {
+  const { saveData, loadData } = useAppContext();
   const [items, setItems] = useState<StoredResource[]>([]);
   const [showForm, setShowForm] = useState(false);
   const [form, setForm] = useState(emptyForm());
 
   useEffect(() => {
-    setItems(loadResources());
-  }, []);
+    (async () => {
+      const stored = await loadData<StoredResource[]>(STORAGE_KEY);
+      if (stored) {
+        setItems(stored);
+      } else {
+        setItems(SEED_DATA);
+        await saveData(STORAGE_KEY, SEED_DATA);
+      }
+    })();
+  }, [loadData, saveData]);
 
   function handleChange(e: ChangeEvent<HTMLInputElement>) {
     const { name, value } = e.target;
     setForm((prev) => ({ ...prev, [name]: value } as typeof prev));
   }
 
-  function handleSave() {
+  async function handleSave() {
     if (!form.title.trim()) return;
     const newItem: StoredResource = { ...form, id: crypto.randomUUID() };
     const updated = [newItem, ...items];
     setItems(updated);
-    saveResources(updated);
+    await saveData(STORAGE_KEY, updated);
     setForm(emptyForm());
     setShowForm(false);
   }
 
-  function handleDelete(id: string) {
+  async function handleDelete(id: string) {
     const updated = items.filter((item) => item.id !== id);
     setItems(updated);
-    saveResources(updated);
+    await saveData(STORAGE_KEY, updated);
   }
 
   function handleCancel() {

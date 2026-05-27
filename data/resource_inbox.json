@@ -1,0 +1,24 @@
+[
+  {
+    "title": "テスト資料。",
+    "url": "",
+    "publisher": "テスト。",
+    "type": "",
+    "createdYear": "2024。",
+    "publishedYear": "",
+    "relatedTimeline": "第一次石油危機。",
+    "relatedEvent": "",
+    "id": "923987cd-4a07-4781-8535-3b5e82ca2e0b"
+  },
+  {
+    "id": "1",
+    "title": "第71回国会 石油問題に関する特別委員会 会議録",
+    "url": "https://kokkai.ndl.go.jp/",
+    "publisher": "国会会議録検索システム",
+    "type": "議事録",
+    "createdYear": "1973",
+    "publishedYear": "不明",
+    "relatedTimeline": "帝国・植民地・資源",
+    "relatedEvent": "第一次石油危機"
+  }
+]

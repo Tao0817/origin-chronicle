@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import type { ChangeEvent } from "react";
+import { useAppContext } from "../../context/AppContext";
 
 type TextKey =
   | "facts"
@@ -22,7 +23,7 @@ interface StoredAnalysis {
   is_origin_candidate: boolean;
 }
 
-const STORAGE_KEY = "an_analyses";
+const STORAGE_KEY = "analysis";
 
 const SEED_DATA: StoredAnalysis[] = [
   {
@@ -38,25 +39,6 @@ const SEED_DATA: StoredAnalysis[] = [
     is_origin_candidate: true,
   },
 ];
-
-function loadAnalyses(): StoredAnalysis[] {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (raw) {
-      return JSON.parse(raw) as StoredAnalysis[];
-    }
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(SEED_DATA));
-    return SEED_DATA;
-  } catch {
-    return [];
-  }
-}
-
-function saveAnalyses(items: StoredAnalysis[]): void {
-  try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
-  } catch {}
-}
 
 function emptyForm(): Omit<StoredAnalysis, "id"> {
   return {
@@ -132,13 +114,22 @@ function AnalysisCard({
 }
 
 export function Analysis() {
+  const { saveData, loadData } = useAppContext();
   const [items, setItems] = useState<StoredAnalysis[]>([]);
   const [showForm, setShowForm] = useState(false);
   const [form, setForm] = useState(emptyForm());
 
   useEffect(() => {
-    setItems(loadAnalyses());
-  }, []);
+    (async () => {
+      const stored = await loadData<StoredAnalysis[]>(STORAGE_KEY);
+      if (stored) {
+        setItems(stored);
+      } else {
+        setItems(SEED_DATA);
+        await saveData(STORAGE_KEY, SEED_DATA);
+      }
+    })();
+  }, [loadData, saveData]);
 
   function handleChange(
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
@@ -151,20 +142,20 @@ export function Analysis() {
     setForm((prev) => ({ ...prev, is_origin_candidate: e.target.checked }));
   }
 
-  function handleSave() {
+  async function handleSave() {
     if (!form.related_event.trim() && !form.facts.trim()) return;
     const newItem: StoredAnalysis = { ...form, id: crypto.randomUUID() };
     const updated = [newItem, ...items];
     setItems(updated);
-    saveAnalyses(updated);
+    await saveData(STORAGE_KEY, updated);
     setForm(emptyForm());
     setShowForm(false);
   }
 
-  function handleDelete(id: string) {
+  async function handleDelete(id: string) {
     const updated = items.filter((item) => item.id !== id);
     setItems(updated);
-    saveAnalyses(updated);
+    await saveData(STORAGE_KEY, updated);
   }
 
   function handleCancel() {
