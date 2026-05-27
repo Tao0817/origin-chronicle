@@ -106,7 +106,7 @@ function NoteCard({
 }
 
 export function DiscoveryNotes() {
-  const { saveData, loadData } = useAppContext();
+  const { saveData, loadData, selectedEvent } = useAppContext();
   const [items, setItems] = useState<StoredNote[]>([]);
   const [showForm, setShowForm] = useState(false);
   const [form, setForm] = useState(emptyForm());
@@ -122,6 +122,15 @@ export function DiscoveryNotes() {
       }
     })();
   }, [loadData, saveData]);
+
+  function handleOpenForm() {
+    const initialForm = emptyForm();
+    if (selectedEvent) {
+      initialForm.related_event = selectedEvent.title;
+    }
+    setForm(initialForm);
+    setShowForm(true);
+  }
 
   function handleChange(
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>,
@@ -156,7 +165,7 @@ export function DiscoveryNotes() {
       <div className="dn-toolbar">
         <span className="dn-toolbar-title">発見メモ</span>
         {!showForm && (
-          <button className="dn-add-btn" onClick={() => setShowForm(true)}>
+          <button className="dn-add-btn" onClick={handleOpenForm}>
             ＋ メモを追加
           </button>
         )}
@@ -177,7 +186,7 @@ export function DiscoveryNotes() {
               </div>
             </div>
             <div className="dn-form-grid">
-              <div className="dn-form-full es-form-group">
+              <div className="es-form-group">
                 <label className="es-form-label">種別</label>
                 <select
                   className="es-form-select"
@@ -191,6 +200,16 @@ export function DiscoveryNotes() {
                   ))}
                 </select>
               </div>
+              <div className="es-form-group">
+                <label className="es-form-label">関連イベント</label>
+                <input
+                  className="es-form-input"
+                  name="related_event"
+                  value={form.related_event}
+                  onChange={handleChange}
+                  placeholder="例: 明治維新, 二二六事件"
+                />
+              </div>
               <div className="dn-form-full es-form-group">
                 <label className="es-form-label">内容 *</label>
                 <textarea
@@ -200,16 +219,6 @@ export function DiscoveryNotes() {
                   onChange={handleChange}
                   placeholder="発見した内容を記録してください"
                   rows={4}
-                />
-              </div>
-              <div className="es-form-group">
-                <label className="es-form-label">関連イベント</label>
-                <input
-                  className="es-form-input"
-                  name="related_event"
-                  value={form.related_event}
-                  onChange={handleChange}
-                  placeholder="例: 明治維新, 二二六事件"
                 />
               </div>
               <div className="es-form-group">
