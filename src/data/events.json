@@ -312,7 +312,7 @@
     "category": "思想・宗教・結社",
     "region": "world",
     "japan_connection": false,
-    "summary": "予言者ザラスシュトラがアフラ・マズダーを唯一の善神とし、善悪二元論に基づく宗教を創始した。成立年代は前1200〜前7世紀と諸説ある。",
+    "summary": "予言者ザラスシュトラがアフラ・マズダーを唯一の善神とし、善悪二元論に基づく宗教を創始した（成立年代は前1500〜前600年と諸説あり）。",
     "primary_sources": [],
     "discovery_notes": [],
     "analysis": {
@@ -582,7 +582,7 @@
     "category": "軍事・戦争",
     "region": "world",
     "japan_connection": false,
-    "summary": "紀元前499年〜前449年、アケメネス朝ペルシアとギリシア諸都市が争った戦争。マラトン・サラミス・プラタイアの戦いを経てギリシアが勝利し、アテナイの黄金時代を招いた。",
+    "summary": "紀元前499年〜前449年、アケメネス朝ペルシアとギリシア諸都市が争った戦争。マラトン・サラミス・プラタイアの戦いを経てギリシアが勝利し、アテナイの黄金時代を招いた（前499年のイオニア反乱に始まる）。",
     "primary_sources": [],
     "discovery_notes": [],
     "analysis": {
@@ -865,12 +865,12 @@
   },
   {
     "id": "war-second-punic-war",
-    "year": -219,
+    "year": -218,
     "title": "第二次ポエニ戦争（ハンニバル戦争）",
     "category": "軍事・戦争",
     "region": "world",
     "japan_connection": false,
-    "summary": "紀元前219年〜前201年、カルタゴの名将ハンニバルがアルプスを越えイタリアに侵攻。カンナエの戦いでローマ軍を壊滅させたが、最終的にザマの戦いでスキピオに敗れた。",
+    "summary": "紀元前218年〜前201年、カルタゴの名将ハンニバルがアルプスを越えイタリアに侵攻。カンナエの戦いでローマ軍を壊滅させたが、最終的にザマの戦いでスキピオに敗れた。",
     "primary_sources": [],
     "discovery_notes": [],
     "analysis": {
@@ -1662,7 +1662,7 @@
     "category": "思想・宗教・結社",
     "region": "world",
     "japan_connection": false,
-    "summary": "エルサレム巡礼者保護のため設立された修道騎士団。国際的な金融ネットワークを構築し、中世最大の富を蓄積した。",
+    "summary": "エルサレム巡礼者保護のため設立された修道騎士団。国際的な金融ネットワークを構築し、中世最大の富を蓄積した（1118〜1119年頃創設、諸説あり）。",
     "primary_sources": [],
     "discovery_notes": [],
     "analysis": {
@@ -6679,5 +6679,203 @@
       "unconfirmed": [],
       "counter_evidence": []
     }
+  },
+  {
+    "id": "war-battle-of-cannae",
+    "year": -216,
+    "title": "カンナエの戦い",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "紀元前216年8月、第二次ポエニ戦争においてハンニバルがローマ軍約5万を包囲殲滅した戦い。ローマ史上最大の軍事的敗北であり、包囲戦術の古典的事例として軍事史に残る。",
+    "primary_sources": [],
+    "discovery_notes": ""
+  },
+  {
+    "id": "war-battle-of-plataea",
+    "year": -479,
+    "title": "プラタイアの戦い",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "紀元前479年、ペルシア戦争の決定的陸上会戦。ギリシア連合軍がペルシア軍を撃退し、ギリシア本土からペルシア勢力を完全に排除した。",
+    "primary_sources": [],
+    "discovery_notes": ""
+  },
+  {
+    "id": "war-battle-of-hattin",
+    "year": 1187,
+    "title": "ハッティンの戦い",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1187年7月、サラディン率いるアイユーブ朝軍がエルサレム王国軍を壊滅させた戦い。この勝利によりサラディンは同年エルサレムを奪還し、第三回十字軍を招いた。",
+    "primary_sources": [],
+    "discovery_notes": ""
+  },
+  {
+    "id": "war-battle-of-agincourt",
+    "year": 1415,
+    "title": "アジャンクールの戦い",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1415年10月25日、百年戦争においてイングランド王ヘンリー5世がフランス軍に大勝した戦い。長弓兵が重装騎兵を圧倒し、中世騎士戦術の限界を示した。",
+    "primary_sources": [],
+    "discovery_notes": ""
+  },
+  {
+    "id": "war-battle-of-crecy",
+    "year": 1346,
+    "title": "クレシーの戦い",
+    "category": "軍事・戦争",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1346年8月26日、百年戦争初期の決定的会戦。エドワード3世率いるイングランド軍がフランス騎士軍を撃破し、長弓戦術の優位性を実証した。",
+    "primary_sources": [],
+    "discovery_notes": ""
+  },
+  {
+    "id": "rel-hijra",
+    "year": 622,
+    "title": "ヒジュラ（ムハンマドのメディナ移住）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "622年、預言者ムハンマドがメッカからメディナへ移住した出来事。イスラム暦の元年であり、イスラム共同体（ウンマ）の政治的成立の起点となった世界史的転換点。",
+    "primary_sources": [],
+    "discovery_notes": ""
+  },
+  {
+    "id": "rel-jan-hus-execution",
+    "year": 1415,
+    "title": "ヤン・フスの処刑（コンスタンツ公会議）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1415年7月6日、ボヘミアの宗教改革者ヤン・フスがコンスタンツ公会議で異端として火刑に処された。フス派運動と宗教戦争の契機となり、後のプロテスタント宗教改革の先駆となった。",
+    "primary_sources": [],
+    "discovery_notes": ""
+  },
+  {
+    "id": "rel-act-of-supremacy",
+    "year": 1534,
+    "title": "首長法（イングランド国教会の成立）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1534年、ヘンリー8世がローマ教皇から離脱し、イングランド国王をイングランド教会の最高首長とする首長法を制定。国家と宗教の関係における近代的転換の象徴。",
+    "primary_sources": [],
+    "discovery_notes": ""
+  },
+  {
+    "id": "rel-council-of-nicaea",
+    "year": 325,
+    "title": "ニカイア公会議（キリスト教教義の確立）",
+    "category": "思想・宗教・結社",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "325年、コンスタンティヌス帝が召集したキリスト教史上初のエキュメニカル公会議。アリウス派を退け三位一体論を確立し、ニカイア信条を採択した。",
+    "primary_sources": [],
+    "discovery_notes": ""
+  },
+  {
+    "id": "col-cape-verde-settlement",
+    "year": 1462,
+    "title": "カーボベルデ入植（最初のヨーロッパ熱帯植民地）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1462年、ポルトガルがカーボベルデ諸島に入植を開始。ヨーロッパによる最初の熱帯植民地であり、後に大西洋奴隷貿易の重要な中継地となった。",
+    "primary_sources": [],
+    "discovery_notes": ""
+  },
+  {
+    "id": "col-carthage-founding",
+    "year": -814,
+    "title": "カルタゴ建設（フェニキア植民都市）",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "紀元前814年頃、フェニキア人が北アフリカ（現チュニジア）に建設した植民都市。地中海世界における植民地ネットワークの原型となり、後にローマとポエニ戦争で覇権を争った。",
+    "primary_sources": [],
+    "discovery_notes": ""
+  },
+  {
+    "id": "col-british-surat",
+    "year": 1612,
+    "title": "イギリス東インド会社のスーラト上陸",
+    "category": "帝国・植民地・資源",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1612年、イギリス東インド会社がインド西岸のスーラトに上陸し交易拠点を設立。イギリスのインド亜大陸進出の起点となり、後の植民地支配への第一歩となった。",
+    "primary_sources": [],
+    "discovery_notes": ""
+  },
+  {
+    "id": "fin-bank-of-san-giorgio",
+    "year": 1407,
+    "title": "サン・ジョルジョ銀行設立（ジェノヴァ）",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1407年、イタリアのジェノヴァにサン・ジョルジョ銀行が設立された。世界初の国家預金銀行とされ、近代的銀行制度の先駆となった。",
+    "primary_sources": [],
+    "discovery_notes": ""
+  },
+  {
+    "id": "fin-monte-dei-paschi",
+    "year": 1472,
+    "title": "モンテ・デイ・パスキ・ディ・シエナ設立",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1472年、イタリアのシエナに設立された銀行。現在も営業を続ける世界最古の銀行として知られる。",
+    "primary_sources": [],
+    "discovery_notes": ""
+  },
+  {
+    "id": "fin-greek-public-bank",
+    "year": -352,
+    "title": "古代ギリシア最初の公的銀行（デモシア・トラペザ）",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "紀元前352年、古代ギリシアで債務危機に対応するため最初の公的銀行（デモシア・トラペザ）が設立された。国家主導の金融制度の先駆的事例。",
+    "primary_sources": [],
+    "discovery_notes": ""
+  },
+  {
+    "id": "fin-hammurabi-banking-law",
+    "year": -1754,
+    "title": "ハンムラビ法典の金融規定詳細",
+    "category": "金融・通貨・制度",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "紀元前1754年頃制定のハンムラビ法典には、預金・貸付・利率・担保に関する詳細な規定が含まれ、世界最古の成文金融法制として銀行制度の原型を示した。",
+    "primary_sources": [],
+    "discovery_notes": ""
+  },
+  {
+    "id": "intl-bretton-woods-conference",
+    "year": 1944,
+    "title": "ブレトンウッズ会議（国際金融秩序の設計）",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1944年7月、米国ニューハンプシャー州で44カ国代表が参加し開催された国際会議。IMF・世界銀行の設立を決定し、ドル基軸の戦後国際金融秩序を設計した。",
+    "primary_sources": [],
+    "discovery_notes": ""
+  },
+  {
+    "id": "intl-un-security-council-p5",
+    "year": 1945,
+    "title": "国連安保理常任理事国制度の確立（P5体制）",
+    "category": "国際機関・諜報・政策ネットワーク",
+    "region": "world",
+    "japan_connection": false,
+    "summary": "1945年、国連憲章により米英仏ソ中の5大国が安全保障理事会の常任理事国として拒否権を持つ体制が確立された。戦後国際秩序の根幹をなす制度。",
+    "primary_sources": [],
+    "discovery_notes": ""
   }
 ]
