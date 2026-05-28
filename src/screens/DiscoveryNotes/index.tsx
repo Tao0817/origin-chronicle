@@ -171,6 +171,17 @@ export function DiscoveryNotes() {
         )}
       </div>
 
+      {selectedEvent && selectedEvent.discovery_notes.length > 0 && (
+        <div className="db-readonly-section">
+          <div className="db-readonly-header">DBメモ</div>
+          <ul className="db-readonly-list">
+            {selectedEvent.discovery_notes.map((note, i) => (
+              <li key={i} className="db-readonly-item">{note}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+
       <div className="dn-body">
         {showForm && (
           <div className="dn-form-panel">

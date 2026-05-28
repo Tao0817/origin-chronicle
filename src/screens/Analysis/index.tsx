@@ -114,7 +114,15 @@ function AnalysisCard({
 }
 
 export function Analysis() {
-  const { saveData, loadData } = useAppContext();
+  const { saveData, loadData, selectedEvent } = useAppContext();
+  const dbAnalysis = selectedEvent?.analysis;
+  const DB_ANALYSIS_SECTIONS = [
+    { key: "facts"          as const, label: "事実" },
+    { key: "analysis"       as const, label: "分析" },
+    { key: "speculation"    as const, label: "推察" },
+    { key: "unconfirmed"    as const, label: "未確認" },
+    { key: "counter_evidence" as const, label: "反対材料" },
+  ];
   const [items, setItems] = useState<StoredAnalysis[]>([]);
   const [showForm, setShowForm] = useState(false);
   const [form, setForm] = useState(emptyForm());
@@ -173,6 +181,24 @@ export function Analysis() {
           </button>
         )}
       </div>
+
+      {dbAnalysis && DB_ANALYSIS_SECTIONS.some(s => dbAnalysis[s.key].length > 0) && (
+        <div className="db-readonly-section">
+          <div className="db-readonly-header">DB考察</div>
+          {DB_ANALYSIS_SECTIONS.map(({ key, label }) =>
+            dbAnalysis[key].length > 0 ? (
+              <div key={key} className="db-readonly-group">
+                <div className="db-readonly-group-label">{label}</div>
+                <ul className="db-readonly-list">
+                  {dbAnalysis[key].map((item, i) => (
+                    <li key={i} className="db-readonly-item">{item}</li>
+                  ))}
+                </ul>
+              </div>
+            ) : null
+          )}
+        </div>
+      )}
 
       <div className="an-body">
         {showForm && (
