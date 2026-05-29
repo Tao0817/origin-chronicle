@@ -234,7 +234,7 @@
     },
     "time_layer": "基層",
     "upper_category": "基層・正統性",
-    "mid_category": "王権・帝国・正統性",
+    "mid_category": "宗教制度・宗派・神学",
     "region_tags": [
       "中東"
     ]
@@ -282,7 +282,7 @@
     },
     "time_layer": "基層",
     "upper_category": "基層・正統性",
-    "mid_category": "王権・帝国・正統性",
+    "mid_category": "宗教制度・宗派・神学",
     "region_tags": [
       "中東"
     ]
@@ -329,8 +329,8 @@
       "counter_evidence": []
     },
     "time_layer": "基層",
-    "upper_category": "基層・正統性",
-    "mid_category": "法制度・法思想・司法",
+    "upper_category": "通商・資金・企業・資源",
+    "mid_category": "金融・銀行・貨幣・決済システム",
     "region_tags": [
       "中東"
     ]
@@ -477,6 +477,7 @@
     "upper_category": "通商・資金・企業・資源",
     "mid_category": "通商・特権会社・植民地会社",
     "region_tags": [
+      "中東",
       "地中海",
       "北アフリカ"
     ]
@@ -524,7 +525,7 @@
     },
     "time_layer": "基層",
     "upper_category": "基層・正統性",
-    "mid_category": "教育・学問・知識伝達",
+    "mid_category": "宗教制度・宗派・神学",
     "region_tags": [
       "地中海"
     ]
@@ -550,8 +551,8 @@
     "upper_category": "通商・資金・企業・資源",
     "mid_category": "金融・銀行・貨幣・決済システム",
     "region_tags": [
-      "地中海",
-      "中東"
+      "中東",
+      "地中海"
     ]
   },
   {
@@ -572,7 +573,7 @@
       "counter_evidence": []
     },
     "time_layer": "基層",
-    "upper_category": "知識・政策・情報・技術",
+    "upper_category": "基層・正統性",
     "mid_category": "教育・学問・知識伝達",
     "region_tags": [
       "地中海"
@@ -621,9 +622,10 @@
     },
     "time_layer": "基層",
     "upper_category": "基層・正統性",
-    "mid_category": "王権・帝国・正統性",
+    "mid_category": "宗教制度・宗派・神学",
     "region_tags": [
-      "中東"
+      "中東",
+      "中央アジア"
     ]
   },
   {
@@ -671,7 +673,8 @@
     "upper_category": "基層・正統性",
     "mid_category": "王権・帝国・正統性",
     "region_tags": [
-      "中東"
+      "中東",
+      "中央アジア"
     ]
   },
   {
@@ -695,7 +698,8 @@
     "upper_category": "基層・正統性",
     "mid_category": "宗教制度・宗派・神学",
     "region_tags": [
-      "地中海"
+      "地中海",
+      "欧州"
     ]
   },
   {
@@ -817,7 +821,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "地中海"
+      "地中海",
+      "中東"
     ]
   },
   {
@@ -841,7 +846,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "地中海"
+      "地中海",
+      "中東"
     ]
   },
   {
@@ -910,8 +916,8 @@
       "counter_evidence": []
     },
     "time_layer": "基層",
-    "upper_category": "結社・非公式ネットワーク",
-    "mid_category": "秘儀・宗教兄弟団・修道会・騎士団",
+    "upper_category": "基層・正統性",
+    "mid_category": "宗教制度・宗派・神学",
     "region_tags": [
       "地中海"
     ]
@@ -982,7 +988,7 @@
       "counter_evidence": []
     },
     "time_layer": "基層",
-    "upper_category": "知識・政策・情報・技術",
+    "upper_category": "基層・正統性",
     "mid_category": "教育・学問・知識伝達",
     "region_tags": [
       "地中海"
@@ -1006,7 +1012,7 @@
       "counter_evidence": []
     },
     "time_layer": "基層",
-    "upper_category": "知識・政策・情報・技術",
+    "upper_category": "基層・正統性",
     "mid_category": "教育・学問・知識伝達",
     "region_tags": [
       "地中海"
@@ -1035,8 +1041,8 @@
     "region_tags": [
       "地中海",
       "中東",
-      "南アジア",
-      "中央アジア"
+      "中央アジア",
+      "南アジア"
     ]
   },
   {
@@ -1060,7 +1066,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "中東"
+      "中東",
+      "地中海"
     ]
   },
   {
@@ -1108,7 +1115,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "地中海"
+      "地中海",
+      "北アフリカ"
     ]
   },
   {
@@ -1132,8 +1140,7 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
-      "地中海",
-      "欧州"
+      "地中海"
     ]
   },
   {
@@ -1182,6 +1189,7 @@
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
       "地中海",
+      "北アフリカ",
       "欧州"
     ]
   },
@@ -1231,8 +1239,7 @@
     "upper_category": "通商・資金・企業・資源",
     "mid_category": "金融・銀行・貨幣・決済システム",
     "region_tags": [
-      "地中海",
-      "欧州"
+      "地中海"
     ]
   },
   {
@@ -1256,8 +1263,7 @@
     "upper_category": "結社・非公式ネットワーク",
     "mid_category": "秘儀・宗教兄弟団・修道会・騎士団",
     "region_tags": [
-      "地中海",
-      "欧州"
+      "地中海"
     ]
   },
   {
@@ -1281,7 +1287,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "地中海"
+      "地中海",
+      "北アフリカ"
     ]
   },
   {
@@ -1302,11 +1309,10 @@
       "counter_evidence": []
     },
     "time_layer": "基層",
-    "upper_category": "結社・非公式ネットワーク",
-    "mid_category": "秘儀・宗教兄弟団・修道会・騎士団",
+    "upper_category": "基層・正統性",
+    "mid_category": "思想・正統性・政治運動",
     "region_tags": [
-      "地中海",
-      "欧州"
+      "地中海"
     ]
   },
   {
@@ -1330,8 +1336,7 @@
     "upper_category": "結社・非公式ネットワーク",
     "mid_category": "秘儀・宗教兄弟団・修道会・騎士団",
     "region_tags": [
-      "地中海",
-      "欧州"
+      "地中海"
     ]
   },
   {
@@ -1355,8 +1360,7 @@
     "upper_category": "基層・正統性",
     "mid_category": "思想・正統性・政治運動",
     "region_tags": [
-      "地中海",
-      "欧州"
+      "地中海"
     ]
   },
   {
@@ -1380,8 +1384,7 @@
     "upper_category": "基層・正統性",
     "mid_category": "思想・正統性・政治運動",
     "region_tags": [
-      "地中海",
-      "欧州"
+      "地中海"
     ]
   },
   {
@@ -1455,7 +1458,7 @@
     "mid_category": "秘儀・宗教兄弟団・修道会・騎士団",
     "region_tags": [
       "地中海",
-      "欧州"
+      "中東"
     ]
   },
   {
@@ -1479,8 +1482,7 @@
     "upper_category": "基層・正統性",
     "mid_category": "思想・正統性・政治運動",
     "region_tags": [
-      "地中海",
-      "欧州"
+      "地中海"
     ]
   },
   {
@@ -1504,8 +1506,7 @@
     "upper_category": "結社・非公式ネットワーク",
     "mid_category": "秘儀・宗教兄弟団・修道会・騎士団",
     "region_tags": [
-      "地中海",
-      "欧州"
+      "地中海"
     ]
   },
   {
@@ -1529,8 +1530,8 @@
     "upper_category": "基層・正統性",
     "mid_category": "宗教制度・宗派・神学",
     "region_tags": [
-      "欧州",
-      "地中海"
+      "地中海",
+      "欧州"
     ]
   },
   {
@@ -1551,11 +1552,11 @@
       "counter_evidence": []
     },
     "time_layer": "基層",
-    "upper_category": "基層・正統性",
-    "mid_category": "宗教制度・宗派・神学",
+    "upper_category": "結社・非公式ネットワーク",
+    "mid_category": "秘儀・宗教兄弟団・修道会・騎士団",
     "region_tags": [
-      "北アフリカ",
-      "中東"
+      "地中海",
+      "北アフリカ"
     ]
   },
   {
@@ -1580,7 +1581,8 @@
     "mid_category": "宗教制度・宗派・神学",
     "region_tags": [
       "中東",
-      "中央アジア"
+      "中央アジア",
+      "東アジア"
     ]
   },
   {
@@ -1602,7 +1604,7 @@
     },
     "time_layer": "基層",
     "upper_category": "基層・正統性",
-    "mid_category": "王権・帝国・正統性",
+    "mid_category": "宗教制度・宗派・神学",
     "region_tags": [
       "中東"
     ]
@@ -1628,8 +1630,7 @@
     "upper_category": "基層・正統性",
     "mid_category": "思想・正統性・政治運動",
     "region_tags": [
-      "地中海",
-      "北アフリカ"
+      "地中海"
     ]
   },
   {
@@ -1653,8 +1654,7 @@
     "upper_category": "基層・正統性",
     "mid_category": "宗教制度・宗派・神学",
     "region_tags": [
-      "地中海",
-      "欧州"
+      "地中海"
     ]
   },
   {
@@ -1675,11 +1675,10 @@
       "counter_evidence": []
     },
     "time_layer": "基層",
-    "upper_category": "結社・非公式ネットワーク",
-    "mid_category": "秘儀・宗教兄弟団・修道会・騎士団",
+    "upper_category": "基層・正統性",
+    "mid_category": "宗教制度・宗派・神学",
     "region_tags": [
-      "地中海",
-      "欧州"
+      "地中海"
     ]
   },
   {
@@ -1753,8 +1752,7 @@
     "upper_category": "結社・非公式ネットワーク",
     "mid_category": "秘儀・宗教兄弟団・修道会・騎士団",
     "region_tags": [
-      "地中海",
-      "欧州"
+      "地中海"
     ]
   },
   {
@@ -1779,7 +1777,8 @@
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
       "地中海",
-      "欧州"
+      "欧州",
+      "北アフリカ"
     ]
   },
   {
@@ -1853,7 +1852,8 @@
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
       "中東",
-      "北アフリカ"
+      "北アフリカ",
+      "中央アジア"
     ]
   },
   {
@@ -1899,12 +1899,13 @@
       "counter_evidence": []
     },
     "time_layer": "基層",
-    "upper_category": "基層・正統性",
-    "mid_category": "王権・帝国・正統性",
+    "upper_category": "国家・戦争・国際秩序",
+    "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
       "中東",
-      "欧州",
-      "北アフリカ"
+      "北アフリカ",
+      "中央アジア",
+      "欧州"
     ]
   },
   {
@@ -1928,8 +1929,7 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "欧州",
-      "地中海"
+      "欧州"
     ]
   },
   {
@@ -1999,10 +1999,11 @@
       "counter_evidence": []
     },
     "time_layer": "基層",
-    "upper_category": "基層・正統性",
-    "mid_category": "王権・帝国・正統性",
+    "upper_category": "国家・戦争・国際秩序",
+    "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
-      "中東"
+      "中東",
+      "中央アジア"
     ]
   },
   {
@@ -2047,8 +2048,8 @@
       "counter_evidence": []
     },
     "time_layer": "基層",
-    "upper_category": "社会・人口・環境",
-    "mid_category": "移民・人口・労働・ディアスポラ",
+    "upper_category": "基層・正統性",
+    "mid_category": "宗教制度・宗派・神学",
     "region_tags": [
       "南アジア",
       "中東"
@@ -2073,7 +2074,7 @@
     },
     "time_layer": "基層",
     "upper_category": "基層・正統性",
-    "mid_category": "教育・学問・知識伝達",
+    "mid_category": "思想・正統性・政治運動",
     "region_tags": [
       "欧州"
     ]
@@ -2194,7 +2195,7 @@
     },
     "time_layer": "基層",
     "upper_category": "基層・正統性",
-    "mid_category": "王権・帝国・正統性",
+    "mid_category": "宗教制度・宗派・神学",
     "region_tags": [
       "欧州"
     ]
@@ -2217,7 +2218,7 @@
       "counter_evidence": []
     },
     "time_layer": "基層",
-    "upper_category": "知識・政策・情報・技術",
+    "upper_category": "基層・正統性",
     "mid_category": "教育・学問・知識伝達",
     "region_tags": [
       "欧州"
@@ -2245,6 +2246,7 @@
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
       "欧州",
+      "地中海",
       "中東"
     ]
   },
@@ -2269,7 +2271,6 @@
     "upper_category": "結社・非公式ネットワーク",
     "mid_category": "秘儀・宗教兄弟団・修道会・騎士団",
     "region_tags": [
-      "地中海",
       "欧州",
       "中東"
     ]
@@ -2296,6 +2297,7 @@
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
       "欧州",
+      "地中海",
       "中東"
     ]
   },
@@ -2344,7 +2346,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "中東"
+      "中東",
+      "地中海"
     ]
   },
   {
@@ -2369,6 +2372,7 @@
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
       "欧州",
+      "地中海",
       "中東"
     ]
   },
@@ -2394,7 +2398,8 @@
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
       "欧州",
-      "地中海"
+      "地中海",
+      "中東"
     ]
   },
   {
@@ -2418,8 +2423,8 @@
     "upper_category": "通商・資金・企業・資源",
     "mid_category": "通商・特権会社・植民地会社",
     "region_tags": [
-      "地中海",
-      "欧州"
+      "欧州",
+      "地中海"
     ]
   },
   {
@@ -2445,7 +2450,8 @@
     "region_tags": [
       "中央アジア",
       "東アジア",
-      "中東"
+      "中東",
+      "欧州"
     ]
   },
   {
@@ -2638,11 +2644,13 @@
       "counter_evidence": []
     },
     "time_layer": "基層",
-    "upper_category": "通商・資金・企業・資源",
-    "mid_category": "通商・特権会社・植民地会社",
+    "upper_category": "国家・戦争・国際秩序",
+    "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
       "中央アジア",
-      "東アジア"
+      "東アジア",
+      "中東",
+      "欧州"
     ]
   },
   {
@@ -2713,7 +2721,7 @@
     },
     "time_layer": "基層",
     "upper_category": "基層・正統性",
-    "mid_category": "王権・帝国・正統性",
+    "mid_category": "宗教制度・宗派・神学",
     "region_tags": [
       "欧州"
     ]
@@ -2764,6 +2772,7 @@
     "mid_category": "環境・気候・人口・食料危機",
     "region_tags": [
       "欧州",
+      "地中海",
       "中東"
     ]
   },
@@ -2785,11 +2794,12 @@
       "counter_evidence": []
     },
     "time_layer": "基層",
-    "upper_category": "国家・戦争・国際秩序",
-    "mid_category": "軍事・戦争・安全保障・軍産複合体",
+    "upper_category": "基層・正統性",
+    "mid_category": "王権・帝国・正統性",
     "region_tags": [
       "中央アジア",
-      "中東"
+      "中東",
+      "南アジア"
     ]
   },
   {
@@ -2882,8 +2892,8 @@
       "counter_evidence": []
     },
     "time_layer": "接続形成層",
-    "upper_category": "国家・戦争・国際秩序",
-    "mid_category": "国家・外交・条約・国際秩序",
+    "upper_category": "通商・資金・企業・資源",
+    "mid_category": "通商・特権会社・植民地会社",
     "region_tags": [
       "欧州",
       "北アフリカ"
@@ -2910,8 +2920,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "地中海",
       "欧州",
+      "地中海",
       "中東"
     ]
   },
@@ -2933,8 +2943,8 @@
       "counter_evidence": []
     },
     "time_layer": "接続形成層",
-    "upper_category": "知識・政策・情報・技術",
-    "mid_category": "教育・学問・知識伝達",
+    "upper_category": "基層・正統性",
+    "mid_category": "思想・正統性・政治運動",
     "region_tags": [
       "欧州"
     ]
@@ -2957,8 +2967,8 @@
       "counter_evidence": []
     },
     "time_layer": "接続形成層",
-    "upper_category": "知識・政策・情報・技術",
-    "mid_category": "教育・学問・知識伝達",
+    "upper_category": "基層・正統性",
+    "mid_category": "思想・正統性・政治運動",
     "region_tags": [
       "欧州"
     ]
@@ -3030,8 +3040,8 @@
       "counter_evidence": []
     },
     "time_layer": "接続形成層",
-    "upper_category": "国家・戦争・国際秩序",
-    "mid_category": "国家・外交・条約・国際秩序",
+    "upper_category": "通商・資金・企業・資源",
+    "mid_category": "通商・特権会社・植民地会社",
     "region_tags": [
       "欧州",
       "中南米"
@@ -3058,7 +3068,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "欧州"
+      "欧州",
+      "地中海"
     ]
   },
   {
@@ -3082,7 +3093,9 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
-      "欧州"
+      "欧州",
+      "中南米",
+      "サブサハラアフリカ"
     ]
   },
   {
@@ -3107,7 +3120,8 @@
     "mid_category": "通商・特権会社・植民地会社",
     "region_tags": [
       "欧州",
-      "南アジア"
+      "南アジア",
+      "サブサハラアフリカ"
     ]
   },
   {
@@ -3205,6 +3219,7 @@
     "mid_category": "通商・特権会社・植民地会社",
     "region_tags": [
       "欧州",
+      "中南米",
       "東南アジア"
     ]
   },
@@ -3323,8 +3338,8 @@
       "counter_evidence": []
     },
     "time_layer": "接続形成層",
-    "upper_category": "通商・資金・企業・資源",
-    "mid_category": "通商・特権会社・植民地会社",
+    "upper_category": "国家・戦争・国際秩序",
+    "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
       "日本",
       "欧州"
@@ -3375,7 +3390,8 @@
     "upper_category": "通商・資金・企業・資源",
     "mid_category": "資源・エネルギー・食料ネットワーク",
     "region_tags": [
-      "中南米"
+      "中南米",
+      "欧州"
     ]
   },
   {
@@ -3421,8 +3437,8 @@
       "counter_evidence": []
     },
     "time_layer": "接続形成層",
-    "upper_category": "基層・正統性",
-    "mid_category": "法制度・法思想・司法",
+    "upper_category": "国家・戦争・国際秩序",
+    "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
       "欧州"
     ]
@@ -3496,8 +3512,8 @@
       "counter_evidence": []
     },
     "time_layer": "制度化層",
-    "upper_category": "基層・正統性",
-    "mid_category": "王権・帝国・正統性",
+    "upper_category": "国家・戦争・国際秩序",
+    "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
       "日本"
     ]
@@ -3544,7 +3560,7 @@
       "counter_evidence": []
     },
     "time_layer": "制度化層",
-    "upper_category": "知識・政策・情報・技術",
+    "upper_category": "基層・正統性",
     "mid_category": "教育・学問・知識伝達",
     "region_tags": [
       "欧州"
@@ -3832,12 +3848,13 @@
       "counter_evidence": []
     },
     "time_layer": "制度化層",
-    "upper_category": "社会・人口・環境",
-    "mid_category": "移民・人口・労働・ディアスポラ",
+    "upper_category": "通商・資金・企業・資源",
+    "mid_category": "通商・特権会社・植民地会社",
     "region_tags": [
-      "北米",
+      "欧州",
       "サブサハラアフリカ",
-      "欧州"
+      "北米",
+      "中南米"
     ]
   },
   {
@@ -3858,8 +3875,8 @@
       "counter_evidence": []
     },
     "time_layer": "制度化層",
-    "upper_category": "国家・戦争・国際秩序",
-    "mid_category": "国家・外交・条約・国際秩序",
+    "upper_category": "基層・正統性",
+    "mid_category": "王権・帝国・正統性",
     "region_tags": [
       "欧州"
     ]
@@ -3933,8 +3950,7 @@
     "upper_category": "通商・資金・企業・資源",
     "mid_category": "金融・銀行・貨幣・決済システム",
     "region_tags": [
-      "欧州",
-      "北米"
+      "欧州"
     ]
   },
   {
@@ -3980,7 +3996,7 @@
     },
     "time_layer": "制度化層",
     "upper_category": "基層・正統性",
-    "mid_category": "思想・正統性・政治運動",
+    "mid_category": "法制度・法思想・司法",
     "region_tags": [
       "欧州"
     ]
@@ -4003,7 +4019,7 @@
       "counter_evidence": []
     },
     "time_layer": "制度化層",
-    "upper_category": "知識・政策・情報・技術",
+    "upper_category": "基層・正統性",
     "mid_category": "教育・学問・知識伝達",
     "region_tags": [
       "欧州"
@@ -4032,7 +4048,9 @@
     "region_tags": [
       "欧州",
       "北米",
-      "南アジア"
+      "南アジア",
+      "サブサハラアフリカ",
+      "中南米"
     ]
   },
   {
@@ -4053,8 +4071,8 @@
       "counter_evidence": []
     },
     "time_layer": "制度化層",
-    "upper_category": "国家・戦争・国際秩序",
-    "mid_category": "軍事・戦争・安全保障・軍産複合体",
+    "upper_category": "通商・資金・企業・資源",
+    "mid_category": "通商・特権会社・植民地会社",
     "region_tags": [
       "南アジア",
       "欧州"
@@ -4154,7 +4172,7 @@
     "upper_category": "結社・非公式ネットワーク",
     "mid_category": "友愛結社・秘密結社・政治結社",
     "region_tags": [
-      "全世界"
+      "欧州"
     ]
   },
   {
@@ -4175,8 +4193,8 @@
       "counter_evidence": []
     },
     "time_layer": "制度化層",
-    "upper_category": "知識・政策・情報・技術",
-    "mid_category": "政策ネットワーク・シンクタンク",
+    "upper_category": "基層・正統性",
+    "mid_category": "思想・正統性・政治運動",
     "region_tags": [
       "欧州"
     ]
@@ -4200,7 +4218,7 @@
     },
     "time_layer": "制度化層",
     "upper_category": "基層・正統性",
-    "mid_category": "法制度・法思想・司法",
+    "mid_category": "思想・正統性・政治運動",
     "region_tags": [
       "北米"
     ]
@@ -4319,8 +4337,8 @@
       "counter_evidence": []
     },
     "time_layer": "制度化層",
-    "upper_category": "国家・戦争・国際秩序",
-    "mid_category": "軍事・戦争・安全保障・軍産複合体",
+    "upper_category": "基層・正統性",
+    "mid_category": "王権・帝国・正統性",
     "region_tags": [
       "欧州"
     ]
@@ -4344,7 +4362,7 @@
     },
     "time_layer": "制度化層",
     "upper_category": "国家・戦争・国際秩序",
-    "mid_category": "軍事・戦争・安全保障・軍産複合体",
+    "mid_category": "諜報・治安・秘密工作",
     "region_tags": [
       "欧州"
     ]
@@ -4370,7 +4388,9 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "欧州"
+      "欧州",
+      "中東",
+      "北アフリカ"
     ]
   },
   {
@@ -4394,7 +4414,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "中南米"
+      "中南米",
+      "欧州"
     ]
   },
   {
@@ -4491,7 +4512,8 @@
     "upper_category": "通商・資金・企業・資源",
     "mid_category": "金融・銀行・貨幣・決済システム",
     "region_tags": [
-      "欧州"
+      "欧州",
+      "全世界"
     ]
   },
   {
@@ -4515,8 +4537,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "地中海",
-      "欧州"
+      "欧州",
+      "地中海"
     ]
   },
   {
@@ -4540,7 +4562,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
-      "中南米"
+      "中南米",
+      "欧州"
     ]
   },
   {
@@ -4634,8 +4657,8 @@
       "counter_evidence": []
     },
     "time_layer": "世界接続層",
-    "upper_category": "国家・戦争・国際秩序",
-    "mid_category": "軍事・戦争・安全保障・軍産複合体",
+    "upper_category": "通商・資金・企業・資源",
+    "mid_category": "通商・特権会社・植民地会社",
     "region_tags": [
       "東アジア",
       "欧州",
@@ -4758,8 +4781,8 @@
       "counter_evidence": []
     },
     "time_layer": "世界接続層",
-    "upper_category": "国家・戦争・国際秩序",
-    "mid_category": "軍事・戦争・安全保障・軍産複合体",
+    "upper_category": "通商・資金・企業・資源",
+    "mid_category": "通商・特権会社・植民地会社",
     "region_tags": [
       "南アジア",
       "欧州"
@@ -4979,7 +5002,8 @@
     "upper_category": "基層・正統性",
     "mid_category": "宗教制度・宗派・神学",
     "region_tags": [
-      "欧州"
+      "欧州",
+      "全世界"
     ]
   },
   {
@@ -5001,11 +5025,11 @@
     },
     "time_layer": "世界接続層",
     "upper_category": "通商・資金・企業・資源",
-    "mid_category": "資源・エネルギー・食料ネットワーク",
+    "mid_category": "通商・特権会社・植民地会社",
     "region_tags": [
       "北アフリカ",
-      "欧州",
-      "日本"
+      "地中海",
+      "欧州"
     ]
   },
   {
@@ -5122,8 +5146,8 @@
       "counter_evidence": []
     },
     "time_layer": "世界接続層",
-    "upper_category": "知識・政策・情報・技術",
-    "mid_category": "教育・学問・知識伝達",
+    "upper_category": "基層・正統性",
+    "mid_category": "宗教制度・宗派・神学",
     "region_tags": [
       "欧州"
     ]
@@ -5150,7 +5174,8 @@
     "mid_category": "金融・銀行・貨幣・決済システム",
     "region_tags": [
       "欧州",
-      "北米"
+      "北米",
+      "全世界"
     ]
   },
   {
@@ -5195,7 +5220,7 @@
       "counter_evidence": []
     },
     "time_layer": "世界接続層",
-    "upper_category": "知識・政策・情報・技術",
+    "upper_category": "基層・正統性",
     "mid_category": "教育・学問・知識伝達",
     "region_tags": [
       "地中海",
@@ -5221,8 +5246,9 @@
     },
     "time_layer": "世界接続層",
     "upper_category": "通商・資金・企業・資源",
-    "mid_category": "資源・エネルギー・食料ネットワーク",
+    "mid_category": "通商・特権会社・植民地会社",
     "region_tags": [
+      "中東",
       "北アフリカ",
       "欧州"
     ]
@@ -5269,8 +5295,8 @@
       "counter_evidence": []
     },
     "time_layer": "世界接続層",
-    "upper_category": "国家・戦争・国際秩序",
-    "mid_category": "国家・外交・条約・国際秩序",
+    "upper_category": "通商・資金・企業・資源",
+    "mid_category": "通商・特権会社・植民地会社",
     "region_tags": [
       "サブサハラアフリカ",
       "欧州"
@@ -5322,7 +5348,8 @@
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
       "北アフリカ",
-      "欧州"
+      "欧州",
+      "中東"
     ]
   },
   {
@@ -5346,8 +5373,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
-      "サブサハラアフリカ",
-      "欧州"
+      "欧州",
+      "サブサハラアフリカ"
     ]
   },
   {
@@ -5368,10 +5395,11 @@
       "counter_evidence": []
     },
     "time_layer": "世界接続層",
-    "upper_category": "国家・戦争・国際秩序",
-    "mid_category": "軍事・戦争・安全保障・軍産複合体",
+    "upper_category": "通商・資金・企業・資源",
+    "mid_category": "通商・特権会社・植民地会社",
     "region_tags": [
-      "サブサハラアフリカ"
+      "サブサハラアフリカ",
+      "欧州"
     ]
   },
   {
@@ -5393,7 +5421,7 @@
     },
     "time_layer": "世界接続層",
     "upper_category": "基層・正統性",
-    "mid_category": "法制度・法思想・司法",
+    "mid_category": "王権・帝国・正統性",
     "region_tags": [
       "日本"
     ]
@@ -5419,7 +5447,8 @@
     "upper_category": "結社・非公式ネットワーク",
     "mid_category": "友愛結社・秘密結社・政治結社",
     "region_tags": [
-      "欧州"
+      "欧州",
+      "全世界"
     ]
   },
   {
@@ -5443,8 +5472,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "日本",
-      "東アジア"
+      "東アジア",
+      "日本"
     ]
   },
   {
@@ -5468,7 +5497,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "サブサハラアフリカ"
+      "サブサハラアフリカ",
+      "欧州"
     ]
   },
   {
@@ -5492,7 +5522,8 @@
     "upper_category": "通商・資金・企業・資源",
     "mid_category": "金融・銀行・貨幣・決済システム",
     "region_tags": [
-      "日本"
+      "日本",
+      "東アジア"
     ]
   },
   {
@@ -5516,7 +5547,7 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
-      "北アフリカ",
+      "サブサハラアフリカ",
       "欧州"
     ]
   },
@@ -5591,8 +5622,9 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
+      "東アジア",
       "日本",
-      "東アジア"
+      "欧州"
     ]
   },
   {
@@ -5662,7 +5694,7 @@
     },
     "time_layer": "現代秩序層",
     "upper_category": "通商・資金・企業・資源",
-    "mid_category": "財閥・企業集団・国有資本",
+    "mid_category": "資源・エネルギー・食料ネットワーク",
     "region_tags": [
       "北米"
     ]
@@ -5713,7 +5745,7 @@
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
       "欧州",
-      "日本",
+      "中東",
       "全世界"
     ]
   },
@@ -5736,7 +5768,7 @@
     },
     "time_layer": "現代秩序層",
     "upper_category": "通商・資金・企業・資源",
-    "mid_category": "資源・エネルギー・食料ネットワーク",
+    "mid_category": "通商・特権会社・植民地会社",
     "region_tags": [
       "中南米",
       "北米"
@@ -5763,8 +5795,7 @@
     "upper_category": "基層・正統性",
     "mid_category": "思想・正統性・政治運動",
     "region_tags": [
-      "欧州",
-      "日本"
+      "欧州"
     ]
   },
   {
@@ -5810,7 +5841,7 @@
     },
     "time_layer": "現代秩序層",
     "upper_category": "国家・戦争・国際秩序",
-    "mid_category": "国際機関・条約体制・標準化機関",
+    "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
       "欧州",
       "北米"
@@ -5838,7 +5869,7 @@
     "mid_category": "友愛結社・秘密結社・政治結社",
     "region_tags": [
       "欧州",
-      "日本"
+      "全世界"
     ]
   },
   {
@@ -5863,7 +5894,7 @@
     "mid_category": "国際機関・条約体制・標準化機関",
     "region_tags": [
       "欧州",
-      "日本"
+      "全世界"
     ]
   },
   {
@@ -5889,8 +5920,8 @@
     "region_tags": [
       "欧州",
       "中東",
-      "東アジア",
-      "日本"
+      "サブサハラアフリカ",
+      "全世界"
     ]
   },
   {
@@ -5915,7 +5946,7 @@
     "mid_category": "国際機関・条約体制・標準化機関",
     "region_tags": [
       "欧州",
-      "日本"
+      "全世界"
     ]
   },
   {
@@ -6011,7 +6042,8 @@
     "upper_category": "通商・資金・企業・資源",
     "mid_category": "金融・銀行・貨幣・決済システム",
     "region_tags": [
-      "欧州"
+      "欧州",
+      "全世界"
     ]
   },
   {
@@ -6180,7 +6212,7 @@
     "mid_category": "金融・銀行・貨幣・決済システム",
     "region_tags": [
       "北米",
-      "日本"
+      "全世界"
     ]
   },
   {
@@ -6204,8 +6236,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "日本",
-      "東アジア"
+      "東アジア",
+      "日本"
     ]
   },
   {
@@ -6229,7 +6261,8 @@
     "upper_category": "通商・資金・企業・資源",
     "mid_category": "金融・銀行・貨幣・決済システム",
     "region_tags": [
-      "欧州"
+      "欧州",
+      "全世界"
     ]
   },
   {
@@ -6254,6 +6287,7 @@
     "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
       "欧州",
+      "北米",
       "オセアニア"
     ]
   },
@@ -6351,6 +6385,7 @@
     "mid_category": "国際機関・条約体制・標準化機関",
     "region_tags": [
       "東アジア",
+      "欧州",
       "日本"
     ]
   },
@@ -6375,7 +6410,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "国際機関・条約体制・標準化機関",
     "region_tags": [
-      "欧州"
+      "欧州",
+      "全世界"
     ]
   },
   {
@@ -6399,8 +6435,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "サブサハラアフリカ",
-      "欧州"
+      "欧州",
+      "サブサハラアフリカ"
     ]
   },
   {
@@ -6424,8 +6460,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "国際機関・条約体制・標準化機関",
     "region_tags": [
-      "サブサハラアフリカ",
-      "欧州"
+      "欧州",
+      "サブサハラアフリカ"
     ]
   },
   {
@@ -6449,8 +6485,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "日本",
-      "東アジア"
+      "東アジア",
+      "日本"
     ]
   },
   {
@@ -6499,6 +6535,7 @@
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
       "欧州",
+      "東アジア",
       "日本",
       "全世界"
     ]
@@ -6524,7 +6561,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "諜報・治安・秘密工作",
     "region_tags": [
-      "北米"
+      "北米",
+      "全世界"
     ]
   },
   {
@@ -6573,8 +6611,7 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "国際機関・条約体制・標準化機関",
     "region_tags": [
-      "全世界",
-      "日本"
+      "全世界"
     ]
   },
   {
@@ -6598,7 +6635,8 @@
     "upper_category": "基層・正統性",
     "mid_category": "宗教制度・宗派・神学",
     "region_tags": [
-      "北アフリカ"
+      "北アフリカ",
+      "中東"
     ]
   },
   {
@@ -6619,8 +6657,8 @@
       "counter_evidence": []
     },
     "time_layer": "現代秩序層",
-    "upper_category": "国家・戦争・国際秩序",
-    "mid_category": "国際機関・条約体制・標準化機関",
+    "upper_category": "通商・資金・企業・資源",
+    "mid_category": "金融・銀行・貨幣・決済システム",
     "region_tags": [
       "全世界"
     ]
@@ -6643,8 +6681,8 @@
       "counter_evidence": []
     },
     "time_layer": "現代秩序層",
-    "upper_category": "国家・戦争・国際秩序",
-    "mid_category": "国際機関・条約体制・標準化機関",
+    "upper_category": "通商・資金・企業・資源",
+    "mid_category": "金融・銀行・貨幣・決済システム",
     "region_tags": [
       "全世界"
     ]
@@ -6694,8 +6732,7 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "諜報・治安・秘密工作",
     "region_tags": [
-      "北米",
-      "日本"
+      "北米"
     ]
   },
   {
@@ -6716,8 +6753,8 @@
       "counter_evidence": []
     },
     "time_layer": "現代秩序層",
-    "upper_category": "社会・人口・環境",
-    "mid_category": "移民・人口・労働・ディアスポラ",
+    "upper_category": "国家・戦争・国際秩序",
+    "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
       "南アジア"
     ]
@@ -6741,7 +6778,7 @@
     },
     "time_layer": "現代秩序層",
     "upper_category": "国家・戦争・国際秩序",
-    "mid_category": "国際機関・条約体制・標準化機関",
+    "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
       "欧州",
       "北米"
@@ -6766,12 +6803,11 @@
     },
     "time_layer": "現代秩序層",
     "upper_category": "国家・戦争・国際秩序",
-    "mid_category": "国際機関・条約体制・標準化機関",
+    "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
-      "中東",
-      "欧州",
       "北米",
-      "日本"
+      "欧州",
+      "中東"
     ]
   },
   {
@@ -6795,7 +6831,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "国際機関・条約体制・標準化機関",
     "region_tags": [
-      "中東"
+      "中東",
+      "全世界"
     ]
   },
   {
@@ -6889,8 +6926,8 @@
       "counter_evidence": []
     },
     "time_layer": "現代秩序層",
-    "upper_category": "社会・人口・環境",
-    "mid_category": "NGO・人権・民主化支援",
+    "upper_category": "国家・戦争・国際秩序",
+    "mid_category": "国際機関・条約体制・標準化機関",
     "region_tags": [
       "全世界"
     ]
@@ -6942,8 +6979,7 @@
     "mid_category": "国際機関・条約体制・標準化機関",
     "region_tags": [
       "欧州",
-      "北米",
-      "日本"
+      "北米"
     ]
   },
   {
@@ -6968,8 +7004,7 @@
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
       "欧州",
-      "北米",
-      "日本"
+      "中央アジア"
     ]
   },
   {
@@ -7040,9 +7075,10 @@
     },
     "time_layer": "現代秩序層",
     "upper_category": "国家・戦争・国際秩序",
-    "mid_category": "国際機関・条約体制・標準化機関",
+    "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
       "日本",
+      "東アジア",
       "北米"
     ]
   },
@@ -7064,8 +7100,8 @@
       "counter_evidence": []
     },
     "time_layer": "現代秩序層",
-    "upper_category": "社会・人口・環境",
-    "mid_category": "NGO・人権・民主化支援",
+    "upper_category": "国家・戦争・国際秩序",
+    "mid_category": "国際機関・条約体制・標準化機関",
     "region_tags": [
       "全世界"
     ]
@@ -7091,7 +7127,9 @@
     "upper_category": "通商・資金・企業・資源",
     "mid_category": "資源・エネルギー・食料ネットワーク",
     "region_tags": [
-      "中東"
+      "中東",
+      "欧州",
+      "北米"
     ]
   },
   {
@@ -7137,8 +7175,8 @@
       "counter_evidence": []
     },
     "time_layer": "現代秩序層",
-    "upper_category": "知識・政策・情報・技術",
-    "mid_category": "政策ネットワーク・シンクタンク",
+    "upper_category": "結社・非公式ネットワーク",
+    "mid_category": "友愛結社・秘密結社・政治結社",
     "region_tags": [
       "欧州",
       "北米"
@@ -7190,7 +7228,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "諜報・治安・秘密工作",
     "region_tags": [
-      "欧州"
+      "欧州",
+      "中央アジア"
     ]
   },
   {
@@ -7263,7 +7302,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "国際機関・条約体制・標準化機関",
     "region_tags": [
-      "日本"
+      "日本",
+      "全世界"
     ]
   },
   {
@@ -7335,8 +7375,7 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "国際機関・条約体制・標準化機関",
     "region_tags": [
-      "全世界",
-      "日本"
+      "全世界"
     ]
   },
   {
@@ -7360,7 +7399,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
-      "日本"
+      "日本",
+      "北米"
     ]
   },
   {
@@ -7385,7 +7425,7 @@
     "mid_category": "資源・エネルギー・食料ネットワーク",
     "region_tags": [
       "中東",
-      "日本"
+      "中南米"
     ]
   },
   {
@@ -7410,8 +7450,7 @@
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
       "東南アジア",
-      "北米",
-      "日本"
+      "北米"
     ]
   },
   {
@@ -7435,7 +7474,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
-      "サブサハラアフリカ"
+      "サブサハラアフリカ",
+      "北アフリカ"
     ]
   },
   {
@@ -7484,7 +7524,6 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "国際機関・条約体制・標準化機関",
     "region_tags": [
-      "サブサハラアフリカ",
       "全世界"
     ]
   },
@@ -7585,8 +7624,7 @@
     "region_tags": [
       "中南米",
       "北米",
-      "欧州",
-      "日本"
+      "欧州"
     ]
   },
   {
@@ -7632,11 +7670,10 @@
       "counter_evidence": []
     },
     "time_layer": "現代秩序層",
-    "upper_category": "通商・資金・企業・資源",
-    "mid_category": "資源・エネルギー・食料ネットワーク",
+    "upper_category": "国家・戦争・国際秩序",
+    "mid_category": "国際機関・条約体制・標準化機関",
     "region_tags": [
-      "全世界",
-      "日本"
+      "全世界"
     ]
   },
   {
@@ -7660,8 +7697,7 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "国際機関・条約体制・標準化機関",
     "region_tags": [
-      "全世界",
-      "日本"
+      "全世界"
     ]
   },
   {
@@ -7710,8 +7746,7 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "国際機関・条約体制・標準化機関",
     "region_tags": [
-      "全世界",
-      "日本"
+      "全世界"
     ]
   },
   {
@@ -7784,7 +7819,7 @@
     "mid_category": "金融・銀行・貨幣・決済システム",
     "region_tags": [
       "北米",
-      "日本"
+      "全世界"
     ]
   },
   {
@@ -7808,7 +7843,6 @@
     "upper_category": "通商・資金・企業・資源",
     "mid_category": "金融・銀行・貨幣・決済システム",
     "region_tags": [
-      "北米",
       "全世界"
     ]
   },
@@ -7833,7 +7867,8 @@
     "upper_category": "通商・資金・企業・資源",
     "mid_category": "資源・エネルギー・食料ネットワーク",
     "region_tags": [
-      "中東"
+      "中東",
+      "北アフリカ"
     ]
   },
   {
@@ -7978,7 +8013,7 @@
     "mid_category": "資源・エネルギー・食料ネットワーク",
     "region_tags": [
       "中東",
-      "日本"
+      "全世界"
     ]
   },
   {
@@ -8077,7 +8112,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
-      "サブサハラアフリカ"
+      "サブサハラアフリカ",
+      "欧州"
     ]
   },
   {
@@ -8146,12 +8182,12 @@
       "counter_evidence": []
     },
     "time_layer": "現代秩序層",
-    "upper_category": "国家・戦争・国際秩序",
-    "mid_category": "諜報・治安・秘密工作",
+    "upper_category": "法人制度・公益・政治接続",
+    "mid_category": "宗教法人・公益法人・資金政治接続",
     "region_tags": [
-      "日本",
       "北米",
-      "欧州"
+      "欧州",
+      "日本"
     ]
   },
   {
@@ -8172,11 +8208,10 @@
       "counter_evidence": []
     },
     "time_layer": "現代秩序層",
-    "upper_category": "国家・戦争・国際秩序",
-    "mid_category": "軍事・戦争・安全保障・軍産複合体",
+    "upper_category": "基層・正統性",
+    "mid_category": "宗教制度・宗派・神学",
     "region_tags": [
-      "中東",
-      "日本"
+      "中東"
     ]
   },
   {
@@ -8200,9 +8235,7 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "中央アジア",
-      "北米",
-      "日本"
+      "中央アジア"
     ]
   },
   {
@@ -8227,7 +8260,7 @@
     "mid_category": "資源・エネルギー・食料ネットワーク",
     "region_tags": [
       "中東",
-      "日本"
+      "全世界"
     ]
   },
   {
@@ -8251,8 +8284,7 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "中東",
-      "日本"
+      "中東"
     ]
   },
   {
@@ -8325,8 +8357,8 @@
     "mid_category": "金融・銀行・貨幣・決済システム",
     "region_tags": [
       "北米",
-      "日本",
-      "欧州"
+      "欧州",
+      "日本"
     ]
   },
   {
@@ -8375,8 +8407,7 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
-      "欧州",
-      "日本"
+      "欧州"
     ]
   },
   {
@@ -8424,8 +8455,7 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "中東",
-      "日本"
+      "中東"
     ]
   },
   {
@@ -8474,7 +8504,7 @@
     "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
       "欧州",
-      "日本"
+      "中央アジア"
     ]
   },
   {
@@ -8498,8 +8528,7 @@
     "upper_category": "社会・人口・環境",
     "mid_category": "環境・気候・人口・食料危機",
     "region_tags": [
-      "全世界",
-      "日本"
+      "全世界"
     ]
   },
   {
@@ -8523,8 +8552,7 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "国際機関・条約体制・標準化機関",
     "region_tags": [
-      "全世界",
-      "日本"
+      "全世界"
     ]
   },
   {
@@ -8548,8 +8576,8 @@
     "upper_category": "通商・資金・企業・資源",
     "mid_category": "金融・銀行・貨幣・決済システム",
     "region_tags": [
-      "東アジア",
       "東南アジア",
+      "東アジア",
       "日本"
     ]
   },
@@ -8718,8 +8746,8 @@
       "counter_evidence": []
     },
     "time_layer": "デジタル・金融層",
-    "upper_category": "社会・人口・環境",
-    "mid_category": "NGO・人権・民主化支援",
+    "upper_category": "国家・戦争・国際秩序",
+    "mid_category": "国際機関・条約体制・標準化機関",
     "region_tags": [
       "全世界"
     ]
@@ -8746,8 +8774,7 @@
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
       "中央アジア",
-      "北米",
-      "日本"
+      "北米"
     ]
   },
   {
@@ -8771,8 +8798,7 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "国家・外交・条約・国際秩序",
     "region_tags": [
-      "東南アジア",
-      "日本"
+      "東南アジア"
     ]
   },
   {
@@ -8797,8 +8823,7 @@
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
       "中東",
-      "北米",
-      "日本"
+      "北米"
     ]
   },
   {
@@ -8869,8 +8894,8 @@
       "counter_evidence": []
     },
     "time_layer": "デジタル・金融層",
-    "upper_category": "知識・政策・情報・技術",
-    "mid_category": "技術・通信・デジタル覇権",
+    "upper_category": "通商・資金・企業・資源",
+    "mid_category": "金融・銀行・貨幣・決済システム",
     "region_tags": [
       "全世界"
     ]
@@ -8920,8 +8945,7 @@
     "upper_category": "通商・資金・企業・資源",
     "mid_category": "資源・エネルギー・食料ネットワーク",
     "region_tags": [
-      "北米",
-      "日本"
+      "北米"
     ]
   },
   {
@@ -8969,8 +8993,7 @@
     "upper_category": "社会・人口・環境",
     "mid_category": "環境・気候・人口・食料危機",
     "region_tags": [
-      "全世界",
-      "日本"
+      "全世界"
     ]
   },
   {
@@ -8991,11 +9014,10 @@
       "counter_evidence": []
     },
     "time_layer": "デジタル・金融層",
-    "upper_category": "社会・人口・環境",
-    "mid_category": "NGO・人権・民主化支援",
+    "upper_category": "国家・戦争・国際秩序",
+    "mid_category": "国際機関・条約体制・標準化機関",
     "region_tags": [
-      "全世界",
-      "日本"
+      "全世界"
     ]
   },
   {
@@ -9021,7 +9043,7 @@
     "region_tags": [
       "中東",
       "欧州",
-      "日本"
+      "北アフリカ"
     ]
   },
   {
@@ -9045,8 +9067,7 @@
     "upper_category": "通商・資金・企業・資源",
     "mid_category": "資源・エネルギー・食料ネットワーク",
     "region_tags": [
-      "全世界",
-      "日本"
+      "全世界"
     ]
   },
   {
@@ -9094,8 +9115,7 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "欧州",
-      "日本"
+      "欧州"
     ]
   },
   {
@@ -9112,7 +9132,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "地中海"
+      "地中海",
+      "欧州"
     ]
   },
   {
@@ -9129,7 +9150,9 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "地中海"
+      "地中海",
+      "中東",
+      "欧州"
     ]
   },
   {
@@ -9146,7 +9169,8 @@
     "upper_category": "国家・戦争・国際秩序",
     "mid_category": "軍事・戦争・安全保障・軍産複合体",
     "region_tags": [
-      "中東"
+      "中東",
+      "地中海"
     ]
   },
   {
@@ -9249,7 +9273,8 @@
     "mid_category": "宗教制度・宗派・神学",
     "region_tags": [
       "地中海",
-      "中東"
+      "中東",
+      "欧州"
     ]
   },
   {
@@ -9266,7 +9291,7 @@
     "upper_category": "通商・資金・企業・資源",
     "mid_category": "通商・特権会社・植民地会社",
     "region_tags": [
-      "北アフリカ",
+      "サブサハラアフリカ",
       "欧州"
     ]
   },
@@ -9320,7 +9345,8 @@
     "upper_category": "通商・資金・企業・資源",
     "mid_category": "金融・銀行・貨幣・決済システム",
     "region_tags": [
-      "欧州"
+      "欧州",
+      "地中海"
     ]
   },
   {
@@ -9354,7 +9380,8 @@
     "upper_category": "通商・資金・企業・資源",
     "mid_category": "金融・銀行・貨幣・決済システム",
     "region_tags": [
-      "地中海"
+      "地中海",
+      "欧州"
     ]
   },
   {
@@ -9385,10 +9412,9 @@
     "primary_sources": [],
     "discovery_notes": "",
     "time_layer": "現代秩序層",
-    "upper_category": "通商・資金・企業・資源",
-    "mid_category": "金融・銀行・貨幣・決済システム",
+    "upper_category": "国家・戦争・国際秩序",
+    "mid_category": "国際機関・条約体制・標準化機関",
     "region_tags": [
-      "北米",
       "全世界"
     ]
   },
