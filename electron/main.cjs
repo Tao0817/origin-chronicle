@@ -117,18 +117,28 @@ ipcMain.handle('check-url-status', async (_e, url) =>
 );
 
 // ── インボックス登録 ────────────────────────────────────────
-const getInboxPath = () =>
-  app.isPackaged
-    ? path.join(app.getPath('userData'), 'resource_inbox.json')
-    : path.join(app.getAppPath(), 'src', 'data', 'resource_inbox.json');
-
+// DATA_DIR に書くことで ResourceInbox（writeFile/readFile 経由）と同じファイルを共有
 ipcMain.handle('add-to-inbox', async (_e, entry) => {
-  const p = getInboxPath();
+  ensureDataDir();
+  const p = path.join(DATA_DIR, 'resource_inbox.json');
   let list = [];
   if (fs.existsSync(p)) {
     try { list = JSON.parse(fs.readFileSync(p, 'utf-8')); } catch {}
   }
-  list.push(entry);
+  // InboxEntry → StoredResource 互換形式にマッピング
+  const mapped = {
+    id:              entry.id,
+    title:           entry.query || entry.archiveName || entry.eventTitle || '',
+    url:             entry.url || '',
+    publisher:       entry.archiveName || '',
+    type:            entry.sourceType === 'primary' ? '一次資料' : '二次資料',
+    createdYear:     '',
+    publishedYear:   '',
+    relatedTimeline: '',
+    relatedEvent:    entry.eventTitle || '',
+    _raw:            entry,           // 元データも保持
+  };
+  list.unshift(mapped);
   fs.writeFileSync(p, JSON.stringify(list, null, 2), 'utf-8');
   return { ok: true };
 });

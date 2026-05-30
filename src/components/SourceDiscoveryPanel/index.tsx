@@ -2,9 +2,9 @@ import React, { useEffect, useState, useCallback } from 'react';
 import {
   generateSourceCandidates,
   generateSearchTerms,
-  EventLike,
 } from '../../utils/sourceDiscovery';
-import { SourceCandidate, InboxEntry, UrlStatus } from '../../types/source';
+import type { EventLike } from '../../utils/sourceDiscovery';
+import type { SourceCandidate, InboxEntry, UrlStatus } from '../../types/source';
 
 interface Props {
   // Timeline で使っている既存の Event 型を渡してよい（EventLike と互換）

@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import type { TimelineEvent, Category } from "../../types";
 import eventsData from "../../data/events.json";
 import { useAppContext } from "../../context/AppContext";
+import { SourceDiscoveryPanel } from "../../components/SourceDiscoveryPanel";
 
 const allEvents = [...(eventsData as TimelineEvent[])].sort((a, b) => a.year - b.year);
 
@@ -311,6 +312,8 @@ export function Timeline() {
                   ? "未登録"
                   : `${selected.discovery_notes.length}件`}
               </p>
+
+              <SourceDiscoveryPanel event={selected} />
             </div>
           </div>
         )}
