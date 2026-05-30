@@ -5,4 +5,7 @@ contextBridge.exposeInMainWorld('electronAPI', {
   writeFile: (filename, content) => ipcRenderer.invoke('writeFile', filename, content),
   deleteFile: (filename) => ipcRenderer.invoke('deleteFile', filename),
   listFiles: () => ipcRenderer.invoke('listFiles'),
+  checkUrlStatus: (url) => ipcRenderer.invoke('check-url-status', url),
+  addToInbox: (entry) => ipcRenderer.invoke('add-to-inbox', entry),
+  openExternal: (url) => ipcRenderer.invoke('open-external', url),
 });

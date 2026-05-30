@@ -1,4 +1,4 @@
-const { app, BrowserWindow, ipcMain } = require('electron');
+const { app, BrowserWindow, ipcMain, net, shell } = require('electron');
 const path = require('path');
 const fs = require('fs');
 
@@ -90,4 +90,50 @@ ipcMain.handle('listFiles', async () => {
   } catch (error) {
     return { success: false, error: error.message };
   }
+});
+
+// ── URL ステータス確認 ──────────────────────────────────────
+ipcMain.handle('check-url-status', async (_e, url) =>
+  new Promise((resolve) => {
+    const timer = setTimeout(() => resolve('timeout'), 8000);
+    const run = (method) => {
+      try {
+        const req = net.request({ method, url });
+        req.on('response', (res) => {
+          clearTimeout(timer);
+          const s = res.statusCode;
+          if (s === 200 || s === 206) { resolve('ok'); return; }
+          if (s === 401 || s === 403) { resolve('403'); return; }
+          if (s === 404) { resolve('404'); return; }
+          if (s === 405 && method === 'HEAD') { run('GET'); return; }
+          resolve(String(s));
+        });
+        req.on('error', () => { clearTimeout(timer); resolve('error'); });
+        req.end();
+      } catch { clearTimeout(timer); resolve('error'); }
+    };
+    run('HEAD');
+  })
+);
+
+// ── インボックス登録 ────────────────────────────────────────
+const getInboxPath = () =>
+  app.isPackaged
+    ? path.join(app.getPath('userData'), 'resource_inbox.json')
+    : path.join(app.getAppPath(), 'src', 'data', 'resource_inbox.json');
+
+ipcMain.handle('add-to-inbox', async (_e, entry) => {
+  const p = getInboxPath();
+  let list = [];
+  if (fs.existsSync(p)) {
+    try { list = JSON.parse(fs.readFileSync(p, 'utf-8')); } catch {}
+  }
+  list.push(entry);
+  fs.writeFileSync(p, JSON.stringify(list, null, 2), 'utf-8');
+  return { ok: true };
+});
+
+// ── 外部ブラウザ ────────────────────────────────────────────
+ipcMain.handle('open-external', async (_e, url) => {
+  await shell.openExternal(url);
 });

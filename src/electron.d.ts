@@ -20,6 +20,9 @@ interface ElectronAPI {
   writeFile: (filename: string, content: string) => Promise<WriteResult>;
   deleteFile: (filename: string) => Promise<WriteResult>;
   listFiles: () => Promise<ListFilesResult>;
+  checkUrlStatus: (url: string) => Promise<string>;
+  addToInbox: (entry: unknown) => Promise<{ ok: boolean }>;
+  openExternal: (url: string) => Promise<void>;
 }
 
 declare global {
