@@ -23,6 +23,7 @@ interface ElectronAPI {
   checkUrlStatus: (url: string) => Promise<string>;
   addToInbox: (entry: unknown) => Promise<{ ok: boolean }>;
   openExternal: (url: string) => Promise<void>;
+  saveEvent: (event: unknown) => Promise<{ ok: boolean }>;
 }
 
 declare global {

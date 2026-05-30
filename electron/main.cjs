@@ -147,3 +147,19 @@ ipcMain.handle('add-to-inbox', async (_e, entry) => {
 ipcMain.handle('open-external', async (_e, url) => {
   await shell.openExternal(url);
 });
+
+// ── events.json へ単一イベントを書き戻し ─────────────────────
+ipcMain.handle('save-event', async (_e, updatedEvent) => {
+  const eventsPath = app.isPackaged
+    ? path.join(app.getPath('userData'), 'events.json')
+    : path.join(app.getAppPath(), 'src', 'data', 'events.json');
+  let events = [];
+  if (fs.existsSync(eventsPath)) {
+    try { events = JSON.parse(fs.readFileSync(eventsPath, 'utf-8')); } catch {}
+  }
+  const idx = events.findIndex(e => e.id === updatedEvent.id);
+  if (idx >= 0) events[idx] = updatedEvent;
+  else events.push(updatedEvent);
+  fs.writeFileSync(eventsPath, JSON.stringify(events, null, 2), 'utf-8');
+  return { ok: true };
+});

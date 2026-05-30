@@ -8,4 +8,5 @@ contextBridge.exposeInMainWorld('electronAPI', {
   checkUrlStatus: (url) => ipcRenderer.invoke('check-url-status', url),
   addToInbox: (entry) => ipcRenderer.invoke('add-to-inbox', entry),
   openExternal: (url) => ipcRenderer.invoke('open-external', url),
+  saveEvent: (event) => ipcRenderer.invoke('save-event', event),
 });
