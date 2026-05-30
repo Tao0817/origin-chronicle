@@ -200,6 +200,8 @@ export function generateSourceCandidates(event: EventLike): SourceCandidate[] {
   const archiveIds = selectArchiveIds(event);
   const primaryQuery = terms[0] ?? event.title;
   const candidates: SourceCandidate[] = [];
+  const rawYear = event.year;
+  const year = rawYear === null || rawYear === undefined ? null : Number(rawYear);
 
   for (const archiveId of archiveIds) {
     const archive = ARCHIVES[archiveId];
