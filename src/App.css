@@ -256,6 +256,179 @@ button {
 }
 
 /* ─────────────────────────────────────────
+   Timeline – Filter row 2
+───────────────────────────────────────── */
+.tl-filters2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 20px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  background: var(--bg);
+}
+
+/* セレクトボックス */
+.tl-select {
+  background: var(--surface2);
+  border: 1px solid var(--border2);
+  border-radius: 4px;
+  padding: 5px 8px;
+  font-size: 12px;
+  font-family: inherit;
+  color: var(--text-muted);
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.12s, color 0.12s;
+  flex-shrink: 0;
+}
+
+.tl-select:focus {
+  border-color: var(--accent);
+}
+
+.tl-select.sel-active {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.tl-select option {
+  background: var(--surface2);
+  color: var(--text);
+}
+
+/* 地域タグチップ群 */
+.tl-region-chips {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.tl-region-chip {
+  padding: 3px 7px;
+  font-size: 11px;
+  border-radius: 3px;
+  border: 1px solid var(--border2);
+  background: var(--surface2);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: border-color 0.12s, color 0.12s, background 0.12s;
+  white-space: nowrap;
+  line-height: 1.4;
+}
+
+.tl-region-chip:hover {
+  border-color: var(--border2);
+  color: var(--text-sub);
+  background: #232333;
+}
+
+.tl-region-chip.on {
+  border-color: var(--accent);
+  background: var(--accent-dim);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* 右側: クリアボタン + 件数 */
+.tl-filter-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.tl-clear-btn {
+  padding: 4px 10px;
+  font-size: 11px;
+  border-radius: 3px;
+  border: 1px solid var(--border2);
+  background: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: border-color 0.12s, color 0.12s;
+}
+
+.tl-clear-btn:hover {
+  border-color: var(--text-muted);
+  color: var(--text-sub);
+}
+
+.tl-count-display {
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.tl-count-n {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.tl-count-sep {
+  color: var(--text-muted);
+}
+
+.tl-count-label {
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+/* ─────────────────────────────────────────
+   Timeline – Event card region tags
+───────────────────────────────────────── */
+.ev-upper-cat {
+  font-size: 10px;
+  color: var(--text-muted);
+  border-left: 1px solid var(--border2);
+  padding-left: 6px;
+  margin-left: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 120px;
+}
+
+.ev-region-tags {
+  display: flex;
+  gap: 3px;
+  flex-wrap: wrap;
+  margin-top: 2px;
+}
+
+.ev-region-tag {
+  font-size: 10px;
+  padding: 1px 5px;
+  border-radius: 2px;
+  border: 1px solid var(--border2);
+  color: var(--text-muted);
+  background: var(--bg);
+  white-space: nowrap;
+}
+
+/* ─────────────────────────────────────────
+   Timeline – Detail panel region tags
+───────────────────────────────────────── */
+.detail-region-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.detail-region-tag {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 3px;
+  border: 1px solid var(--border2);
+  color: var(--text-muted);
+  background: var(--surface2);
+}
+
+/* ─────────────────────────────────────────
    Timeline – Body (list + detail)
 ───────────────────────────────────────── */
 .tl-body {

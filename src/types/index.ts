@@ -37,4 +37,9 @@ export interface TimelineEvent {
   primary_sources: PrimarySource[];
   discovery_notes: string[];
   analysis: EventAnalysis;
+  // 分類フィールド（classify_events.py で付与）
+  time_layer?: string;
+  upper_category?: string;
+  mid_category?: string;
+  region_tags?: string[];
 }
