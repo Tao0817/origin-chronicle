@@ -1,6 +1,6 @@
 import type { SourceCandidate, SourceType } from '../types/source';
 
-// ── EventLike（既存の Event 型と共用可能な最小インターフェース）────────────
+// ── EventLike ────────────────────────────────────────────────────────────────
 export interface EventLike {
   id?: string | number;
   title: string;
@@ -11,7 +11,7 @@ export interface EventLike {
   region_tags?: string[];
 }
 
-// ── アーカイブ定義 ────────────────────────────────────────────────────────
+// ── アーカイブ定義 ────────────────────────────────────────────────────────────
 interface ArchiveDef {
   id: string;
   name: string;
@@ -22,91 +22,74 @@ interface ArchiveDef {
 
 const ARCHIVES: Record<string, ArchiveDef> = {
   cia: {
-    id: 'cia',
-    name: 'CIA Reading Room',
+    id: 'cia', name: 'CIA Reading Room',
     urlFn: (q) => `https://www.cia.gov/readingroom/search/site/${encodeURIComponent(q)}`,
     sourceType: 'primary',
     note: '機密解除文書。諜報・外交・冷戦関連に強い。',
   },
   frus: {
-    id: 'frus',
-    name: 'FRUS（米国外交文書）',
-    urlFn: (q) => `https://history.state.gov/historicaldocuments/search?q=${encodeURIComponent(q)}`,
+    id: 'frus', name: 'FRUS（米国外交文書）',
+    urlFn: (q) => `https://history.state.gov/historicaldocuments/search?query=${encodeURIComponent(q)}`,
     sourceType: 'primary',
     note: '米国務省発行の外交電報・会議録。1861年〜。',
   },
   jacar: {
-    id: 'jacar',
-    name: 'JACAR（アジア歴史資料センター）',
-    urlFn: (q) =>
-      `https://www.jacar.archives.go.jp/das/meta/listPhoto?keyword=${encodeURIComponent(q)}&LANG=default`,
+    id: 'jacar', name: 'JACAR（アジア歴史資料センター）',
+    urlFn: (q) => `https://www.jacar.archives.go.jp/das/meta/Search?IS_KIND=AJ&IS_KEY_S1=${encodeURIComponent(q)}&IS_TAG_S1=FullText`,
     sourceType: 'primary',
     note: '日本の公文書。明治〜昭和期の外交・軍事・行政。',
   },
   archives_go_jp: {
-    id: 'archives_go_jp',
-    name: '国立公文書館デジタルアーカイブ',
-    urlFn: (q) =>
-      `https://www.digital.archives.go.jp/DAS/meta/listPhoto?KEYWORD=${encodeURIComponent(q)}&LANG=default`,
+    id: 'archives_go_jp', name: '国立公文書館デジタルアーカイブ',
+    urlFn: (q) => `https://www.digital.archives.go.jp/search?keyword=${encodeURIComponent(q)}&lang=ja`,
     sourceType: 'primary',
     note: '江戸時代以降の日本の国家文書。',
   },
   ndl: {
-    id: 'ndl',
-    name: '国立国会図書館デジタルコレクション',
-    urlFn: (q) => `https://dl.ndl.go.jp/simple/result?keyword=${encodeURIComponent(q)}`,
+    id: 'ndl', name: '国立国会図書館デジタルコレクション',
+    urlFn: (q) => `https://ndlsearch.ndl.go.jp/search?keyword=${encodeURIComponent(q)}`,
     sourceType: 'secondary',
     note: '書籍・雑誌・新聞。近代デジタルライブラリー含む。',
   },
   wilson: {
-    id: 'wilson',
-    name: 'Wilson Center Digital Archive',
-    urlFn: (q) =>
-      `https://digitalarchive.wilsoncenter.org/search?query=${encodeURIComponent(q)}`,
+    id: 'wilson', name: 'Wilson Center Digital Archive',
+    urlFn: (q) => `https://digitalarchive.wilsoncenter.org/search?q=${encodeURIComponent(q)}`,
     sourceType: 'primary',
     note: '冷戦期の東側諸国文書を含む国際文書アーカイブ。',
   },
   nara: {
-    id: 'nara',
-    name: 'NARA（米国国立公文書館）',
-    urlFn: (q) =>
-      `https://catalog.archives.gov/search?q=${encodeURIComponent(q)}&resultTypes=item`,
+    id: 'nara', name: 'NARA（米国国立公文書館）',
+    urlFn: (q) => `https://catalog.archives.gov/search?q=${encodeURIComponent(q)}`,
     sourceType: 'primary',
     note: '米国連邦政府文書。軍事・外交・行政全般。',
   },
   un: {
-    id: 'un',
-    name: '国連公式文書システム',
-    urlFn: (q) =>
-      `https://documents.un.org/prod/ods.nsf/home.xsp?query=${encodeURIComponent(q)}`,
+    id: 'un', name: '国連公式文書システム',
+    urlFn: (q) => `https://documents.un.org/prod/ods.nsf/home.xsp?query=${encodeURIComponent(q)}`,
     sourceType: 'primary',
     note: '国連決議・報告書・会議録。',
   },
   avalon: {
-    id: 'avalon',
-    name: 'Avalon Project（Yale Law）',
-    urlFn: (_q) => `https://avalon.law.yale.edu/`,
+    id: 'avalon', name: 'Avalon Project（Yale Law）',
+    urlFn: (q) => `https://avalon.law.yale.edu/search.asp?q=${encodeURIComponent(q)}`,
     sourceType: 'primary',
-    note: '条約・外交協定・歴史的法文書。検索は手動。',
+    note: '条約・外交協定・歴史的法文書。',
   },
   mofa: {
-    id: 'mofa',
-    name: '外務省外交史料館',
+    id: 'mofa', name: '外務省外交史料館',
     urlFn: (_q) => `https://www.mofa.go.jp/mofaj/annai/honsho/shiryo/`,
     sourceType: 'primary',
     note: '日本の外交文書。条約・外交電報の一次資料。',
   },
   iaea: {
-    id: 'iaea',
-    name: 'IAEA Document System',
-    urlFn: (q) => `https://www.iaea.org/search?q=${encodeURIComponent(q)}`,
+    id: 'iaea', name: 'IAEA Document System',
+    urlFn: (q) => `https://www.iaea.org/search?search=${encodeURIComponent(q)}`,
     sourceType: 'primary',
     note: '核・原子力に関する国際機関文書。',
   },
   worldbank: {
-    id: 'worldbank',
-    name: 'World Bank Open Data',
-    urlFn: (q) => `https://data.worldbank.org/indicator?q=${encodeURIComponent(q)}`,
+    id: 'worldbank', name: 'World Bank Open Data',
+    urlFn: (q) => `https://data.worldbank.org/indicator?search=${encodeURIComponent(q)}`,
     sourceType: 'primary',
     note: '経済統計・開発データ。数値根拠の確認に。',
   },
@@ -129,21 +112,34 @@ const ARCHIVES: Record<string, ArchiveDef> = {
     note: '査読論文・学術誌。古代史・考古学の二次資料。',
   },
   wayback: {
-    id: 'wayback',
-    name: 'Wayback Machine（Internet Archive）',
+    id: 'wayback', name: 'Wayback Machine（Internet Archive）',
     urlFn: (q) => `https://web.archive.org/web/*/${q}`,
     sourceType: 'secondary',
     note: 'URL無効化・削除済みページの代替資料。',
   },
 };
 
-// ── 検索語生成 ────────────────────────────────────────────────────────────
+// ── 検索キーワード生成 ────────────────────────────────────────────────────────
+function buildKeyword(event: EventLike, year: number | null): string {
+  const yearStr = year === null
+    ? ''
+    : year > 0
+      ? String(year)
+      : `BC${Math.abs(year)}`;
+  return [event.title, yearStr].filter(Boolean).join(' ');
+}
+
+// ── 検索語生成（SourceDiscoveryPanel 用） ─────────────────────────────────────
 export function generateSearchTerms(event: EventLike): string[] {
   const { title, year, upper_category, mid_category, region_tags } = event;
   const cleaned = title.replace(/[。、「」『』【】〔〕（）・]/g, ' ').trim();
-  const terms: string[] = [cleaned];
+  const rawYear = year;
+  const y: number | null =
+    (rawYear === null || rawYear === undefined || rawYear === '')
+      ? null : Number(rawYear);
+  const yearStr = y === null ? '' : y > 0 ? String(y) : `BC${Math.abs(y)}`;
 
-  if (year) terms.push(`${year} ${cleaned}`);
+  const terms: string[] = [[cleaned, yearStr].filter(Boolean).join(' ')];
   if (upper_category) terms.push(upper_category);
   if (mid_category && mid_category !== upper_category) terms.push(mid_category);
   if (region_tags?.length) terms.push(`${region_tags[0]} ${cleaned}`);
@@ -151,7 +147,7 @@ export function generateSearchTerms(event: EventLike): string[] {
   return [...new Set(terms)].filter(Boolean);
 }
 
-// ── アーカイブ選定ルール ──────────────────────────────────────────────────
+// ── アーカイブ選定ルール ──────────────────────────────────────────────────────
 function selectArchiveIds(event: EventLike): string[] {
   const ids = new Set<string>();
   const rawYear = event.year;
@@ -166,7 +162,7 @@ function selectArchiveIds(event: EventLike): string[] {
     ...(event.region_tags ?? []),
   ].join(' ');
 
-  // 年代ベース
+  // ── 年代ベース ──
   if (year !== null && year < 0) {
     ids.add('cdli'); ids.add('british_museum');
     ids.add('jstor'); ids.add('ndl'); ids.add('avalon');
@@ -183,7 +179,7 @@ function selectArchiveIds(event: EventLike): string[] {
     ids.add('ndl'); ids.add('jstor'); ids.add('frus');
   }
 
-  // カテゴリーベース
+  // ── カテゴリーベース ──
   if (/諜報|スパイ|情報機関|CIA|KGB|MI[56]|NSA|モサド/.test(full)) {
     ids.add('cia'); ids.add('wilson');
   }
@@ -202,29 +198,35 @@ function selectArchiveIds(event: EventLike): string[] {
   if (/国際連合|安保理|UNESCO|WHO|ILO/.test(full)) {
     ids.add('un');
   }
-  if (/核|原子力|IAEA|NPT|核拡散/.test(full)) {
-    ids.add('iaea'); ids.add('cia');
-  }
   if (/日本|Japan|大日本帝国|帝国議会|外務省/.test(full)) {
     ids.add('jacar'); ids.add('archives_go_jp'); ids.add('ndl'); ids.add('mofa');
   }
-  if (/経済|金融|為替|通貨|貿易|GDP/.test(full)) {
-    ids.add('worldbank');
+
+  // IAEA / World Bank: year >= 1945 かつ 経済・軍事・外交を含む場合のみ
+  if (year !== null && year >= 1945) {
+    if (/核|原子力|IAEA|NPT|核拡散/.test(full)) {
+      ids.add('iaea'); ids.add('cia');
+    }
+    if (/経済|金融|為替|通貨|貿易|GDP|軍事|外交/.test(full)) {
+      ids.add('worldbank');
+    }
   }
 
   return [...ids];
 }
 
-// ── 候補生成（メイン公開関数）────────────────────────────────────────────
+// ── 候補生成（メイン公開関数）────────────────────────────────────────────────
 export function generateSourceCandidates(event: EventLike): SourceCandidate[] {
-  const terms = generateSearchTerms(event);
   const archiveIds = selectArchiveIds(event);
-  const primaryQuery = terms[0] ?? event.title;
   const candidates: SourceCandidate[] = [];
+
   const rawYear = event.year;
   const year: number | null =
     (rawYear === null || rawYear === undefined || rawYear === '')
       ? null : Number(rawYear);
+
+  // キーワード：title + 年号（BC表記対応）
+  const keyword = buildKeyword(event, year);
 
   for (const archiveId of archiveIds) {
     const archive = ARCHIVES[archiveId];
@@ -233,15 +235,15 @@ export function generateSourceCandidates(event: EventLike): SourceCandidate[] {
       id: `${archiveId}-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
       archiveId: archive.id,
       archiveName: archive.name,
-      url: archive.urlFn(primaryQuery),
-      query: primaryQuery,
+      url: archive.urlFn(keyword),
+      query: keyword,
       sourceType: archive.sourceType,
       note: archive.note,
       urlStatus: 'unchecked',
     });
   }
 
-  // Wayback：1990年以降、またはyear不明のみ追加（古代史には不要）
+  // Wayback：1990年以降、またはyear不明のみ（古代史には不要）
   if (year === null || year > 1990) {
     candidates.push({
       id: `wayback-${Date.now()}`,
@@ -250,7 +252,7 @@ export function generateSourceCandidates(event: EventLike): SourceCandidate[] {
       url: ARCHIVES.wayback.urlFn(
         `https://ja.wikipedia.org/wiki/${encodeURIComponent(event.title)}`
       ),
-      query: event.title,
+      query: keyword,
       sourceType: 'secondary',
       note: ARCHIVES.wayback.note,
       urlStatus: 'unchecked',
