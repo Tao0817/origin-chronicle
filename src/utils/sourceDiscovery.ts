@@ -4,7 +4,7 @@ import type { SourceCandidate, SourceType } from '../types/source';
 export interface EventLike {
   id?: string | number;
   title: string;
-  year?: number | null;
+  year?: number | string | null;
   category?: string;
   upper_category?: string;
   mid_category?: string;
@@ -113,19 +113,19 @@ const ARCHIVES: Record<string, ArchiveDef> = {
   cdli: {
     id: 'cdli', name: 'CDLI（楔形文字デジタルライブラリー）',
     urlFn: (q) => `https://cdli.mpiwg-berlin.mpg.de/search?q=${encodeURIComponent(q)}`,
-    sourceType: 'primary' as const,
+    sourceType: 'primary' as SourceType,
     note: '楔形文字資料。シュメール・バビロニア・アッシリア文書。',
   },
   british_museum: {
     id: 'british_museum', name: '大英博物館コレクション',
     urlFn: (q) => `https://www.britishmuseum.org/collection?q=${encodeURIComponent(q)}`,
-    sourceType: 'primary' as const,
+    sourceType: 'primary' as SourceType,
     note: '古代中東・エジプト・地中海の実物資料。',
   },
   jstor: {
     id: 'jstor', name: 'JSTOR',
     urlFn: (q) => `https://www.jstor.org/action/doBasicSearch?Query=${encodeURIComponent(q)}`,
-    sourceType: 'secondary' as const,
+    sourceType: 'secondary' as SourceType,
     note: '査読論文・学術誌。古代史・考古学の二次資料。',
   },
   wayback: {
@@ -155,7 +155,9 @@ export function generateSearchTerms(event: EventLike): string[] {
 function selectArchiveIds(event: EventLike): string[] {
   const ids = new Set<string>();
   const rawYear = event.year;
-  const year = rawYear === null || rawYear === undefined ? null : Number(rawYear);
+  const year: number | null =
+    (rawYear === null || rawYear === undefined || rawYear === '')
+      ? null : Number(rawYear);
   const full = [
     event.title,
     event.upper_category ?? '',
@@ -220,7 +222,9 @@ export function generateSourceCandidates(event: EventLike): SourceCandidate[] {
   const primaryQuery = terms[0] ?? event.title;
   const candidates: SourceCandidate[] = [];
   const rawYear = event.year;
-  const year = rawYear === null || rawYear === undefined ? null : Number(rawYear);
+  const year: number | null =
+    (rawYear === null || rawYear === undefined || rawYear === '')
+      ? null : Number(rawYear);
 
   for (const archiveId of archiveIds) {
     const archive = ARCHIVES[archiveId];
