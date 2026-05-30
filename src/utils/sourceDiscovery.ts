@@ -136,7 +136,10 @@ export function generateSearchTerms(event: EventLike): string[] {
 // ── アーカイブ選定ルール ──────────────────────────────────────────────────
 function selectArchiveIds(event: EventLike): string[] {
   const ids = new Set<string>();
-  const year = event.year ?? 0;
+  const rawYear = event.year;
+  const year = rawYear === null || rawYear === undefined
+    ? null
+    : Number(rawYear);
   const full = [
     event.title,
     event.upper_category ?? '',
@@ -213,19 +216,21 @@ export function generateSourceCandidates(event: EventLike): SourceCandidate[] {
     });
   }
 
-  // 代替資料として Wayback を末尾に追加
-  candidates.push({
-    id: `wayback-${Date.now()}`,
-    archiveId: 'wayback',
-    archiveName: ARCHIVES.wayback.name,
-    url: ARCHIVES.wayback.urlFn(
-      `https://ja.wikipedia.org/wiki/${encodeURIComponent(event.title)}`
-    ),
-    query: event.title,
-    sourceType: 'secondary',
-    note: ARCHIVES.wayback.note,
-    urlStatus: 'unchecked',
-  });
+  // Wayback：1990年以降、またはyear不明のみ追加（古代史には不要）
+  if (year === null || year > 1990) {
+    candidates.push({
+      id: `wayback-${Date.now()}`,
+      archiveId: 'wayback',
+      archiveName: ARCHIVES.wayback.name,
+      url: ARCHIVES.wayback.urlFn(
+        `https://ja.wikipedia.org/wiki/${encodeURIComponent(event.title)}`
+      ),
+      query: event.title,
+      sourceType: 'secondary',
+      note: ARCHIVES.wayback.note,
+      urlStatus: 'unchecked',
+    });
+  }
 
   return candidates;
 }
