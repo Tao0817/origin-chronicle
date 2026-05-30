@@ -110,6 +110,24 @@ const ARCHIVES: Record<string, ArchiveDef> = {
     sourceType: 'primary',
     note: '経済統計・開発データ。数値根拠の確認に。',
   },
+  cdli: {
+    id: 'cdli', name: 'CDLI（楔形文字デジタルライブラリー）',
+    urlFn: (q) => `https://cdli.mpiwg-berlin.mpg.de/search?q=${encodeURIComponent(q)}`,
+    sourceType: 'primary' as const,
+    note: '楔形文字資料。シュメール・バビロニア・アッシリア文書。',
+  },
+  british_museum: {
+    id: 'british_museum', name: '大英博物館コレクション',
+    urlFn: (q) => `https://www.britishmuseum.org/collection?q=${encodeURIComponent(q)}`,
+    sourceType: 'primary' as const,
+    note: '古代中東・エジプト・地中海の実物資料。',
+  },
+  jstor: {
+    id: 'jstor', name: 'JSTOR',
+    urlFn: (q) => `https://www.jstor.org/action/doBasicSearch?Query=${encodeURIComponent(q)}`,
+    sourceType: 'secondary' as const,
+    note: '査読論文・学術誌。古代史・考古学の二次資料。',
+  },
   wayback: {
     id: 'wayback',
     name: 'Wayback Machine（Internet Archive）',
@@ -136,7 +154,8 @@ export function generateSearchTerms(event: EventLike): string[] {
 // ── アーカイブ選定ルール ──────────────────────────────────────────────────
 function selectArchiveIds(event: EventLike): string[] {
   const ids = new Set<string>();
-  const year = event.year ?? 0;
+  const rawYear = event.year;
+  const year = rawYear === null || rawYear === undefined ? null : Number(rawYear);
   const full = [
     event.title,
     event.upper_category ?? '',
@@ -146,17 +165,20 @@ function selectArchiveIds(event: EventLike): string[] {
   ].join(' ');
 
   // 年代ベース
-  if (year > 0 && year < 1868) {
-    ids.add('archives_go_jp'); ids.add('ndl'); ids.add('avalon');
-  }
-  if (year >= 1868 && year < 1945) {
+  if (year !== null && year < 0) {
+    ids.add('cdli'); ids.add('british_museum');
+    ids.add('jstor'); ids.add('ndl'); ids.add('avalon');
+  } else if (year !== null && year < 1868) {
+    ids.add('ndl'); ids.add('avalon'); ids.add('jstor');
+    if (/日本|江戸|室町|鎌倉|平安|奈良|飛鳥/.test(full)) ids.add('archives_go_jp');
+  } else if (year !== null && year < 1945) {
     ids.add('jacar'); ids.add('archives_go_jp'); ids.add('ndl'); ids.add('frus');
-  }
-  if (year >= 1945 && year <= 1991) {
+  } else if (year !== null && year <= 1991) {
     ids.add('frus'); ids.add('cia'); ids.add('wilson'); ids.add('nara');
-  }
-  if (year > 1991) {
+  } else if (year !== null) {
     ids.add('frus'); ids.add('un'); ids.add('ndl');
+  } else {
+    ids.add('ndl'); ids.add('jstor'); ids.add('frus');
   }
 
   // カテゴリーベース
@@ -197,6 +219,8 @@ export function generateSourceCandidates(event: EventLike): SourceCandidate[] {
   const archiveIds = selectArchiveIds(event);
   const primaryQuery = terms[0] ?? event.title;
   const candidates: SourceCandidate[] = [];
+  const rawYear = event.year;
+  const year = rawYear === null || rawYear === undefined ? null : Number(rawYear);
 
   for (const archiveId of archiveIds) {
     const archive = ARCHIVES[archiveId];
@@ -213,19 +237,21 @@ export function generateSourceCandidates(event: EventLike): SourceCandidate[] {
     });
   }
 
-  // 代替資料として Wayback を末尾に追加
-  candidates.push({
-    id: `wayback-${Date.now()}`,
-    archiveId: 'wayback',
-    archiveName: ARCHIVES.wayback.name,
-    url: ARCHIVES.wayback.urlFn(
-      `https://ja.wikipedia.org/wiki/${encodeURIComponent(event.title)}`
-    ),
-    query: event.title,
-    sourceType: 'secondary',
-    note: ARCHIVES.wayback.note,
-    urlStatus: 'unchecked',
-  });
+  // Wayback：1990年以降、またはyear不明のみ追加（古代史には不要）
+  if (year === null || year > 1990) {
+    candidates.push({
+      id: `wayback-${Date.now()}`,
+      archiveId: 'wayback',
+      archiveName: ARCHIVES.wayback.name,
+      url: ARCHIVES.wayback.urlFn(
+        `https://ja.wikipedia.org/wiki/${encodeURIComponent(event.title)}`
+      ),
+      query: event.title,
+      sourceType: 'secondary',
+      note: ARCHIVES.wayback.note,
+      urlStatus: 'unchecked',
+    });
+  }
 
   return candidates;
 }
