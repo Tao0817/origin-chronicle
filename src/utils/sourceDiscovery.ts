@@ -1,4 +1,4 @@
-import type { SourceCandidate, SourceType } from '../types/source';
+import { SourceCandidate, SourceType } from '../types/source';
 
 // ── EventLike（既存の Event 型と共用可能な最小インターフェース）────────────
 export interface EventLike {
